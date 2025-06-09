@@ -12,7 +12,7 @@ include('header.php');
 </head>
 
 <body>
-
+    <!-- for content -->
 </body>
 
 </html>

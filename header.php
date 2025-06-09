@@ -12,7 +12,17 @@
           crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
-  <body>
+  <body class="bg-gray-100">
+
+      <sub-nav class="background:color:#004274 shadow-md">
+          <div class="grid grid-flow-col grid-rows-1 auto-cols-max gap-4 p-4 ">
+              <div class="col-span-1 ">
+                  <h1 class="text-2xl text-white">Baseone Industrial Sales</h1>
+              </div>
+
+          </div>
+      </sub-nav>
+
       <nav>
           <div class="logo">
               <h1>Logo</h1>

@@ -27,13 +27,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #004274;
+    background: #ffffff;
     position: relative;
     height: 70px;
 }
 
 .logo {
-    color: #fff;
+    color: #000000;
 }
 
 nav ul {
@@ -48,7 +48,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #000000;
 }
 
 .menu-icon {
@@ -56,7 +56,7 @@ nav ul li a {
 }
 
 .menu-icon i {
-    color: #fff;
+    color: #000000;
     font-size: 30px;
 }
 
@@ -68,7 +68,7 @@ nav ul li a {
         right: 0;
         flex-direction: column;
         text-align: center;
-        background: #004274;
+        background: #ffffff;
         gap: 0;
         overflow: hidden;
     }
