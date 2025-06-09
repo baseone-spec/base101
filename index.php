@@ -15,9 +15,7 @@ include('header.php');
 <body>
     <!-- for content -->
 
-    <h1 class="text-3xl font-bold underline bg-blue-500">
-        Hello world!
-    </h1>
+
 
 
 </body>

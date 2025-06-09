@@ -14,13 +14,10 @@
 
   <body>
 
-      <sub-nav class="bg-white shadow-md p-8">
-          <div class="grid grid-flow-col grid-rows-1 auto-cols-max gap-4 p-4 text-red-500">
-              <div class="col-span-1">
-                  <h1 class="font-black font-weight: 100 text-3xl">Baseone Industrial Sales</h1>
-                  <p>Debugging information:</p>
-                  <p>Browser: {{ browser }}</p>
-                  <p>Version: {{ version }}</p>
+      <sub-nav class=" w-full bg-[#2D2D2D] text-white flex items-center justify-between px-4">
+          <div class="grid grid-flow-col grid-rows-1 auto-cols-max gap-4 h-12  ">
+              <div class="p-[20px] col-span-1 flex items-center">
+                  <i class="fa-brands fa-square-facebook"></i>
               </div>
           </div>
       </sub-nav>
