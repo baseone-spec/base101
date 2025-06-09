@@ -1,6 +1,28 @@
 {
   "dependencies": {
-    "@tailwindcss/cli": "^4.1.8",
+    "@tailwindcss/cli": "^4.1.8"
+  },
+  "name": "base101",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
     "tailwindcss": "^4.1.8"
-  }
+  },
+  "scripts": {
+    "start": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baseone-spec/base101.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baseone-spec/base101/issues"
+  },
+  "homepage": "https://github.com/baseone-spec/base101#readme"
 }

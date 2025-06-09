@@ -6,20 +6,22 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Baseone Industrial Sales</title>
       <link rel="stylesheet" href="./src/styles/main.css">
-      <link href="./output.css" rel="stylesheet">
+      <link href="./src/styles/output.css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
           integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
           crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
-  <body class="bg-gray-100">
+  <body>
 
-      <sub-nav class="background:color:#004274 shadow-md">
-          <div class="grid grid-flow-col grid-rows-1 auto-cols-max gap-4 p-4 ">
-              <div class="col-span-1 ">
-                  <h1 class="text-2xl text-white">Baseone Industrial Sales</h1>
+      <sub-nav class="bg-white shadow-md p-8">
+          <div class="grid grid-flow-col grid-rows-1 auto-cols-max gap-4 p-4 text-red-500">
+              <div class="col-span-1">
+                  <h1 class="font-black font-weight: 100 text-3xl">Baseone Industrial Sales</h1>
+                  <p>Debugging information:</p>
+                  <p>Browser: {{ browser }}</p>
+                  <p>Version: {{ version }}</p>
               </div>
-
           </div>
       </sub-nav>
 
