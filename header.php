@@ -6,6 +6,10 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Baseone Industrial Sales</title>
       <link rel="stylesheet" href="./src/styles/main.css">
+      <link href="./output.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
 
   <body>
@@ -21,7 +25,7 @@
               <li><a href="">Contact</a></li>
           </ul>
           <div class="menu-icon">
-              <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+              <i class="fa-solid fa-bars-staggered" onclick="toggleMenu()"></i>
           </div>
       </nav>
 
@@ -33,12 +37,13 @@
           function toggleMenu() {
               if (menuList.style.maxHeight == "0px") {
                   menuList.style.maxHeight = "300px";
+                  F
               } else {
                   menuList.style.maxHeight = "0px";
               }
           }
       </script>
-      <script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+
   </body>
 
   </html>
