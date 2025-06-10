@@ -14,10 +14,16 @@
 
   <body>
 
-      <sub-nav class=" w-full bg-[#2D2D2D] text-white flex items-center justify-between px-4">
-          <div class="grid grid-flow-col grid-rows-1 auto-cols-max gap-4 h-12  ">
-              <div class="p-[20px] col-span-1 flex items-center">
+      <sub-nav class="w-full p-0 m-0 h-12 bg-[#2D2D2D] text-white flex items-center justify-between px-40 md:px-20">
+          <div class="flex flex-wrap justify-between w-full ">
+              <div class="w-full md:w-1/2 lg:w-1/4 md:p-8 flex items-center gap-4">
                   <i class="fa-brands fa-square-facebook"></i>
+                  <i class="fa-brands fa-shopify"></i>
+              </div>
+              <div class="w-full md:w-1/2 lg:w-1/4 md:p-8 flex items-center justify-end gap-4 text-sm font-serif ">
+                  <i class="fa-solid fa-envelope"></i> <span class="ml-auto">Salesbaseoneindustrial@gmail.com</span>
+                  <i class="fa-solid fa-phone"></i> <span class="ml-auto">+63 928 398 5101</span>
+                  <i class="fa-solid fa-clock"></i> <span class="ml-auto">Mon - Sat: 9:00am to 6:00pm</span>
               </div>
           </div>
       </sub-nav>
@@ -26,6 +32,7 @@
           <div class="logo">
               <h1>Logo</h1>
           </div>
+
           <ul id="menuList">
               <li><a href="">Home</a></li>
               <li><a href="">About</a></li>
@@ -40,17 +47,17 @@
 
 
       <script>
-          let menuList = document.getElementById("menuList")
-          menuList.style.maxHeight = "0px";
+      let menuList = document.getElementById("menuList")
+      menuList.style.maxHeight = "0px";
 
-          function toggleMenu() {
-              if (menuList.style.maxHeight == "0px") {
-                  menuList.style.maxHeight = "300px";
-                  F
-              } else {
-                  menuList.style.maxHeight = "0px";
-              }
+      function toggleMenu() {
+          if (menuList.style.maxHeight == "0px") {
+              menuList.style.maxHeight = "300px";
+              F
+          } else {
+              menuList.style.maxHeight = "0px";
           }
+      }
       </script>
 
   </body>
