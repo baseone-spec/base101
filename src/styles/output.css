@@ -383,6 +383,17 @@
     padding: 20px;
   }
 
+
+  /* responsive media queries*/
+
+  .sm\:grid-cols-1 {
+    @media (max-width: 768px) {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+
+
+
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
