@@ -31,6 +31,11 @@
 
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+
+    /* Add breakpoints here */
+    --breakpoint-tablet: 40rem;
+    --breakpoint-laptop: 64rem;
+    --breakpoint-desktop: 80rem;
   }
 }
 
@@ -339,6 +344,18 @@
     background-color: #2D2D2D;
   }
 
+  .bg-\[\#171717\] {
+    background-color: #171717;
+  }
+
+  .bg-\[\#D00000\] {
+    background-color: #D00000;
+  }
+
+  .bg-\[\#A00000\] {
+    background-color: #A00000;
+  }
+
   .bg-amber-500 {
     background-color: var(--color-amber-500);
   }
@@ -367,20 +384,56 @@
     padding: calc(var(--spacing) * 8);
   }
 
+  .p-10 {
+    padding: calc(var(--spacing) * 10);
+  }
+
+  .p-12 {
+    padding: calc(var(--spacing) * 12);
+  }
+
+  .p-16 {
+    padding: calc(var(--spacing) * 16);
+  }
+
+  .p-20 {
+    padding: calc(var(--spacing) * 20);
+  }
+
+  .p-24 {
+    padding: calc(var(--spacing) * 24);
+  }
+
+  .p-32 {
+    padding: calc(var(--spacing) * 32);
+  }
+
+  .p-40 {
+    padding: calc(var(--spacing) * 40);
+  }
+
   .md:p-8 {
     padding: calc(var(--spacing) * 8);
   }
 
-  .md:w-1/3 {
+  .md\:w-1\/2 {
     width: 33.333333%;
   }
 
-  .lg:w-1/4 {
+  .lg\:w-1\/4 {
     width: 25%;
   }
 
   .p-\[20px\] {
     padding: 20px;
+  }
+
+  /* button */
+
+  .rounded-full {
+    border-radius: calc(infinity * 1px);
+    padding: calc(var(--spacing) * 4) calc(var(--spacing) * 8);
+    width: fit-content;
   }
 
 
@@ -442,6 +495,38 @@
     padding-left: calc(var(--spacing) * 4);
   }
 
+  .pl-10 {
+    padding-left: calc(var(--spacing) * 10);
+  }
+
+  .pl-12 {
+    padding-left: calc(var(--spacing) * 12);
+  }
+
+  .pl-16 {
+    padding-left: calc(var(--spacing) * 16);
+  }
+
+  .pl-20 {
+    padding-left: calc(var(--spacing) * 20);
+  }
+
+  .pl-24 {
+    padding-left: calc(var(--spacing) * 24);
+  }
+
+  .pl-32 {
+    padding-left: calc(var(--spacing) * 32);
+  }
+
+  .pl-40 {
+    padding-left: calc(var(--spacing) * 40);
+  }
+
+  .pl-48 {
+    padding-left: calc(var(--spacing) * 48);
+  }
+
 
   .lowercase {
     text-transform: lowercase;
@@ -485,7 +570,7 @@
 
   .text-4xl {
     font-size: 2.25rem;
-    line-height: 2.5rem;
+    line-height: 3rem;
   }
 
   .text-2xl {

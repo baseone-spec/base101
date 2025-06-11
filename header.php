@@ -16,12 +16,12 @@
 
       <sub-nav class="w-full h-12 bg-[#2D2D2D] text-white flex items-center justify-between px-40">
           <div class="grid grid-cols-2 sm:grid-cols-1 justify-between w-full ">
-              <div class="w-full lg:w-1/4 flex items-center gap-4 md:p-0 md:m-0 md:px-0">
+              <div class="w-full .lg\:w-1\/4 flex items-center gap-4 md:p-0 md:m-0 md:px-0">
                   <i class="fa-brands fa-square-facebook"></i>
                   <i class="fa-brands fa-shopify"></i>
               </div>
               <div
-                  class="contact-info w-full lg:w-1/4 flex items-center justify-end gap-4 text-sm font-serif md:p-0 md:m-0 md:px-0 .hide-on-small-screens">
+                  class="contact-info w-full .lg\:w-1\/4 flex items-center justify-end gap-4 text-sm font-serif md:p-0 md:m-0 md:px-0 .hide-on-small-screens">
                   <i class="fa-solid fa-envelope"></i> <span class="ml-auto">salesbaseoneindustrial@gmail.com</span>
                   <i class="fa-solid fa-phone"></i> <span class="ml-auto">+63 928 398 5101</span>
                   <i class="fa-solid fa-clock"></i> <span class="ml-auto">Mon - Sat: 9:00am to 6:00pm</span>
