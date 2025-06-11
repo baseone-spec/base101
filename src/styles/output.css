@@ -287,6 +287,10 @@
     height: calc(var(--spacing) * 24);
   }
 
+  .h-30 {
+    height: calc(var(--spacing) * 30);
+  }
+
   .h-auto {
     height: auto;
   }
@@ -333,6 +337,10 @@
 
   .gap-4 {
     gap: calc(var(--spacing) * 4);
+  }
+
+  .gap-10 {
+    gap: calc(var(--spacing) * 10);
   }
 
   .border {
@@ -436,6 +444,10 @@
     width: fit-content;
   }
 
+  .button-hover:hover {
+    background-color: #2D2D2D;
+  }
+
 
   /* responsive media queries*/
 
@@ -461,6 +473,14 @@
 
   .px-40 {
     padding-inline: calc(var(--spacing) * 40);
+  }
+
+  .px-48 {
+    padding-inline: calc(var(--spacing) * 48);
+  }
+
+  .px-55 {
+    padding-inline: calc(var(--spacing) * 55);
   }
 
   .py-8 {
@@ -532,6 +552,9 @@
     text-transform: lowercase;
   }
 
+  .text-center {
+    text-align: center;
+  }
 
   .text-xs {
     font-size: 0.75rem;
