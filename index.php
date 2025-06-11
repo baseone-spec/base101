@@ -35,11 +35,9 @@ include('header.php');
 
 
     <div class="container w-full p-10 px-48 ">
-        <div class="grid grid-flow-col grid-rows-1 gap-10 w-full " id="slideshow">
+        <div class="grid grid-flow-col grid-rows-1 gap-10 w-full ">
             <div class="bg-white rounded-lg shadow-md p-4 text-center">
-                <div class="w-full flex justify-center">
-                    <img src="./src/img//product//21.jpg" alt="Image 1" class="h-30 object-cover">
-                </div>
+                <img src="./src/img//product//21.jpg" alt="Image 1" class="w-30 h-30 object-cover">
                 <h2 class="text-lg font-bold mt-4">Product name</h2>
                 <p class="text-gray-600">This is some text for card 1.</p>
             </div>
