@@ -12,6 +12,9 @@ include('header.php');
 </head>
 
 <body>
+
+    <!-- upper button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
     <!-- for content -->
     <div class="container mx-auto h-100vh w-full bg-[#171717] text-white">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-24 pl-48">
@@ -60,6 +63,47 @@ include('header.php');
         </div>
     </div>
 
+
+
+
+    <!-- sub footer -->
+    <div class="container w-full h-auto text-white bg-[#171717] text-center pt-6 ">
+        <p class="text-4xl font-semibold font-open-sans mb-4">PARTNERS</p>
+        <div class="logos w-full bg-[#171717] flex justify-center items-center pt-6">
+
+            <div class="logos-slide">
+                <img src="./src/img/partners/1631370012073.png">
+                <img
+                    src="./src/img/partners/0-02-06-2f91814a7affbe3f11ba1c88e2d0c1979624c931e9d213cab84e6c55375ec355_1c6dc1554503d2.png">
+                <img src="./src/img/partners/307756322_494352812701958_3514013765130516898_n.png">
+                <img src="./src/img/partners/341133897_1398664240899552_8603220570200623439_n.png">
+                <img src="./src/img/partners/TTCI.png">
+                <img src="./src/img/partners/nupon supplier.png">
+                <img src="./src/img/partners/GIGATOOLS.png">
+                <img src="./src/img/partners/ALGOL1.png">
+                <img src="./src/img/partners/american_air_filter_logo.png">
+                <img src="./src/img/partners/Armstrong-Logo.png">
+                <img src="./src/img/partners/Capture1.png">
+                <img src="./src/img/partners/carrier.PNG.png">
+                <img src="./src/img/partners/dingye_circuits_limited_logo.png">
+                <img src="./src/img/partners/efbb9a969b62edc5d2bfaf4075d57206.png">
+                <img src="./src/img/partners/fastenal-logo.png">
+                <img src="./src/img/partners/logo-ammeraal1.png">
+                <img src="./src/img/partners/metal_seal_precision_logo.png">
+                <img src="./src/img/partners/morgan-thermal-ceramics.png">
+                <img src="./src/img/partners/nordson.PNG.png">
+                <img src="./src/img/partners/posiflate.png">
+                <img src="./src/img/partners/thermaflex-logo-4c_ohne-schatten_R-0de8d9df-980x350.png">
+                <img src="./src/img/partners/thumb_26542_Nutex-Equipment-Supply.png">
+                <img src="./src/img/partners/tyco logo.PNG.png">
+                <img src="./src/img/partners/thermaflex-logo-4c_ohne-schatten_R-0de8d9df-980x350.png">
+                <img src="./src/img/partners/varin logo.png">
+                <img src="./src/img/partners/Waco-5.png">
+                <img src="./src/img/partners/warden logo.png">
+                <img src="./src/img/partners/warden-machinery_380x253.png">
+            </div>
+        </div>
+    </div>
 
 
     <!-- footer -->
@@ -121,6 +165,28 @@ include('header.php');
     </footer>
 
 
+
+
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 
 </body>
 
