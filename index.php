@@ -37,7 +37,7 @@ include('header.php');
     </div>
 
 
-    <div class="container w-full p-10 px-48">
+    <div class="container w-full p-10 px-48 rounded-lg shadow-md   ">
         <div class="grid grid-flow-col grid-rows-1 gap-10 w-full">
             <div class="bg-white rounded-lg shadow-md p-4 grid place-items-center ">
                 <img src="./src/img//product//21.jpg" alt="Image 1" class="h-32 object-cover">
@@ -62,6 +62,14 @@ include('header.php');
             </div>
         </div>
     </div>
+
+    <!-- product -->
+
+    <div class="container w-full h-full p-24 text-[#2D2D2D] text-center">
+        <p class="text-4xl font-semibold mb-4">EXPLORE OUR AVAILABLE PRODUCTS</p>
+
+    </div>
+
 
 
 
