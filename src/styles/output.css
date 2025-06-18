@@ -315,6 +315,14 @@
     height: calc(var(--spacing) * 64);
   }
 
+  .h-72 {
+    height: calc(var(--spacing) * 72);
+  }
+
+  .h-78 {
+    height: calc(var(--spacing) * 78);
+  }
+
   .h-80 {
     height: calc(var(--spacing) * 80);
   }
@@ -427,6 +435,10 @@
 
   .bg-\[\#D00000\] {
     background-color: #D00000;
+  }
+
+  .bg-\[\#ca1313\] {
+    color: #ca1313;
   }
 
   .text-\[\#D00000\] {

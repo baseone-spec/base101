@@ -16,7 +16,7 @@ include('header.php');
     <!-- upper button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
     <!-- for content -->
-    <div class="container mx-auto h-100vh w-full bg-[#171717] text-white">
+    <div class="container mx-auto h-100vh w-full bg-[#fff] text-[#2D2D2D]">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-24 pl-48">
             <div class="p-4">
                 <p class="text-4xl font-semibold font-open-sans mb-4">Build the future of industrial
@@ -37,33 +37,15 @@ include('header.php');
     </div>
 
 
-    <div class="container w-full p-20 px-48 rounded-lg  ">
-        <div class="grid grid-flow-col grid-rows-1 gap-10 w-full">
-            <div class="bg-white rounded-lg shadow-md p-10 grid place-items-center ">
-                <img src="./src/img//product/seamers/Angelus Legacy Series Can Seamer- Model 10P.0.jpg" alt="Image 1"
-                    class="h-32 object-cover">
-                <h2 class="text-lg font-bold mt-4">Angelus Legacy Can Seamer</h2>
-                <p class="text-gray-600">Model 10P</p>
-            </div>
+    <div class="container w-full h-78 p-20 px-48 rounded-lg bg-[#171717] text-white  ">
+        <div class="grid grid-rows-1 gap-10 w-full text-center">
+            <h2 class="text-4xl font-semibold mb-2">OUR SERVICES</h2>
+            <p class="text-lg font-base mb-8">Seamless Transaction &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;Sourcing
+                Adeptness
+                &nbsp;&nbsp;&nbsp;|
+                &nbsp;&nbsp;&nbsp;Anchored On Integrity &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                Strong Alliances &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Efficiency Driven <br>
 
-            <div class="bg-white rounded-lg shadow-md p-10 grid place-items-center ">
-                <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 121L.0.jpg" alt="Image 2"
-                    class="h-32 object-cover">
-                <h2 class="text-lg font-bold mt-4">Angelus Legacy Can Seamere</h2>
-                <p class="text-gray-600">Model 121L</p>
-            </div>
-            <div class="bg-white rounded-lg shadow-md p-10 grid place-items-center ">
-                <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 40P.0.jpg" alt="Image 3"
-                    class="h-32 object-cover">
-                <h2 class="text-lg font-bold mt-4">Angelus Legacy Can Seamer</h2>
-                <p class="text-gray-600">Model 40p</p>
-            </div>
-            <div class="bg-white rounded-lg shadow-md p-10 grid place-items-center ">
-                <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 56P.0.jpg" alt="Image 1"
-                    class="h-32 object-cover">
-                <h2 class="text-lg font-bold mt-4">Angelus Legacy Can Seamer</h2>
-                <p class="text-gray-600">Model 56P</p>
-            </div>
         </div>
     </div>
 
