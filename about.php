@@ -99,6 +99,9 @@ include('header.php');
                 utilizing canning machinery. We supply essential components like seaming chucks and seaming rolls to
                 <br>
                 ensure the efficiency and reliability of their operations. <br> <br>
+
+
+
                 We are proud to have built long-standing partnerships with industry leaders such as Unilever, Dole <br>
                 Philippines, San Miguel Corporation, GSK, and many more.<br>
 
