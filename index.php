@@ -16,7 +16,7 @@ include('header.php');
     <!-- upper button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
     <!-- for content -->
-    <div class="container mx-auto h-100vh w-full bg-[#fff] text-white bg-no-repeat bg-cover bg-center"
+    <div class="container mx-auto h-full w-full bg-[#fff] text-white bg-no-repeat bg-cover bg-center"
         style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/img/bgbaseone.jpg'); background-size: cover;">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-24 pl-48">
             <div class="p-4">

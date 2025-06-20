@@ -339,17 +339,58 @@
     height: 100%;
   }
 
+  .h-55vh {
+    height: 55vh;
+  }
+
+  .h-60vh {
+    height: 60vh;
+  }
+
+  .h-70vh {
+    height: 70vh;
+  }
+
+  .h-80vh {
+    height: 80vh;
+  }
+
+  .h-100vh {
+    height: 100vh;
+  }
+
   .w-full {
     width: 100%;
+  }
+
+  .w-half {
+    width: 50vh;
   }
 
   .w-16 {
     width: calc(var(--spacing) * 16);
   }
 
+  .w-24 {
+    width: calc(var(--spacing) * 24);
+  }
+
+  .w-28 {
+    width: calc(var(--spacing) * 28);
+  }
+
+  .w-30 {
+    width: calc(var(--spacing) * 30);
+  }
+
   .w-32 {
     width: calc(var(--spacing) * 32);
   }
+
+  .w-36 {
+    width: calc(var(--spacing) * 36);
+  }
+
 
   .border-collapse {
     border-collapse: collapse;
@@ -524,6 +565,7 @@
     padding: calc(var(--spacing) * 4) calc(var(--spacing) * 8);
     width: fit-content;
   }
+
 
   .button-hover:hover {
     background-color: #2D2D2D;
@@ -902,7 +944,7 @@
     font-weight: 400;
   }
 
-  md:font-bold {
+  .md:font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
@@ -1056,5 +1098,13 @@
       --tw-ring-offset-shadow: 0 0 #0000;
       --tw-outline-style: solid;
     }
+  }
+}
+
+@layer components {
+  .card {
+    border-radius: 10px;
+    height: 50vh;
+    width: 100%;
   }
 }
