@@ -35,8 +35,8 @@
           </div>
 
           <ul id="menuList">
-              <li><a href="">Home</a></li>
-              <li><a href="">About</a></li>
+              <li><a href="./index.php">Home</a></li>
+              <li><a href="./about.php">About</a></li>
               <li><a href="">Services</a></li>
               <li><a href="">Product</a></li>
               <li><a href="">Contact</a></li>

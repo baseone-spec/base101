@@ -16,7 +16,8 @@ include('header.php');
     <!-- upper button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
     <!-- for content -->
-    <div class="container mx-auto h-100vh w-full bg-[#fff] text-white bg-no-repeat bg-cover bg-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/img/bgbaseone.jpg'); background-size: cover;">
+    <div class="container mx-auto h-100vh w-full bg-[#fff] text-white bg-no-repeat bg-cover bg-center"
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/img/bgbaseone.jpg'); background-size: cover;">
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-24 pl-48">
             <div class="p-4">
                 <p class="text-4xl font-semibold font-open-sans mb-4">Build the future of industrial
@@ -37,7 +38,8 @@ include('header.php');
     </div>
 
 
-    <div class="container w-full h-78 p-20 px-48 rounded-lg bg-[#171717] text-white shadow-lg" style="box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);">
+    <div class="container w-full h-78 p-20 px-48 rounded-lg bg-[#171717] text-white shadow-lg"
+        style="box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);">
         <div class="grid grid-rows-1 gap-10 w-full text-center">
             <h2 class="text-4xl font-semibold mb-2">OUR SERVICES</h2>
             <p class="text-lg font-base mb-8">Seamless Transaction &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;Sourcing
@@ -349,8 +351,8 @@ include('header.php');
                 <p class="text-lg flex flex-col justify-center font-semibold mb-5 text-[#2D2D2D]"> Website <br>
                 <div class="flex flex-col justify-center ">
                     <p class="text-lg text-[#2D2D2D]">
-                        <a href="#">Home</a><br>
-                        <a href="#">About Us</a><br>
+                        <a href="./index.php">Home</a><br>
+                        <a href="./about.php">About Us</a><br>
                         <a href="#">Services</a><br>
                         <a href="#">Contact us</a><br>
                     </p>
