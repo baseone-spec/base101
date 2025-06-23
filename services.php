@@ -15,23 +15,105 @@ include('header.php');
     <!-- button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
 
-    <div class="w-full h-60vh text-center justify-center items-center content-center">
-        <p class="text-4xl text-[#171717]">Get 25% off during our one-time sale</p>
-        <p class="text-1xltext-[#171717]">Sign up now and Get your Quotation.</p>
+
+    <div class="w-full h-96 text-center justify-center items-center content-center bg-no-repeat bg-cover bg-center"
+        style="background-image: url('./src/img/bg-product.jpg'); background-size: cover; background-blend-mode: overlay; background-color: rgba(255,255,255,0.5);">
+        <p class="text-6xl font-bold text-[#171717] mb-5">Get 25% off during our one-time sale</p>
+        <p class="text-2xl text-[#2D2D2D]">Most of our products are limited releases that won't come back. <br>
+            Get your favorite items while they're in stock.</p>
         <button class="rounded-full bg-[#D00000] text-white px-6 py-2 mt-8 font-open-sans button-hover"
             data-ripple-light="true">Request a Quote</button>
     </div>
 
     <!-- product list -->
 
-    <div class="w-full h-100vh">
 
+    <div class="bg-white h-100vh w-full p-40 content-center items-center  ">
+        <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+            <h2 class="text-2xl font-bold tracking-tight text-gray-900">Customers also purchased</h2>
 
+            <div class="mt-8 grid grid-flow-col grid-rows-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+                <div class="group relative">
+                    <img src="https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                        alt="Front of men&#039;s Basic Tee in black."
+                        class="aspect-square w-36 rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80" />
+                    <div class="mt-4 flex justify-between">
+                        <div>
+                            <h3 class="text-sm text-gray-700">
+                                <a href="#">
+                                    <span aria-hidden="true" class="absolute inset-0"></span>
+                                    Basic Tee
+                                </a>
+                            </h3>
+                            <p class="mt-1 text-sm text-gray-500">Black</p>
 
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">$35</p>
+                    </div>
+                </div>
+
+                <!-- More products... -->
+                <div class="group relative">
+                    <img src="https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                        alt="Front of men&#039;s Basic Tee in black."
+                        class="aspect-square w-36 rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80" />
+                    <div class="mt-4 flex justify-between">
+                        <div>
+                            <h3 class="text-sm text-gray-700">
+                                <a href="#">
+                                    <span aria-hidden="true" class="absolute inset-0"></span>
+                                    Basic Tee
+                                </a>
+                            </h3>
+                            <p class="mt-1 text-sm text-gray-500">Black</p>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">$35</p>
+                    </div>
+                </div>
+
+                <div class="group relative">
+                    <img src="https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                        alt="Front of men&#039;s Basic Tee in black."
+                        class="aspect-square w-36 rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80" />
+                    <div class="mt-4 flex justify-between">
+                        <div>
+                            <h3 class="text-sm text-gray-700">
+                                <a href="#">
+                                    <span aria-hidden="true" class="absolute inset-0"></span>
+                                    Basic Tee
+                                </a>
+                            </h3>
+                            <p class="mt-1 text-sm text-gray-500">Black</p>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">$35</p>
+                    </div>
+                </div>
+                <div class="group relative">
+                    <img src="https://tailwindcss.com/plus-assets/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                        alt="Front of men&#039;s Basic Tee in black."
+                        class="aspect-square w-36 rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-80" />
+                    <div class="mt-4 flex justify-between">
+                        <div>
+                            <h3 class="text-sm text-gray-700">
+                                <a href="#">
+                                    <span aria-hidden="true" class="absolute inset-0"></span>
+                                    Basic Tee
+                                </a>
+                            </h3>
+                            <p class="mt-1 text-sm text-gray-500">Black</p>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">$35</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
 
 
-    </div> <!-- footer -->
+
+
+    <!-- footer -->
     <footer class="container w-full h-full bg-[#171717] text-white p-32 px-48 align-content ">
         <div class="text-center mb-8 font-open-sans">
             <p class="text-center mb-5 text-white font-medium">

@@ -871,6 +871,16 @@
     line-height: 3rem;
   }
 
+  .text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .text-5xl {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
@@ -979,6 +989,7 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
+
 }
 
 @property --tw-border-style {
