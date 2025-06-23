@@ -30,11 +30,7 @@ include('header.php');
                 Providing the Every Need of the manufacturing Sector <br>
             </p>
         </div>
-        <div class="flex flex-col justify-center items-center gap-4">
-            <img src="image1.jpg" class="w-full h-full object-cover rounded-lg">
-            <img src="image2.jpg" class="w-full h-full object-cover rounded-lg">
-            <img src="image3.jpg" class="w-full h-full object-cover rounded-lg">
-        </div>
+
     </div>
 
     <!-- mission and vision -->
@@ -89,24 +85,26 @@ include('header.php');
             </p>
             <p class="text-lg font-medium mb-5">
                 Base One Industrial Sales, Inc. is a trusted trading company specializing in industrial machinery and
-                <br>
+
                 equipment, with a strong focus on products such as Can Seamers, MRO Spare Parts, Bearings, and Pumps.
-                <br>
-                Established in 2004, we have been serving the industry for nearly two decades. <br>
-                <br>
+
+                Established in 2004, we have been serving the industry for nearly two decades.
+
                 Our primary clients are businesses and corporations in the food manufacturing sector, particularly those
-                <br>
+
                 utilizing canning machinery. We supply essential components like seaming chucks and seaming rolls to
-                <br>
+
                 ensure the efficiency and reliability of their operations. <br> <br>
 
 
 
-                We are proud to have built long-standing partnerships with industry leaders such as Unilever, Dole <br>
+                We are proud to have built long-standing partnerships with industry leaders such as Unilever, Dole
                 Philippines, San Miguel Corporation, GSK, and many more.<br>
 
             </p>
-
+            <i class="fa-brands fa-facebook p-4"></i>
+            <i class="fa-brands fa-shopify pr-4"></i>
+            <i class="fa-solid fa-envelope pr-4"></i>
         </div>
         <div class="image">
             <img src="./src/img/Base1 Warehouse.jpg" class="w-full h-full object-cover rounded-lg">
@@ -144,7 +142,7 @@ include('header.php');
             </div>
             <div class="text text-center text-[#2D2D2D]">
                 <p class="text-lg font-semibold mb-5">Contact Info</p>
-                <p class="text-lg mb-3">
+                <p class="text-lg mb-3"> <span class="font-semibold">Address: </span>
                     906 OMM-Citra Bldg San Miguel Avenue, Pasig City <br>
                     Metro Manila, Philippines <br>
                     <span class="font-semibold">Phone: </span>+63 2 8633 8888 <br>

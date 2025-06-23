@@ -37,8 +37,8 @@
           <ul id="menuList">
               <li><a href="./index.php">Home</a></li>
               <li><a href="./about.php">About</a></li>
-              <li><a href="">Services</a></li>
-              <li><a href="">Product</a></li>
+              <li><a href="./services.php">Shop</a></li>
+              <li><a href="">FAQS</a></li>
               <li><a href="">Contact</a></li>
           </ul>
           <div class="menu-icon">
