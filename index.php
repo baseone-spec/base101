@@ -67,7 +67,7 @@ include('header.php');
                     <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 10P.jpg" alt="Image 1"
                         class="h-48 object-contain">
                 </div>
-                <div class="text-center p-8">
+                <div class="text-center p-4">
                     <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
                     <p class="text-gray-600">Model 10P</p>
 
@@ -78,46 +78,58 @@ include('header.php');
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
-                <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 121L.jpg" alt="Image 2"
-                    class="h-48 object-cover">
-                <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
-                <p class="text-gray-600">Model 121L</p>
-
+                <div class="image-wrapper w-full p-4">
+                    <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 121L.jpg"
+                        alt="Image 2" class="h-48 object-cover">
+                </div>
+                <div class="text-center p-4">
+                    <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
+                    <p class="text-gray-600">Model 121L</p>
+                </div>
                 <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
                 </button> -->
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
-                <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 140S.jpg" alt="Image 3"
-                    class="h-48 object-cover">
-                <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
-                <p class="text-gray-600">Model 140S</p>
-                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <div class="image-wrapper w-full p-4">
+                    <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 140S.jpg"
+                        alt="Image 3" class="h-48 object-cover">
+                </div>
+                <div class="text-center p-4">
+                    <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
+                    <p class="text-gray-600">Model 140S</p>
+                    <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
                 </button> -->
-
+                </div>
             </div>
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
-                <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 181S.jpg" alt="Image 1"
-                    class="h-48 object-cover">
-                <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
-                <p class="text-gray-600">Model 1815</p>
-                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <div class="image-wrapper w-full p-4">
+                    <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 181S.jpg"
+                        alt="Image 1" class="h-48 object-cover">
+                </div>
+                <div class="text-center p-4">
+                    <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
+                    <p class="text-gray-600">Model 1815</p>
+                    <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
                 </button> -->
-
+                </div>
             </div>
         </div>
         <!-- second column -->
 
         <div class="grid grid-flow-col grid-rows-1 gap-10 w-full mt-12 ">
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
-                <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 63H.jpg" alt="Image 1"
-                    class="h-48 object-cover">
-                <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
-                <p class="text-gray-600">Model 63H</p>
-
+                <div class="image-wrapper w-full p-4">
+                    <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 63H.jpg" alt="Image 1"
+                        class="h-48 object-cover">
+                </div>
+                <div class="text-center p-4">
+                    <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
+                    <p class="text-gray-600">Model 63H</p>
+                </div>
                 <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
                 </button> -->
@@ -125,35 +137,44 @@ include('header.php');
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center  ">
-                <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 62H.jpg" alt="Image 2"
-                    class="h-48 object-cover">
-                <h2 class="text-lg font-bold mt-8">Angelus Legacy Can Seamer</h2>
-                <p class="text-gray-600">Model 63H</p>
-
+                <div class="image-wrapper w-full p-4">
+                    <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 62H.jpg" alt="Image 2"
+                        class="h-48 object-cover">
+                </div>
+                <div class="text-center p-4">
+                    <h2 class="text-lg font-bold mt-8">Angelus Legacy Can Seamer</h2>
+                    <p class="text-gray-600">Model 63H</p>
+                </div>
                 <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
                 </button> -->
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center  ">
-                <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 60L.jpg" alt="Image 3"
-                    class="h-48 object-cover">
-                <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
-                <p class="text-gray-600">Model 60L</p>
-                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <div class="image-wrapper w-full p-4">
+                    <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 60L.jpg" alt="Image 3"
+                        class="h-48 object-cover">
+                </div>
+                <div class="text-center p-4">
+                    <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
+                    <p class="text-gray-600">Model 60L</p>
+                    <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
                 </button> -->
-
+                </div>
             </div>
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
-                <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 56P.jpg" alt="Image 1"
-                    class="h-48 object-cover">
-                <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
-                <p class="text-gray-600">Model 56P</p>
-                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <div class="image-wrapper w-full p-4">
+                    <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 56P.jpg" alt="Image 1"
+                        class="h-48 object-cover">
+                </div>
+                <div class="text-center p-4">
+                    <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
+                    <p class="text-gray-600">Model 56P</p>
+                    <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
                 </button> -->
-
+                </div>
             </div>
 
         </div>
@@ -170,12 +191,15 @@ include('header.php');
 
         <div class="grid grid-flow-col grid-rows-1 gap-10 w-full h-auto">
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center">
-                <img src="./src/img//other products/1.jpg" alt="Image 1" class="h-48 object-cover">
-                <h2 class="text-lg font-bold mt-8">Economy Dial Plunger Indicator</h2>
-                <p class="text-gray-600">0 mm to 10 mm Measuring Range MC Master No.: 20715A83 System of
-                    Measurement:
-                    Metric Dial Indicator Type: Plunger</p>
-
+                <div class="image-wrapper w-full p-4">
+                    <img src="./src/img//other products/1.jpg" alt="Image 1" class="h-48 object-cover">
+                </div>
+                <div class="text-center p-4">
+                    <h2 class="text-lg font-bold mt-8">Economy Dial Plunger Indicator</h2>
+                    <p class="text-gray-600">0 mm to 10 mm Measuring Range MC Master No.: 20715A83 System of
+                        Measurement:
+                        Metric Dial Indicator Type: Plunger</p>
+                </div>
                 <!-- <button class="button1 bg-[#171717] text-white mt-8 font-open-sans button-hover">
                     View Details
                 </button> -->
@@ -183,101 +207,124 @@ include('header.php');
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
-                <img src="./src/img//other products/11.jpg" alt="Image 2" class="h-48 object-cover">
-                <h2 class="text-lg font-bold mt-8">SMC AMC520-04 Exhaust Cleaner
-                </h2>
-                <p class="text-gray-600"> A 1/2" Rc port, 95% filtration efficiency for 0.3 µm particles, and
-                    operates at pressures up to 0.1 MPa, ensuring clean and quiet air exhaust.</p>
-                <!-- 
+                <div class="image-wrapper w-full p-4">
+                    <img src="./src/img//other products/11.jpg" alt="Image 2" class="h-48 object-cover">
+                </div>
+                <div class="text-center p-4">
+                    <h2 class="text-lg font-bold mt-8">SMC AMC520-04 Exhaust Cleaner
+                    </h2>
+                    <p class="text-gray-600"> A 1/2" Rc port, 95% filtration efficiency for 0.3 µm particles, and
+                        operates at pressures up to 0.1 MPa, ensuring clean and quiet air exhaust.</p>
+                    <!-- 
                 <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
                 </button> -->
+                </div>
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
-                <img src="./src/img//other products/2.jpg" alt="Image 3" class="h-48 object-cover">
-                <h2 class="text-lg font-bold mt-8">Reelcraft Grounding Reels</h2>
-                <p class="text-gray-600">A Heavy duty Spring Retractable Hose Reels</p>
-                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <div class="image-wrapper w-full p-4">
+                    <img src="./src/img//other products/2.jpg" alt="Image 3" class="h-48 object-cover">
+                </div>
+                <div class="text-center p-4">
+                    <h2 class="text-lg font-bold mt-8">Reelcraft Grounding Reels</h2>
+                    <p class="text-gray-600">A Heavy duty Spring Retractable Hose Reels</p>
+                    <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
                 </button> -->
-
+                </div>
             </div>
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
-                <img src="./src/img//other products/3.jpg" alt="Image 1" class="h-48 object-cover">
-                <h2 class="text-lg font-bold mt-8">Ridgid Copper Pipe Reamer 1/2"-2"</h2>
-                <p class="text-gray-600">FEATURES: Hardened Steel Construction Inner-Outer Reamer includes 45
-                    cutting
-                    edges on interior cone allow for fast, clean, inner reaming and outer deburring/beveling of
-                    copper
-                    and stainless steel tubing.</p>
-                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <div class="image-wrapper w-full p-4">
+                    <img src="./src/img//other products/3.jpg" alt="Image 1" class="h-48 object-cover">
+                </div>
+                <div class="text-center p-4">
+                    <h2 class="text-lg font-bold mt-8">Ridgid Copper Pipe Reamer 1/2"-2"</h2>
+                    <p class="text-gray-600">FEATURES: Hardened Steel Construction Inner-Outer Reamer includes 45
+                        cutting
+                        edges on interior cone allow for fast, clean, inner reaming and outer deburring/beveling of
+                        copper
+                        and stainless steel tubing.</p>
+                    <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
                 </button> -->
-
+                </div>
             </div>
         </div>
         <!-- Fourth column -->
 
         <div class="grid grid-flow-col grid-rows-1 gap-10 w-full mt-12">
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
-                <img src="./src/img//other products/4.jpg" alt="Image 1" class="h-48 object-cover">
-                <h2 class="text-lg font-bold mt-8">Refrigerant Freon 407C 11.30KG</h2>
-                <p class="text-gray-600">
-                    Weight : 11.30 kg <br>
-                    Chemical Formula : CHF2CF3 / CH2FCF3 / CH2F2 <br>
-                    CAS Number : 354-33-6 / 811-97-2 / 75-10-5 <br>
-                    Boiling Point : -43.9°C (-47°F) Average</p>
+                <div class="image-wrapper w-full p-4">
+                    <img src="./src/img//other products/4.jpg" alt="Image 1" class="h-48 object-cover">
+                </div>
+                <div class="text-center p-4">
+                    <h2 class="text-lg font-bold mt-8">Refrigerant Freon 407C 11.30KG</h2>
+                    <p class="text-gray-600">
+                        Weight : 11.30 kg <br>
+                        Chemical Formula : CHF2CF3 / CH2FCF3 / CH2F2 <br>
+                        CAS Number : 354-33-6 / 811-97-2 / 75-10-5 <br>
+                        Boiling Point : -43.9°C (-47°F) Average</p>
 
-                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                    <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
                 </button> -->
-
+                </div>
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
-                <img src="./src/img//other products/5.jpg" alt="Image 2" class="h-48 object-cover">
-                <h2 class="text-lg font-bold mt-8">Proximity Sensor PF125-8DN</h2>
-                <p class="text-gray-600">Model 63H</p>
-                <p class="text-gray-600">Proximity Sensor PF125-8DN is a non-contact sensor that detects the
-                    presence of
-                    objects without physical contact. It uses electromagnetic fields to sense the proximity of
-                    objects,
-                    making it ideal for applications where contact is not possible or desirable.</p>
-                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <div class="image-wrapper w-full p-4">
+                    <img src="./src/img//other products/5.jpg" alt="Image 2" class="h-48 object-cover">
+                </div>
+                <div class="text-center p-4">
+                    <h2 class="text-lg font-bold mt-8">Proximity Sensor PF125-8DN</h2>
+                    <p class="text-gray-600">Model 63H</p>
+                    <p class="text-gray-600">Proximity Sensor PF125-8DN is a non-contact sensor that detects the
+                        presence of
+                        objects without physical contact. It uses electromagnetic fields to sense the proximity of
+                        objects,
+                        making it ideal for applications where contact is not possible or desirable.</p>
+                    <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
                 </button> -->
+                </div>
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
-                <img src="./src/img//other products/6.jpg" alt="Image 3" class="h-48 object-cover">
-                <h2 class="text-lg font-bold mt-8">LSE Lighting GPH303T5L/4 Ultraviolet UV Lamp Bulb 4-pins
-                    Base 12"</h2>
-                <p class="text-gray-600">
-                    Type: UV Lamp - Wavelength: 254nm <br>
-                    Base Type: 4pin (4pins on one END) <br>
-                    Wattage: 15W <br>
-                    Length: 303mm (12 inches) <br>
-                    Operating Current: 425mA Standard output <br>
-                    Warning: Please Use safety gear during installation.</p>
-                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <div class="image-wrapper w-full p-4">
+                    <img src="./src/img//other products/6.jpg" alt="Image 3" class="h-48 object-cover">
+                </div>
+                <div class="text-center p-4">
+                    <h2 class="text-lg font-bold mt-8">LSE Lighting GPH303T5L/4 Ultraviolet UV Lamp Bulb 4-pins
+                        Base 12"</h2>
+                    <p class="text-gray-600">
+                        Type: UV Lamp - Wavelength: 254nm <br>
+                        Base Type: 4pin (4pins on one END) <br>
+                        Wattage: 15W <br>
+                        Length: 303mm (12 inches) <br>
+                        Operating Current: 425mA Standard output <br>
+                        Warning: Please Use safety gear during installation.</p>
+                    <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
                 </button> -->
-
+                </div>
             </div>
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
-                <img src="./src/img//other products/7.jpg" alt="Image 1" class="h-48 object-cover">
-                <h2 class="text-lg font-bold mt-8">Proximity Sensor PS12-4DN</h2>
-                <p class="text-gray-600">Model 63H</p>
-                <p class="text-gray-600">Proximity Sensor PS12-4DN is a non-contact sensor that detects the presence
-                    of
-                    objects without physical contact. It uses electromagnetic fields to sense the proximity of
-                    objects,
-                    making it ideal for applications where contact is not possible or desirable.</p>
-                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <div class="image-wrapper w-full p-4">
+                    <img src="./src/img//other products/7.jpg" alt="Image 1" class="h-48 object-cover">
+                </div>
+                <div class="text-center p-4">
+                    <h2 class="text-lg font-bold mt-8">Proximity Sensor PS12-4DN</h2>
+                    <p class="text-gray-600">Model 63H</p>
+                    <p class="text-gray-600">Proximity Sensor PS12-4DN is a non-contact sensor that detects the presence
+                        of
+                        objects without physical contact. It uses electromagnetic fields to sense the proximity of
+                        objects,
+                        making it ideal for applications where contact is not possible or desirable.</p>
+                    <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
                 </button> -->
-
+                </div>
             </div>
 
 
