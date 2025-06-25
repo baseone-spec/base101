@@ -18,7 +18,7 @@ include('header.php');
 
     <div class="w-full h-96 text-center justify-center items-center content-center bg-no-repeat bg-cover bg-center"
         style="background-image: url('./src/img/bg-product.jpg'); background-size: cover; background-blend-mode: overlay; background-color: rgba(255,255,255,0.5);">
-        <p class="text-6xl font-bold text-[#171717] mb-5">Get 25% off during our one-time sale</p>
+        <p class="text-6xl font-bold text-[#171717] mb-5">Official Distributor of Top Quality Psangelus Products</p>
         <p class="text-2xl text-[#2D2D2D]">Most of our products are limited releases that won't come back. <br>
             Get your favorite items while they're in stock.</p>
         <button class="rounded-full bg-[#D00000] text-white px-6 py-2 mt-8 font-open-sans button-hover"

@@ -55,20 +55,26 @@ include('header.php');
 
     <div class="container w-full h-full p-32 px-48 text-[#2D2D2D] text-center mt-6">
         <p class="text-4xl font-semibold mb-2">OUR TOP SELLING PRODUCT</p>
-        <p class="text-lg font-base mb-8 ">Can seamer machine</p>
+        <p class="text-lg font-base mb-2 ">Can seamer machine</p>
+        <button class="button1 bg-[#171717] text-white px-6 py-2 mt-4 mb-10 font-open-sans button-hover w-32 ">
+            View Shop
+        </button>
 
         <div class="grid grid-flow-col grid-rows-1 w-full h-auto gap-10">
 
-            <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center">
-                <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 10P.jpg" alt="Image 1"
-                    class="h-48 object-cover">
-                <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
-                <p class="text-gray-600">Model 10P</p>
+            <div class="bg-white rounded-lg shadow-md grid place-items-center">
+                <div class="image-wrapper w-full p-4">
+                    <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 10P.jpg" alt="Image 1"
+                        class="h-48 object-contain">
+                </div>
+                <div class="text-center p-8">
+                    <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
+                    <p class="text-gray-600">Model 10P</p>
 
-                <button class="button1 bg-[#171717] text-white mt-8 font-open-sans button-hover">
-                    View Details
-                </button>
-
+                    <!-- <button class="button1 bg-[#171717] text-white mt-8 font-open-sans button-hover">
+                        View Details
+                    </button> -->
+                </div>
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
@@ -77,9 +83,9 @@ include('header.php');
                 <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
                 <p class="text-gray-600">Model 121L</p>
 
-                <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
-                </button>
+                </button> -->
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
@@ -87,9 +93,9 @@ include('header.php');
                     class="h-48 object-cover">
                 <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
                 <p class="text-gray-600">Model 140S</p>
-                <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
-                </button>
+                </button> -->
 
             </div>
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
@@ -97,9 +103,9 @@ include('header.php');
                     class="h-48 object-cover">
                 <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
                 <p class="text-gray-600">Model 1815</p>
-                <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
-                </button>
+                </button> -->
 
             </div>
         </div>
@@ -112,9 +118,9 @@ include('header.php');
                 <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
                 <p class="text-gray-600">Model 63H</p>
 
-                <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
-                </button>
+                </button> -->
 
             </div>
 
@@ -124,9 +130,9 @@ include('header.php');
                 <h2 class="text-lg font-bold mt-8">Angelus Legacy Can Seamer</h2>
                 <p class="text-gray-600">Model 63H</p>
 
-                <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
-                </button>
+                </button> -->
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center  ">
@@ -134,9 +140,9 @@ include('header.php');
                     class="h-48 object-cover">
                 <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
                 <p class="text-gray-600">Model 60L</p>
-                <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
-                </button>
+                </button> -->
 
             </div>
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
@@ -144,14 +150,13 @@ include('header.php');
                     class="h-48 object-cover">
                 <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
                 <p class="text-gray-600">Model 56P</p>
-                <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
-                </button>
+                </button> -->
 
             </div>
 
         </div>
-
     </div>
 
 
@@ -171,9 +176,9 @@ include('header.php');
                     Measurement:
                     Metric Dial Indicator Type: Plunger</p>
 
-                <button class="button1 bg-[#171717] text-white mt-8 font-open-sans button-hover">
+                <!-- <button class="button1 bg-[#171717] text-white mt-8 font-open-sans button-hover">
                     View Details
-                </button>
+                </button> -->
 
             </div>
 
@@ -183,19 +188,19 @@ include('header.php');
                 </h2>
                 <p class="text-gray-600"> A 1/2" Rc port, 95% filtration efficiency for 0.3 µm particles, and
                     operates at pressures up to 0.1 MPa, ensuring clean and quiet air exhaust.</p>
-
+                <!-- 
                 <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
-                </button>
+                </button> -->
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
                 <img src="./src/img//other products/2.jpg" alt="Image 3" class="h-48 object-cover">
                 <h2 class="text-lg font-bold mt-8">Reelcraft Grounding Reels</h2>
                 <p class="text-gray-600">A Heavy duty Spring Retractable Hose Reels</p>
-                <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
-                </button>
+                </button> -->
 
             </div>
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
@@ -206,9 +211,9 @@ include('header.php');
                     edges on interior cone allow for fast, clean, inner reaming and outer deburring/beveling of
                     copper
                     and stainless steel tubing.</p>
-                <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
-                </button>
+                </button> -->
 
             </div>
         </div>
@@ -224,9 +229,9 @@ include('header.php');
                     CAS Number : 354-33-6 / 811-97-2 / 75-10-5 <br>
                     Boiling Point : -43.9°C (-47°F) Average</p>
 
-                <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
-                </button>
+                </button> -->
 
             </div>
 
@@ -239,9 +244,9 @@ include('header.php');
                     objects without physical contact. It uses electromagnetic fields to sense the proximity of
                     objects,
                     making it ideal for applications where contact is not possible or desirable.</p>
-                <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
-                </button>
+                </button> -->
             </div>
 
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
@@ -255,9 +260,9 @@ include('header.php');
                     Length: 303mm (12 inches) <br>
                     Operating Current: 425mA Standard output <br>
                     Warning: Please Use safety gear during installation.</p>
-                <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
-                </button>
+                </button> -->
 
             </div>
             <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
@@ -269,9 +274,9 @@ include('header.php');
                     objects without physical contact. It uses electromagnetic fields to sense the proximity of
                     objects,
                     making it ideal for applications where contact is not possible or desirable.</p>
-                <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
+                <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
-                </button>
+                </button> -->
 
             </div>
 
