@@ -172,7 +172,7 @@ include('header.php');
                     <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
                     <p class="text-gray-600">Model 56P</p>
                     <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
-                    View Details
+                    View Details z
                 </button> -->
                 </div>
             </div>

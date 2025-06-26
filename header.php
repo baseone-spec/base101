@@ -15,8 +15,8 @@
   <body>
 
       <sub-nav class="w-full h-12 bg-[#2D2D2D] text-white flex items-center justify-between px-40">
-          <div class="grid grid-cols-2 sm:grid-cols-1 justify-between w-full ">
-              <div class="w-full .lg\:w-1\/4 flex items-center gap-4 md:p-0 md:m-0 md:px-0">
+          <div class="grid grid-cols-2 sm:grid-cols-2 justify-between w-full ">
+              <div class="w-full .lg\:w-1\/4 flex items-center gap-4 md:p-0 md:m-0 md:px-0 ">
                   <i class="fa-brands fa-square-facebook"></i>
                   <i class="fa-brands fa-shopify"></i>
               </div>
