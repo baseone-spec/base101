@@ -31,6 +31,33 @@
         </div>
     </div>
 
+    <!-- modal -->
+    <div class="w-full h-screen flex justify-center items-center">
+        <!-- Trigger button -->
+        <button id="openModalBtn" class="product-btn bg-[#f3f4f6] text-[#171717] text-sm font-semibold">
+            Open Dialog
+        </button>
+
+        <!-- Modal -->
+        <div id="myModal" class="hidden fixed inset-0 z-10 overflow-y-auto" aria-labelledby="dialog-title" role="dialog"
+            aria-modal="true">
+            <!-- Overlay -->
+            <div class="fixed inset-0 bg-gray-500/75 transition-opacity" aria-hidden="true"></div>
+
+            <!-- Modal content wrapper -->
+            <div class="flex items-center justify-center min-h-screen p-4 text-center">
+                <div class="bg-white rounded-lg shadow-xl w-full max-w-md p-6 relative z-20">
+                    <h2 id="dialog-title" class="text-lg font-medium text-gray-900 mb-4">Modal Title</h2>
+                    <p class="text-sm text-gray-700 mb-4">This is a modal dialog. Click the button below to close it.
+                    </p>
+                    <button id="closeModalBtn" class="bg-red-500 text-white px-4 py-2 rounded">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="./src/js/modal.js"></script>
 
 </body>
 

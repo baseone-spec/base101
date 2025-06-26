@@ -36,59 +36,125 @@ include('header.php');
 
         <div
             class="mt-12 grid grid-flow-col grid-rows-1 gap-20 item-center justify-center align-content md:grid-cols-2 md:grid-rows-2 ">
-            <div class="group relative">
-                <img src="./src/img/product/seamers/Angelus Legacy Series Can Seamer- Model 10P.0.jpg"
-                    alt=" product-seamers" class="w-50 h-50 products ">
-                <div class="mt-4 flex justify-between">
-                    <h3 class="text-lg font-bold text-[#171717] ">
+
+
+            <div class="group relative shadow-xl p-4 justify-center align-content">
+                <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
+                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 120L - 121L.jpg" alt=""
+                        class="image1" />
+                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 120L - 121L.0.jpg" alt=""
+                        class="image2" />
+                </div>
+                <div class="mt-4 flex justify-between w-70 ">
+                    <h3 class="text-lg font-bold text-[#171717]">
                         <a href="#">
                             <span aria-hidden="true" class="absolute inset-0"></span>
                             Angelus Legacy Series Can Seamer
                         </a>
+                        <p class="text-sm font-light">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis iste.
+                        </p>
                     </h3>
+
+
                 </div>
+                <div class="mt-4 flex justify-between w-70 gap-2">
+                    <button class="product-btn bg-[#f3f4f6] text-[#171717]  mt-4 font-open-sans button-hover"
+                        data-ripple-light="true">Request a Quote</button>
+                    <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover"
+                        data-ripple-light="true">add to cart</button>
+                </div>
+
             </div>
 
             <!-- other products -->
-            <div class="group relative item-center justify-center align-content">
-                <img src="./src/img/product/seamers/Angelus Legacy Series Can Seamer- Model 10P.0.jpg"
-                    alt=" product-seamers" class="w-50 h-50 products ">
-                <div class="mt-4 flex justify-between">
-                    <h3 class="text-lg font-bold text-[#171717] ">
+            <div class="group relative shadow-xl p-4 justify-center align-content">
+                <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
+                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 181S.jpg" alt="" class="image1" />
+                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 181S.0.jpg" alt="" class="image2" />
+                </div>
+                <div class="mt-4 flex justify-between w-70 ">
+                    <h3 class="text-lg font-bold text-[#171717]">
                         <a href="#">
                             <span aria-hidden="true" class="absolute inset-0"></span>
                             Angelus Legacy Series Can Seamer
                         </a>
+                        <p class="text-sm font-light">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis iste.
+                        </p>
                     </h3>
+
+
                 </div>
+                <div class="mt-4 flex justify-between w-70 gap-2">
+                    <button class="product-btn bg-[#f3f4f6] text-[#171717]  mt-4 font-open-sans button-hover"
+                        data-ripple-light="true">Request a Quote</button>
+                    <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover"
+                        data-ripple-light="true">add to cart</button>
+                </div>
+
             </div>
 
             <!-- other products -->
-            <div class="group relative item-center justify-center align-content">
-                <img src="./src/img/product/seamers/Angelus Legacy Series Can Seamer- Model 10P.0.jpg"
-                    alt=" product-seamers" class="w-50 h-50 products ">
-                <div class="mt-4 flex justify-between">
-                    <h3 class="text-lg font-bold text-[#171717] ">
+            <div class="group relative shadow-xl p-4 justify-center align-content">
+                <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
+                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt="" class="image1" />
+                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.0.jpg" alt="" class="image2" />
+                </div>
+                <div class="mt-4 flex justify-between w-70 ">
+                    <h3 class="text-lg font-bold text-[#171717]">
                         <a href="#">
                             <span aria-hidden="true" class="absolute inset-0"></span>
                             Angelus Legacy Series Can Seamer
                         </a>
+                        <p class="text-sm font-light">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis iste.
+                        </p>
                     </h3>
+
+
                 </div>
+                <div class="mt-4 flex justify-between w-70 gap-2">
+                    <button class="product-btn bg-[#f3f4f6] text-[#171717]  mt-4 font-open-sans button-hover"
+                        data-ripple-light="true">Request a Quote</button>
+                    <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover"
+                        data-ripple-light="true">add to cart</button>
+                </div>
+
             </div>
 
             <!-- other products -->
-            <div class="group relative item-center justify-center align-content">
-                <img src="./src/img/product/seamers/Angelus Legacy Series Can Seamer- Model 10P.0.jpg"
-                    alt=" product-seamers" class="w-50 h-50 products ">
-                <div class="mt-4 flex justify-between">
-                    <h3 class="text-lg font-bold text-[#171717] ">
+            <div class="group relative shadow-xl p-4 justify-center align-content">
+                <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
+                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Models 61H - 62H -  63H.jpg" alt=""
+                        class="image1" />
+                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Models 61H - 62H -  63H.0.jpg" alt=""
+                        class="image2" />
+                </div>
+                <div class="mt-4 flex justify-between w-70 ">
+                    <h3 class="text-lg font-bold text-[#171717]">
                         <a href="#">
                             <span aria-hidden="true" class="absolute inset-0"></span>
                             Angelus Legacy Series Can Seamer
                         </a>
+                        <p class="text-sm font-light">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis iste.
+                        </p>
                     </h3>
+
+
                 </div>
+                <div class="mt-4 flex justify-between w-70 gap-2">
+                    <button class="product-btn bg-[#f3f4f6] text-[#171717]  mt-4 font-open-sans button-hover"
+                        data-ripple-light="true">Request a Quote</button>
+                    <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover"
+                        data-ripple-light="true">add to cart</button>
+                </div>
+
             </div>
 
 
