@@ -62,7 +62,7 @@ include('header.php');
                 <div class="mt-4 flex justify-between w-70 gap-2">
                     <button type="button"
                         class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
-                        data-modal-id="modal-2">Open dialog</button>
+                        data-modal-id="modal-2">Request a Quote</button>
                     <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
                         cart</button>
                 </div>
@@ -77,10 +77,15 @@ include('header.php');
                         class="grid grid-flow-col grid-rows-1 modal-size bg-white rounded-lg shadow-xl max-w-md p-20 relative z-50 ">
                         <!-- Header -->
                         <div>
-                            <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">Modal Title</h2>
+                            <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS Legacy Series
+                            </h2>
                             <p class="text-sm text-gray-700 mb-4">
-                                This is a modal dialog. Click the button below to close it.
+                                Model 120L - 121L.jpg
                             </p>
+                            <div class="image">
+                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 120L - 121L.jpg" alt=""
+                                    class="image1" />
+                            </div>
                         </div>
 
                         <div class="h-full w-full p-4">
@@ -122,7 +127,8 @@ include('header.php');
 
                         <p class="text-sm font-light">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis iste.
+                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis
+                            iste.
                         </p>
                     </h3>
 
@@ -132,7 +138,7 @@ include('header.php');
                 <div class="mt-4 flex justify-between w-70 gap-2">
                     <button type="button"
                         class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
-                        data-modal-id="modal-3">Open dialog</button>
+                        data-modal-id="modal-3">Request a Quote</button>
                     <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
                         cart</button>
                 </div>
@@ -147,7 +153,8 @@ include('header.php');
                         class="grid grid-flow-col grid-rows-1 modal-size bg-white rounded-lg shadow-xl max-w-md p-20 relative z-50 ">
                         <!-- Header -->
                         <div>
-                            <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">Modal Title</h2>
+                            <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">Modal Title
+                            </h2>
                             <p class="text-sm text-gray-700 mb-4">
                                 This is a modal dialog. Click the button below to close it.
                             </p>
@@ -192,7 +199,8 @@ include('header.php');
 
                         <p class="text-sm font-light">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis iste.
+                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis
+                            iste.
                         </p>
                     </h3>
 
@@ -202,7 +210,7 @@ include('header.php');
                 <div class="mt-4 flex justify-between w-70 gap-2">
                     <button type="button"
                         class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
-                        data-modal-id="modal-4">Open dialog</button>
+                        data-modal-id="modal-4">Request a Quote</button>
                     <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
                         cart</button>
                 </div>
@@ -217,7 +225,8 @@ include('header.php');
                         class="grid grid-flow-col grid-rows-1 modal-size bg-white rounded-lg shadow-xl max-w-md p-20 relative z-50 ">
                         <!-- Header -->
                         <div>
-                            <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">Modal Title</h2>
+                            <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">Modal Title
+                            </h2>
                             <p class="text-sm text-gray-700 mb-4">
                                 This is a modal dialog. Click the button below to close it.
                             </p>
@@ -264,7 +273,8 @@ include('header.php');
 
                         <p class="text-sm font-light">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis iste.
+                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis
+                            iste.
                         </p>
                     </h3>
 
@@ -274,7 +284,7 @@ include('header.php');
                 <div class="mt-4 flex justify-between w-70 gap-2">
                     <button type="button"
                         class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
-                        data-modal-id="modal-1">Open dialog</button>
+                        data-modal-id="modal-1">Request a Quote</button>
                     <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
                         cart</button>
                 </div>
@@ -289,7 +299,8 @@ include('header.php');
                         class="grid grid-flow-col grid-rows-1 modal-size bg-white rounded-lg shadow-xl max-w-md p-20 relative z-50 ">
                         <!-- Header -->
                         <div>
-                            <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">Modal Title</h2>
+                            <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">Modal Title
+                            </h2>
                             <p class="text-sm text-gray-700 mb-4">
                                 This is a modal dialog. Click the button below to close it.
                             </p>
