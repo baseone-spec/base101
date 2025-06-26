@@ -13,7 +13,7 @@ include('header.php');
 
 <body>
     <!-- button -->
-    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">^</button> -->
 
 
     <div class="w-full h-96 text-center justify-center items-center content-center bg-no-repeat bg-cover bg-center"
@@ -47,10 +47,9 @@ include('header.php');
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
-                        <a href="#">
-                            <span aria-hidden="true" class="absolute inset-0"></span>
-                            Angelus Legacy Series Can Seamer
-                        </a>
+
+                        Angelus Legacy Series Can Seamer
+
                         <p class="text-sm font-light">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis iste.
@@ -59,12 +58,54 @@ include('header.php');
 
 
                 </div>
+
                 <div class="mt-4 flex justify-between w-70 gap-2">
-                    <button class="product-btn bg-[#f3f4f6] text-[#171717]  mt-4 font-open-sans button-hover"
-                        data-ripple-light="true">Request a Quote</button>
-                    <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover"
-                        data-ripple-light="true">add to cart</button>
+                    <button type="button"
+                        class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
+                        data-modal-id="modal-2">Open dialog</button>
+                    <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
+                        cart</button>
                 </div>
+
+                <!-- Modal -->
+
+                <div id="modal-2"
+                    class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
+                    role="dialog" aria-modal="true">
+                    <!-- Modal Content -->
+                    <div
+                        class="grid grid-flow-col grid-rows-1 modal-size bg-white rounded-lg shadow-xl max-w-md p-20 relative z-50 ">
+                        <!-- Header -->
+                        <div>
+                            <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">Modal Title</h2>
+                            <p class="text-sm text-gray-700 mb-4">
+                                This is a modal dialog. Click the button below to close it.
+                            </p>
+                        </div>
+
+                        <div class="h-full w-full p-4">
+                            <div class="container p-20">
+                                <p class="text">
+                                    asdasd
+                                </p>
+
+                            </div>
+
+                            <div class="mt-6 flex justify-center gap-2">
+
+                                <button type="button" class="product-checkout bg-[#171717] text-white text-sm rounded">
+                                    Proceed to Quote
+                                </button>
+                                <button type="button" id="closeModalBtn"
+                                    class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
+                                    Close
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
 
@@ -76,10 +117,9 @@ include('header.php');
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
-                        <a href="#">
-                            <span aria-hidden="true" class="absolute inset-0"></span>
-                            Angelus Legacy Series Can Seamer
-                        </a>
+
+                        Angelus Legacy Series Can Seamer
+
                         <p class="text-sm font-light">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis iste.
@@ -88,12 +128,54 @@ include('header.php');
 
 
                 </div>
+
                 <div class="mt-4 flex justify-between w-70 gap-2">
-                    <button class="product-btn bg-[#f3f4f6] text-[#171717]  mt-4 font-open-sans button-hover"
-                        data-ripple-light="true">Request a Quote</button>
-                    <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover"
-                        data-ripple-light="true">add to cart</button>
+                    <button type="button"
+                        class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
+                        data-modal-id="modal-3">Open dialog</button>
+                    <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
+                        cart</button>
                 </div>
+
+                <!-- Modal -->
+
+                <div id="modal-3"
+                    class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
+                    role="dialog" aria-modal="true">
+                    <!-- Modal Content -->
+                    <div
+                        class="grid grid-flow-col grid-rows-1 modal-size bg-white rounded-lg shadow-xl max-w-md p-20 relative z-50 ">
+                        <!-- Header -->
+                        <div>
+                            <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">Modal Title</h2>
+                            <p class="text-sm text-gray-700 mb-4">
+                                This is a modal dialog. Click the button below to close it.
+                            </p>
+                        </div>
+
+                        <div class="h-full w-full p-4">
+                            <div class="container p-20">
+                                <p class="text">
+                                    asdasd
+                                </p>
+
+                            </div>
+
+                            <div class="mt-6 flex justify-center gap-2">
+
+                                <button type="button" class="product-checkout bg-[#171717] text-white text-sm rounded">
+                                    Proceed to Quote
+                                </button>
+                                <button type="button" id="closeModalBtn"
+                                    class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
+                                    Close
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
 
@@ -101,14 +183,13 @@ include('header.php');
             <div class="group relative shadow-xl p-4 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
                     <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt="" class="image1" />
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.0.jpg" alt="" class="image2" />
+                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt="" class="image2" />
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
-                        <a href="#">
-                            <span aria-hidden="true" class="absolute inset-0"></span>
-                            Angelus Legacy Series Can Seamer
-                        </a>
+
+                        Angelus Legacy Series Can Seamer
+
                         <p class="text-sm font-light">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis iste.
@@ -117,12 +198,54 @@ include('header.php');
 
 
                 </div>
+
                 <div class="mt-4 flex justify-between w-70 gap-2">
-                    <button class="product-btn bg-[#f3f4f6] text-[#171717]  mt-4 font-open-sans button-hover"
-                        data-ripple-light="true">Request a Quote</button>
-                    <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover"
-                        data-ripple-light="true">add to cart</button>
+                    <button type="button"
+                        class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
+                        data-modal-id="modal-4">Open dialog</button>
+                    <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
+                        cart</button>
                 </div>
+
+                <!-- Modal -->
+
+                <div id="modal-4"
+                    class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
+                    role="dialog" aria-modal="true">
+                    <!-- Modal Content -->
+                    <div
+                        class="grid grid-flow-col grid-rows-1 modal-size bg-white rounded-lg shadow-xl max-w-md p-20 relative z-50 ">
+                        <!-- Header -->
+                        <div>
+                            <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">Modal Title</h2>
+                            <p class="text-sm text-gray-700 mb-4">
+                                This is a modal dialog. Click the button below to close it.
+                            </p>
+                        </div>
+
+                        <div class="h-full w-full p-4">
+                            <div class="container p-20">
+                                <p class="text">
+                                    asdasd
+                                </p>
+
+                            </div>
+
+                            <div class="mt-6 flex justify-center gap-2">
+
+                                <button type="button" class="product-checkout bg-[#171717] text-white text-sm rounded">
+                                    Proceed to Quote
+                                </button>
+                                <button type="button" id="closeModalBtn"
+                                    class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
+                                    Close
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
 
@@ -136,10 +259,9 @@ include('header.php');
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
-                        <a href="#">
-                            <span aria-hidden="true" class="absolute inset-0"></span>
-                            Angelus Legacy Series Can Seamer
-                        </a>
+
+                        Angelus Legacy Series Can Seamer
+
                         <p class="text-sm font-light">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis iste.
@@ -148,12 +270,54 @@ include('header.php');
 
 
                 </div>
+
                 <div class="mt-4 flex justify-between w-70 gap-2">
-                    <button class="product-btn bg-[#f3f4f6] text-[#171717]  mt-4 font-open-sans button-hover"
-                        data-ripple-light="true">Request a Quote</button>
-                    <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover"
-                        data-ripple-light="true">add to cart</button>
+                    <button type="button"
+                        class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
+                        data-modal-id="modal-1">Open dialog</button>
+                    <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
+                        cart</button>
                 </div>
+
+                <!-- Modal -->
+
+                <div id="modal-1"
+                    class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
+                    role="dialog" aria-modal="true">
+                    <!-- Modal Content -->
+                    <div
+                        class="grid grid-flow-col grid-rows-1 modal-size bg-white rounded-lg shadow-xl max-w-md p-20 relative z-50 ">
+                        <!-- Header -->
+                        <div>
+                            <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">Modal Title</h2>
+                            <p class="text-sm text-gray-700 mb-4">
+                                This is a modal dialog. Click the button below to close it.
+                            </p>
+                        </div>
+
+                        <div class="h-full w-full p-4">
+                            <div class="container p-20">
+                                <p class="text">
+                                    asdasd
+                                </p>
+
+                            </div>
+
+                            <div class="mt-6 flex justify-center gap-2">
+
+                                <button type="button" class="product-checkout bg-[#171717] text-white text-sm rounded">
+                                    Proceed to Quote
+                                </button>
+                                <button type="button" id="closeModalBtn"
+                                    class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
+                                    Close
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
 
@@ -227,8 +391,35 @@ include('header.php');
         </div>
     </footer>
 
-    <!-- script button -->
+
+
+    <!-- Script -->
     <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const openButtons = document.querySelectorAll('.openModalBtn');
+            const closeButtons = document.querySelectorAll('.closeModalBtn');
+
+            openButtons.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const modalId = btn.getAttribute('data-modal-id');
+                    const modal = document.getElementById(modalId);
+                    if (modal) modal.classList.remove('hidden');
+                });
+            });
+
+            closeButtons.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // find the closest modal ancestor
+                    const modal = btn.closest('.modal');
+                    if (modal) modal.classList.add('hidden');
+                });
+            });
+        });
+    </script>
+
+
+    <!-- script button -->
+    <!-- <script>
         let mybutton = document.getElementById("myBtn");
 
         window.onscroll = function() {
@@ -247,7 +438,9 @@ include('header.php');
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
-    </script>
+    </script> -->
+
+
 </body>
 
 </html>

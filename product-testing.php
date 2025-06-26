@@ -31,26 +31,46 @@
         </div>
     </div>
 
-    <!-- modal -->
+    <!-- Trigger Button Wrapper -->
     <div class="w-full h-screen flex justify-center items-center">
-        <!-- Trigger button -->
-        <button id="openModalBtn" class="product-btn bg-[#f3f4f6] text-[#171717] text-sm font-semibold">
-            Open Dialog
-        </button>
+        <div class="flex justify-center items-center w-half">
+            <button id="openModalBtn" class="product-btn bg-[#f3f4f6] text-[#171717] text-sm font-semibold">
+                Open Dialog
+            </button>
+        </div>
 
         <!-- Modal -->
-        <div id="myModal" class="hidden fixed inset-0 z-10 overflow-y-auto" aria-labelledby="dialog-title" role="dialog"
-            aria-modal="true">
-            <!-- Overlay -->
-            <div class="fixed inset-0 bg-gray-500/75 transition-opacity" aria-hidden="true"></div>
-
-            <!-- Modal content wrapper -->
-            <div class="flex items-center justify-center min-h-screen p-4 text-center">
-                <div class="bg-white rounded-lg shadow-xl w-full max-w-md p-6 relative z-20">
-                    <h2 id="dialog-title" class="text-lg font-medium text-gray-900 mb-4">Modal Title</h2>
-                    <p class="text-sm text-gray-700 mb-4">This is a modal dialog. Click the button below to close it.
+        <div id="myModal" class="hidden fixed inset-0 z-10 bg-gray-500/75 flex items-center justify-center"
+            role="dialog" aria-modal="true">
+            <!-- Modal Content -->
+            <div
+                class="grid grid-flow-col grid-rows-1 modal-size bg-white rounded-lg shadow-xl max-w-md p-20 relative z-20 ">
+                <!-- Header -->
+                <div>
+                    <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">Modal Title</h2>
+                    <p class="text-sm text-gray-700 mb-4">
+                        This is a modal dialog. Click the button below to close it.
                     </p>
-                    <button id="closeModalBtn" class="bg-red-500 text-white px-4 py-2 rounded">Close</button>
+                </div>
+
+                <div class="h-full w-full p-4">
+                    <div class="container p-20">
+                        <p class="text">
+                            asdasd
+                        </p>
+
+                    </div>
+
+                    <div class="mt-6 flex justify-center gap-2">
+
+                        <button class="product-checkout bg-[#171717] text-white text-sm rounded">
+                            Proceed to Quote
+                        </button>
+                        <button id="closeModalBtn" class="product-checkout bg-[#171717] text-white text-sm rounded">
+                            Close
+                        </button>
+
+                    </div>
                 </div>
             </div>
         </div>
