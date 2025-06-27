@@ -1,18 +1,20 @@
-  const openBtn = document.getElementById('openModalBtn');
-        const closeBtn = document.getElementById('closeModalBtn');
-        const modal = document.getElementById('myModal');
+document.addEventListener("DOMContentLoaded", function() {
+            const openButtons = document.querySelectorAll('.openModalBtn');
+            const closeButtons = document.querySelectorAll('.closeModalBtn');
 
-        openBtn.addEventListener('click', () => {
-            modal.classList.remove('hidden');
-        });
+            openButtons.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const modalId = btn.getAttribute('data-modal-id');
+                    const modal = document.getElementById(modalId);
+                    if (modal) modal.classList.remove('hidden');
+                });
+            });
 
-        closeBtn.addEventListener('click', () => {
-            modal.classList.add('hidden');
-        });
-
-        // Optional: Close modal when clicking on background
-        modal.addEventListener('click', (e) => {
-            if (e.target === modal) {
-                modal.classList.add('hidden');
-            }
+            closeButtons.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    // find the closest modal ancestor
+                    const modal = btn.closest('.modal');
+                    if (modal) modal.classList.add('hidden');
+                });
+            });
         });
