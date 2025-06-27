@@ -21,7 +21,7 @@ include('header.php');
     <div class="grid grid-flow-col px-48 p-24 grid-rows-2 md:px-20 py-4 md:py-10 h-70vh text-white bg-no-repeat bg-cover bg-center"
         style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/img/Base1 Warehouse.jpg'); background-size: cover;">
 
-        <div class="text m-0 p-0 justify-center items-center">
+        <div class="mt-24 text m-0 p-0 justify-center items-center">
             <p class="text-4xl font-semibold mb-5">We're a passionate group of people<br>
                 building the future of industrial <br>
                 sales and services. <br>
@@ -135,7 +135,7 @@ include('header.php');
 
     </footer>
 
-    <footer class="bg-[#fff] md:px-20 h-auto">
+    <footer class="bg-[#fff] md:px-20 h-auto mt-24">
         <div class="grid grid-flow-col grid-rows-4 px-48 md:px-20 py-4 md:py-10 h-auto p-32">
             <div class="text m-0 p-0 flex flex-col justify-center items-center">
                 <img class="image block" src="./src/img/base1 logo.png" alt="Base1 Logo" width="150" height="100">

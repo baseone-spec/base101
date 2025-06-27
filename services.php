@@ -16,9 +16,10 @@ include('header.php');
     <!-- <button onclick="topFunction()" id="myBtn" title="Go to top">^</button> -->
 
 
-    <div class="w-full h-96 text-center justify-center items-center content-center bg-no-repeat bg-cover bg-center"
+    <div class="w-full h-96 text-center justify-center items-center align-content bg-no-repeat bg-cover bg-center"
         style="background-image: url('./src/img/bg-product.jpg'); background-size: cover; background-blend-mode: overlay; background-color: rgba(255,255,255,0.5);">
-        <p class="text-6xl font-bold text-[#171717] mb-5">Official Distributor of Top Quality Psangelus Products</p>
+        <p class="text-6xl font-bold text-[#171717] mb-5">Official Distributor of Top Quality Psangelus Products
+        </p>
         <p class="text-2xl text-[#2D2D2D]">Most of our products are limited releases that won't come back. <br>
             Get your favorite items while they're in stock.</p>
         <button class="rounded-full bg-[#D00000] text-white px-6 py-2 mt-8 font-open-sans button-hover"
@@ -73,30 +74,53 @@ include('header.php');
                     class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
                     role="dialog" aria-modal="true">
                     <!-- Modal Content -->
-                    <div
-                        class="grid grid-flow-col grid-rows-1 modal-size bg-white rounded-lg shadow-xl max-w-md p-20 relative z-50 ">
+                    <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
                         <!-- Header -->
-                        <div>
-                            <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS Legacy Series
-                            </h2>
-                            <p class="text-sm text-gray-700 mb-4">
-                                Model 120L - 121L.jpg
-                            </p>
-                            <div class="image">
+                        <div class="w-full justify-center align-content place-items-center p-12">
+                            <div class=" image-container grid grid-cols-1">
                                 <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 120L - 121L.jpg" alt=""
                                     class="image1" />
+                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 120L - 121L.0.jpg" alt=""
+                                    class="image2" />
                             </div>
                         </div>
 
-                        <div class="h-full w-full p-4">
-                            <div class="container p-20">
-                                <p class="text">
-                                    asdasd
-                                </p>
+                        <div class="w-full p-12 ">
+                            <div class="container">
+                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS Legacy
+                                    Series - Model 120L / 121L
+                                </h2>
+                                <p class="text-sm text-gray-700 mb-4">
+                                    <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
+                                    The Angelus Legacy Series of can seamers are rugged and reliable machines that have
+                                    stood the test of time and have not only been an integral part of a wide array of
+                                    seaming applications for decades, but are still relevant and trusted in today's
+                                    demanding markets and applications.
+                                    <br><br>
+                                    The Angelus Legacy Series seamers, like the newer V-Series, incorporates a
+                                    base-mounted stainless steel machine enclosure. The base-mounting provides precision
+                                    and repeatability, while the stainless steel is durable and easy to clean. The Model
+                                    121L has 12 seaming stations and runs at speeds from 400 to 1500 Cans Per Minute
+                                    (CPM).
+                                    <br><br>
 
+                                    <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
+
+                                    • Runs at speeds of 400-1500 Containers Per Minute (CPM) <br>
+                                    • 12 seaming stations<br>
+                                    • Stainless steel base top plate, castings and components below-the-feed-line <br>
+                                    • Single roll cover separator <br>
+                                    • Driven lower lifter oil pump system <br>
+                                    • Automatic oil lubrication recirculating and filtration system <br>
+                                    • Second operation off-seam setting <br>
+                                    • No can/no cover feed <br>
+                                    •External warning safety horn and light <br>
+                                    • Comes with a tool kit and operators manual
                             </div>
+                            </p>
 
-                            <div class="mt-6 flex justify-center gap-2">
+
+                            <div class="mt-6  gap-2">
 
                                 <button type="button" class="product-checkout bg-[#171717] text-white text-sm rounded">
                                     Proceed to Quote
@@ -363,7 +387,7 @@ include('header.php');
 
     </footer>
 
-    <footer class="bg-[#fff] md:px-20 h-auto">
+    <footer class="bg-[#fff] md:px-20 h-auto  mt-24">
         <div class="grid grid-flow-col grid-rows-4 px-48 md:px-20 py-4 md:py-10 h-auto p-32">
             <div class="text m-0 p-0 flex flex-col justify-center items-center">
                 <img class="image block" src="./src/img/base1 logo.png" alt="Base1 Logo" width="150" height="100">

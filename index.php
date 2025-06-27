@@ -396,7 +396,7 @@ include('header.php');
 
     </footer>
 
-    <footer class="bg-[#fff] md:px-20 h-auto">
+    <footer class="bg-[#fff] md:px-20 h-auto mt-24">
         <div class="grid grid-flow-col grid-rows-4 px-48 md:px-20 py-4 md:py-10 h-auto p-32">
             <div class="text m-0 p-0 flex flex-col justify-center items-center">
                 <img class="image block" src="./src/img/base1 logo.png" alt="Base1 Logo" width="150" height="100">
