@@ -29,30 +29,34 @@ include('header.php');
     <!-- product list -->
 
 
-    <div class="w-full h-auto md:p-20 p-32 ">
+
+
+    <div class="w-full h-auto px-48 p-20">
+
         <div class="mx-auto">
             <h2 class="text-3xl font-bold font-open-sans text-[#171717] ">Our Available Can Seamer's Products</h2>
-            <p class="font-open-sans font-light">Reach out to us for any questions or inquiries.</p>
+            <p class="font-open-sans font-light">ANGELUS V-Series Seamers</p>
         </div>
+    </div>
 
-        <div class="mt-12 grid grid-flow-col grid-cols-4 gap-10 item-center justify-center align-content ">
-
-            <div class="group relative shadow-xl p-4 justify-center align-content">
+    <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-48 pb-30 custom-padding h-auto md:h-auto w-full justify-center place-items-center">
+        <div class="pb-10">
+            <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 120L - 121L.jpg" alt=""
-                        class="image1" />
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 120L - 121L.0.jpg" alt=""
-                        class="image2" />
+                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 3V.jpg" alt="" class="image1" />
+                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 3V.0.jpg" alt="" class="image2" />
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
 
-                        Angelus Legacy Series Can Seamer
+                        ALS Can Seamer V-Series - Model 3V
 
                         <p class="text-sm font-light">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis
-                            iste.
+                            The Angelus V-Series Model 3V seamer is ideal for running large 2- and 3-piece cans with
+                            diameters from 211 to 603.With speeds from 75 to 350 Cans Per Minute (CPM) and 3 seaming
+                            spindles, this machine is well suited for seaming powdered food ingredients, powdered
+                            drinks, nutraceuticals, and powdered infant formula.
                         </p>
                     </h3>
 
@@ -77,49 +81,54 @@ include('header.php');
                         <!-- Header -->
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 120L - 121L.0.jpg" alt=""
-                                    class="image1" />
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 120L - 121L.jpg" alt=""
+                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 3V.jpg" alt="" class="image1" />
+                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 3V.0.jpg" alt=""
                                     class="image2" />
                             </div>
                         </div>
 
                         <div class="w-full p-12 ">
                             <div class="container h-65vh">
-                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS Legacy
-                                    Series - Model 120L / 121L
+                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
+                                    Can Seamer V-Series - Model 3V
                                 </h2>
                                 <p class="text-sm text-gray-700 mb-4">
                                     <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
-                                    The Angelus Legacy Series of can seamers are rugged and reliable machines that
-                                    have
-                                    stood the test of time and have not only been an integral part of a wide array
-                                    of
-                                    seaming applications for decades, but are still relevant and trusted in today's
-                                    demanding markets and applications.
-                                    <br><br>
-                                    The Angelus Legacy Series seamers, like the newer V-Series, incorporates a
-                                    base-mounted stainless steel machine enclosure. The base-mounting provides
-                                    precision
-                                    and repeatability, while the stainless steel is durable and easy to clean. The
-                                    Model
-                                    121L has 12 seaming stations and runs at speeds from 400 to 1500 Cans Per Minute
-                                    (CPM).
+                                    The Angelus V-Series Model 3V seamer is ideal for running large 2- and 3-piece
+                                    cans
+                                    with diameters from 211 to 603. With speeds from 75 to 350 Cans Per Minute (CPM)
+                                    and
+                                    3 seaming spindles, this machine is well suited for seaming powdered food
+                                    ingredients, powdered drinks, nutraceuticals, and powdered infant formula.
+                                    Constructed of 304 stainless steel in all product contact areas, this machine
+                                    offers
+                                    a clean, sanitary design for food and beverage applications. This rotary machine
+                                    can
+                                    be configured for random infeed or filler connection
+
                                     <br><br>
 
                                     <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
 
-                                    • Runs at speeds of 400-1500 Containers Per Minute (CPM) <br>
-                                    • 12 seaming stations<br>
-                                    • Stainless steel base top plate, castings and components below-the-feed-line
+                                    • Runs at speeds from 75 to 350 Containers Per Minute (CPM) <br>
+                                    • Provided with random infeed or filler connection, in either mechanical or
+                                    servo
+                                    synchro <br>
+                                    • New and improved driven lower lifters <br>
+                                    • Motorized turret height adjustment with digital readout <br>
+                                    • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                    • Easy-adjust chuck plate springs to minimize downtime <br>
+                                    • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
                                     <br>
-                                    • Single roll cover separator <br>
-                                    • Driven lower lifter oil pump system <br>
-                                    • Automatic oil lubrication recirculating and filtration system <br>
-                                    • Second operation off-seam setting <br>
-                                    • No can/no cover feed <br>
-                                    •External warning safety horn and light <br>
-                                    • Comes with a tool kit and operators manual
+                                    • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
+                                    operator
+                                    safety <br>
+                                    • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                    • Under cover gassing control with variable valve for use in seaming beverages
+                                    <br>
+                                    • Ancillary systems are integrated into the guarding enclosure <br>
+                                    • Vibration isolation pads on seamer legs <br>
+                                    • Comes with basic tool kit <br>
                             </div>
                             </p>
 
@@ -141,22 +150,25 @@ include('header.php');
 
 
             </div>
-
-            <!-- other products -->
-            <div class="group relative shadow-xl p-4 justify-center align-content">
+        </div>
+        <div class="pb-10">
+            <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 181S.jpg" alt="" class="image1" />
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 181S.0.jpg" alt="" class="image2" />
+                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 4V.0.jpg" alt="" class="image1" />
+                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 4V.jpg" alt="" class="image2" />
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
 
-                        Angelus Legacy Series Can Seamer
+                        ALS Can Seamer V-Series - Model 4V
 
                         <p class="text-sm font-light">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis
-                            iste.
+                            The Angelus V-Series Model 4V seamer is ideal for running metal and composite cans with
+                            diameters from 200 to 401. With speeds from 100 to 450 Cans Per Minute (CPM) and 4
+                            seaming
+                            spindles, and constructed of 304 stainless steel in all product contact areas.this
+                            machine
+                            offers a clean, sanitary design.
                         </p>
                     </h3>
 
@@ -167,7 +179,8 @@ include('header.php');
                     <button type="button"
                         class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
                         data-modal-id="modal-3">Request a Quote</button>
-                    <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
+                    <button class="product-btn bg-[#101828] text-white mt-4 font-open-sans button-hover">add
+                        to
                         cart</button>
                 </div>
 
@@ -181,53 +194,53 @@ include('header.php');
                         <!-- Header -->
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 181S.0.jpg" alt=""
-                                    class="image1" />
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 181S.jpg" alt=""
+                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 4V.jpg" alt="" class="image1" />
+                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 4V.0.jpg" alt=""
                                     class="image2" />
                             </div>
                         </div>
 
                         <div class="w-full p-12">
                             <div class="container h-65vh">
-                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS Legacy
-                                    Series - Model 181S
+                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
+                                    Can Seamer V-Series - Model 4V
                                 </h2>
                                 <p class="text-sm text-gray-700 mb-4">
                                     <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
-                                    The Angelus Legacy Series of can seamers are rugged and reliable machines that
-                                    have
-                                    stood the test of time and have not only been an integral part of a wide array
-                                    of
-                                    seaming applications for decades, but are still relevant and trusted in today's
-                                    demanding markets and applications.
-                                    <br><br>
-                                    The Angelus Legacy Series seamers, like the newer V-Series, incorporates a
-                                    base-mounted stainless steel machine enclosure. The base-mounting provides
-                                    precision
-                                    and repeatability, while the stainless steel is durable and easy to clean. The
-                                    Model
-                                    181S has 18 seaming stations and runs at speeds up to 2500 Cans Per Minute
-                                    (CPM).
+                                    The Angelus V-Series Model 4V seamer is ideal for running metal and composite
+                                    cans
+                                    with diameters from 200 to 401. With speeds from 100 to 450 Cans Per Minute
+                                    (CPM)
+                                    and 4 seaming spindles, and constructed of 304 stainless steel in all product
+                                    contact areas, this machine offers a clean, sanitary design, well suited for
+                                    food
+                                    and beverage applications. This rotary machine can be configured for random
+                                    infeed
+                                    or filler connection.
+
                                     <br><br>
 
                                     <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
 
-                                    • Runs at speeds of up to 2500 Containers Per Minute (CPM) <br>
-                                    • Eighteen seaming stations <br>
-                                    • Stainless steel base top plate and castings and components below-the-feed-line
+                                    • Runs at speeds up to 100 - 450 Cans Per Minute (CPM) <br>
+                                    • Provided with random infeed or filler connection, in either mechanical or
+                                    servo
+                                    synchro <br>
+                                    • New and improved driven lower lifters <br>
+                                    • Motorized turret height adjustment with digital readout <br>
+                                    • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                    • Easy-adjust chuck plate springs keep downtime to a minimum <br>
+                                    • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
                                     <br>
-                                    • Under cover gassing attachment <br>
-                                    • Two-speed CO² gassing controls <br>
-                                    • One set of can and end change parts<br>
-                                    • Titanium Nitride-coated Angelloy® seaming chucks and seaming rolls, rolls have
+                                    • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
+                                    operator
+                                    safety <br>
+                                    • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                    • Under cover gassing control with variable valve for use in seaming beverages
                                     <br>
-                                    • ceramic bearings <br>
-                                    • Dual single roll cover separator<br>
-                                    • Driven lower lifter oil pump system<br>
-                                    • Automatic oil lubrication recirculating and filtration system<br>
-                                    • Second operation off-seam setting<br>
-                                    • Comes with a tool kit and operators manual
+                                    • Ancillary systems are integrated into the guarding enclosure <br>
+                                    • Vibration isolation pads on seamer legs <br>
+                                    • Comes with basic tool kit <br>
                             </div>
                             </p>
 
@@ -249,22 +262,25 @@ include('header.php');
 
 
             </div>
-
-            <!-- other products -->
-            <div class="group relative shadow-xl p-4 justify-center align-content">
+        </div>
+        <div class="pb-10">
+            <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt="" class="image1" />
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt="" class="image2" />
+                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 6V.0.jpg" alt="" class="image1" />
+                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 6V.jpg" alt="" class="image2" />
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
 
-                        Angelus Legacy Series Can Seamer
+                        ALS Can Seamer V-Series - Model 6V
 
                         <p class="text-sm font-light">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis
-                            iste.
+                            The Angelus V-Series Model 6V seamer is ideal for running metal and composite cans with
+                            diameters from 200 to 401. With speeds from 175 to 700 Cans Per Minute (CPM) and 6
+                            seaming
+                            spindles, and constructed of 304 stainless steel in all product contact areas, this
+                            machine
+                            offers a clean, sanitary design.
                         </p>
                     </h3>
 
@@ -289,51 +305,53 @@ include('header.php');
                         <!-- Header -->
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt=""
+                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 6V.1.jpg" alt=""
                                     class="image1" />
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt=""
+                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 6V.2.jpg" alt=""
                                     class="image2" />
                             </div>
                         </div>
 
                         <div class="w-full p-12">
                             <div class="container h-65vh">
-                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS Legacy
-                                    Series - Model 60L
+                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
+                                    Can Seamer V-Series - Model 6V
                                 </h2>
                                 <p class="text-sm text-gray-700 mb-4">
                                     <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
-                                    The Angelus Legacy Series of can seamers are rugged and reliable machines that
-                                    have
-                                    stood the test of time and have not only been an integral part of a wide array
-                                    of
-                                    seaming applications for decades, but are still relevant and trusted in today's
-                                    demanding markets and applications.
-                                    <br><br>
-                                    The Angelus Legacy Series seamers, like the newer V-Series, incorporates a
-                                    base-mounted stainless steel machine enclosure. The base-mounting provides
-                                    precision
-                                    and repeatability, while the stainless steel is durable and easy to clean. The
-                                    Model
-                                    60L has six seaming stations and runs at speeds from 175 to 500 Cans Per Minute
-                                    (CPM).
+                                    TThe Angelus V-Series Model 6V seamer is ideal for running metal and composite
+                                    cans
+                                    with diameters from 200 to 401. With speeds from 175 to 700 Cans Per Minute
+                                    (CPM)
+                                    and 6 seaming spindles, and constructed of 304 stainless steel in all product
+                                    contact areas, this machine offers a clean, sanitary design, well suited for
+                                    food
+                                    and beverage applications. This rotary machine can be configured for random
+                                    infeed
+                                    or filler connection.
+
                                     <br><br>
 
                                     <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
 
-                                    • Comes with a tool kit and operators manual<br>
-                                    • Runs at speeds of 175-500 Containers Per Minute (CPM)<br>
-                                    • Six seaming stations<br>
-                                    • One set of can and end change parts<br>
-                                    • Single roll cover separator<br>
-                                    • Gear-driven lower lifters with seven point lubrication system<br>
-                                    • Second operation off-seam setting<br>
-                                    • Automatic stop control system<br>
-                                    • Grease lubrication<br>
-                                    • Leading industry PLC and touch screen control<br>
-                                    • Pneumatic no can/no cover feed<br>
-                                    • Variable speed motor drive<br>
-                                    • Comes with a tool kit and operators manual
+                                    • Runs at speeds up to 175 -700 Containers Per Minute (CPM) <br>
+                                    • Provided with random infeed or filler connection, in either mechanical or
+                                    servo
+                                    synchro <br>
+                                    • New and improved driven lower lifters <br>
+                                    • Motorized turret height adjustment with digital readout <br>
+                                    • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                    • Easy-adjust chuck plate springs keep downtime to a minimum <br>
+                                    • Industry-standard PLC and HMI controls, pilot devices, and E-Stop <br>
+                                    • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
+                                    operator
+                                    safety <br>
+                                    • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                    • Under cover gassing control with variable valve for use in seaming beverages
+                                    <br>
+                                    • Ancillary systems are integrated into the guarding enclosure <br>
+                                    • Vibration isolation pads on seamer legs <br>
+                                    • Comes with basic tool kit <br>
                             </div>
                             </p>
 
@@ -353,26 +371,26 @@ include('header.php');
                     </div>
                 </div>
 
-
             </div>
-
-            <!-- other products -->
-            <div class="group relative shadow-xl p-4 justify-center align-content">
+        </div>
+        <div class="pb-10">
+            <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Models 61H - 62H -  63H.jpg" alt=""
-                        class="image1" />
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Models 61H - 62H -  63H.0.jpg" alt=""
-                        class="image2" />
+                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 8V.0.jpg" alt="" class="image1" />
+                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 8V.jpg" alt="" class="image2" />
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
 
-                        Angelus Legacy Series Can Seamer
+                        ALS Can Seamer V-Series - Model 8V
 
                         <p class="text-sm font-light">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis
-                            iste.
+                            The Angelus V-Series Model 6V seamer is ideal for running metal and composite cans with
+                            diameters from 200 to 401. With speeds from 175 to 700 Cans Per Minute (CPM) and 6
+                            seaming
+                            spindles, and constructed of 304 stainless steel in all product contact areas, this
+                            machine
+                            offers a clean, sanitary design.
                         </p>
                     </h3>
 
@@ -397,50 +415,53 @@ include('header.php');
                         <!-- Header -->
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Models 61H - 62H -  63H.0.jpg"
-                                    alt="" class="image1" />
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Models 61H - 62H -  63H.jpg"
-                                    alt="" class="image2" />
+                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 8V.1.jpg" alt=""
+                                    class="image1" />
+                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 8V.jpg" alt="" class="image2" />
                             </div>
                         </div>
 
                         <div class="w-full p-12">
                             <div class="container h-65vh">
-                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS Legacy
-                                    Series - Models 61H / 62H / 63H
+                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
+                                    Can Seamer V-Series - Model 8V
                                 </h2>
                                 <p class="text-sm text-gray-700 mb-4">
                                     <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
-                                    The Angelus Legacy Series of can seamers are rugged and reliable machines that
-                                    have
-                                    stood the test of time and have not only been an integral part of a wide array
-                                    of
-                                    seaming applications for decades, but are still relevant and trusted in today's
-                                    demanding markets and applications.
-                                    <br><br>
-                                    The Angelus Legacy Series seamers, like the newer V-Series, incorporates a
-                                    base-mounted stainless steel machine enclosure. The base-mounting provides
-                                    precision
-                                    and repeatability, while the stainless steel is durable and easy to clean. The
-                                    Model
-                                    63H has six seaming stations and runs at speeds from 225 to 700 Cans Per Minute
-                                    (CPM).
+                                    The Angelus V-Series Model 8V seamer is ideal for running metal and composite
+                                    cans
+                                    with diameters from 200 to 300. With speeds from 250 to 1000 Cans Per Minute
+                                    (CPM)
+                                    and 8 seaming spindles, and constructed from 304 stainless steel in all product
+                                    contact areas, this machine offers a clean, sanitary design, well suited for
+                                    food
+                                    and beverage applications. This rotary machine can be configured for random
+                                    infeed
+                                    or filler connection.
                                     <br><br>
 
                                     <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
-                                    • Steam vacuum<br>
-                                    • Under cover gassing<br>
-                                    • Titanium Nitride-coated Angelloy® seaming chucks and seaming rolls, rolls
-                                    have<br>
-                                    • ceramic bearings<br>
-                                    • Quick set seaming can<br>
-                                    • Filler connecting parts<br>
-                                    • Random infeed<br>
-                                    • Cover feed chute with vibrator<br>
-                                    • Nickel-plated machine<br>
-                                    • Hot water automatic seamer washdown<br>
-                                    • Recipe motorized turret height elevating mechanism<br>
-                                    • Optional can heights are available for some applications
+
+                                    • Runs at speeds up to 250 -1000 Containers Per Minute (CPM) <br>
+                                    • Provided with random infeed or filler connection, in either mechanical or
+                                    servo
+                                    synchro <br>
+                                    • New and improved driven lower lifters <br>
+                                    • Motorized turret height adjustment with digital readout <br>
+                                    • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                    • Easy-adjust chuck plate springs keep downtime to a minimum <br>
+                                    • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
+                                    <br>
+                                    • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
+                                    <br>
+                                    operator
+                                    safety <br>
+                                    • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                    • Under cover gassing control with variable valve for use in seaming beverages
+                                    <br>
+                                    • Ancillary systems are integrated into the guarding enclosure <br>
+                                    • Vibration isolation pads on seamer legs <br>
+                                    • Comes with basic tool kit <br>
                             </div>
                             </p>
 
@@ -463,29 +484,27 @@ include('header.php');
 
 
             </div>
-
         </div>
 
-
-        <!-- second Row products -->
-        <div class="mt-12 grid grid-flow-col grid-cols-4 gap-10 item-center justify-center align-content ">
-
-            <div class="group relative shadow-xl p-4 justify-center align-content">
+        <!-- second row -->
+        <div>
+            <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 120L - 121L.jpg" alt=""
-                        class="image1" />
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 120L - 121L.0.jpg" alt=""
-                        class="image2" />
+                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 9V.jpg" alt="" class="image1" />
+                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 9V.0.jpg" alt="" class="image2" />
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
 
-                        Angelus Legacy Series Can Seamer
+                        ALS Can Seamer V-Series - Model 9V
 
                         <p class="text-sm font-light">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis
-                            iste.
+                            The Angelus V-Series Model 9V seamer is ideal for running cans with diameters from 200
+                            to
+                            401. With speeds from 300 to 1200 Cans Per Minute (CPM) and 9 seaming spindles, this
+                            machine
+                            delivers high speed performance when needed. Constructed from 304 stainless steel in all
+                            product contact areas.
                         </p>
                     </h3>
 
@@ -495,14 +514,14 @@ include('header.php');
                 <div class="mt-4 flex justify-between w-70 gap-2">
                     <button type="button"
                         class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
-                        data-modal-id="modal-2">Request a Quote</button>
+                        data-modal-id="modal-5">Request a Quote</button>
                     <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
                         cart</button>
                 </div>
 
                 <!-- Modal -->
 
-                <div id="modal-2"
+                <div id="modal-5"
                     class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
                     role="dialog" aria-modal="true">
                     <!-- Modal Content -->
@@ -510,49 +529,51 @@ include('header.php');
                         <!-- Header -->
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 120L - 121L.0.jpg" alt=""
-                                    class="image1" />
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 120L - 121L.jpg" alt=""
+                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 9V.jpg" alt="" class="image1" />
+                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 9V.0.jpg" alt=""
                                     class="image2" />
                             </div>
                         </div>
 
                         <div class="w-full p-12 ">
                             <div class="container h-65vh">
-                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS Legacy
-                                    Series - Model 120L / 121L
+                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
+                                    Can Seamer V-Series - Model 9V
                                 </h2>
                                 <p class="text-sm text-gray-700 mb-4">
                                     <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
-                                    The Angelus Legacy Series of can seamers are rugged and reliable machines that
-                                    have
-                                    stood the test of time and have not only been an integral part of a wide array
-                                    of
-                                    seaming applications for decades, but are still relevant and trusted in today's
-                                    demanding markets and applications.
-                                    <br><br>
-                                    The Angelus Legacy Series seamers, like the newer V-Series, incorporates a
-                                    base-mounted stainless steel machine enclosure. The base-mounting provides
-                                    precision
-                                    and repeatability, while the stainless steel is durable and easy to clean. The
-                                    Model
-                                    121L has 12 seaming stations and runs at speeds from 400 to 1500 Cans Per Minute
-                                    (CPM).
+                                    The Angelus V-Series Model 9V seamer is ideal for running cans with diameters
+                                    from
+                                    200 to 401. With speeds from 300 to 1200 Cans Per Minute (CPM) and 9 seaming
+                                    spindles, this machine delivers high speed performance when needed. Constructed
+                                    from
+                                    304 stainless steel in all product contact areas, this machine offers a clean,
+                                    sanitary design, well suited for food applications. This rotary machine can be
+                                    configured for random infeed or filler connection.
+
                                     <br><br>
 
                                     <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
 
-                                    • Runs at speeds of 400-1500 Containers Per Minute (CPM) <br>
-                                    • 12 seaming stations<br>
-                                    • Stainless steel base top plate, castings and components below-the-feed-line
+                                    • Runs at speeds up to 300 -1200 Containers Per Minute (CPM) <br>
+                                    • Provided with random infeed or filler connection, in either mechanical or
+                                    servo
+                                    synchro <br>
+                                    • New and improved driven lower lifters <br>
+                                    • Motorized turret height adjustment with digital readout <br>
+                                    • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                    • Easy-adjust chuck plate springs keep downtime to a minimum <br>
+                                    • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
                                     <br>
-                                    • Single roll cover separator <br>
-                                    • Driven lower lifter oil pump system <br>
-                                    • Automatic oil lubrication recirculating and filtration system <br>
-                                    • Second operation off-seam setting <br>
-                                    • No can/no cover feed <br>
-                                    •External warning safety horn and light <br>
-                                    • Comes with a tool kit and operators manual
+                                    •NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
+                                    operator
+                                    safety <br>
+                                    • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                    • Under cover gassing control with variable valve for use in seaming beverages
+                                    <br>
+                                    • Ancillary systems are integrated into the guarding enclosure <br>
+                                    • Vibration isolation pads on seamer legs <br>
+                                    • Comes with basic tool kit <br>
                             </div>
                             </p>
 
@@ -572,24 +593,28 @@ include('header.php');
                     </div>
                 </div>
 
-
             </div>
-
-            <!-- other products -->
-            <div class="group relative shadow-xl p-4 justify-center align-content">
+        </div>
+        <div>
+            <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 181S.jpg" alt="" class="image1" />
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 181S.0.jpg" alt="" class="image2" />
+                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 12V.jpg" alt="" class="image1" />
+                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 12V.0.jpg" alt="" class="image2" />
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
 
-                        Angelus Legacy Series Can Seamer
+                        ALS Can Seamer V-Series - Model 12V
+
 
                         <p class="text-sm font-light">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis
-                            iste.
+
+                            The Angelus V-Series Model 12V seamer is ideal for running cans with diameters from 200
+                            to
+                            300. With speeds from 400 to 1800 Cans Per Minute (CPM) and 12 seaming spindles, this
+                            machine is optimized for high-speed beverage applications. Constructed from 304
+                            stainless
+                            steel in all.
                         </p>
                     </h3>
 
@@ -599,14 +624,14 @@ include('header.php');
                 <div class="mt-4 flex justify-between w-70 gap-2">
                     <button type="button"
                         class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
-                        data-modal-id="modal-3">Request a Quote</button>
+                        data-modal-id="modal-6">Request a Quote</button>
                     <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
                         cart</button>
                 </div>
 
                 <!-- Modal -->
 
-                <div id="modal-3"
+                <div id="modal-6"
                     class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
                     role="dialog" aria-modal="true">
                     <!-- Modal Content -->
@@ -614,53 +639,51 @@ include('header.php');
                         <!-- Header -->
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 181S.0.jpg" alt=""
-                                    class="image1" />
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 181S.jpg" alt=""
+                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 12V.jpg" alt="" class="image1" />
+                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 12V.0.jpg" alt=""
                                     class="image2" />
                             </div>
                         </div>
 
                         <div class="w-full p-12">
                             <div class="container h-65vh">
-                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS Legacy
-                                    Series - Model 181S
+                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
+                                    Can Seamer V-Series - Model 12V
                                 </h2>
                                 <p class="text-sm text-gray-700 mb-4">
                                     <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
-                                    The Angelus Legacy Series of can seamers are rugged and reliable machines that
-                                    have
-                                    stood the test of time and have not only been an integral part of a wide array
-                                    of
-                                    seaming applications for decades, but are still relevant and trusted in today's
-                                    demanding markets and applications.
-                                    <br><br>
-                                    The Angelus Legacy Series seamers, like the newer V-Series, incorporates a
-                                    base-mounted stainless steel machine enclosure. The base-mounting provides
-                                    precision
-                                    and repeatability, while the stainless steel is durable and easy to clean. The
-                                    Model
-                                    181S has 18 seaming stations and runs at speeds up to 2500 Cans Per Minute
-                                    (CPM).
+                                    The Angelus V-Series Model 12V seamer is ideal for running cans with diameters
+                                    from
+                                    200 to 300. With speeds from 400 to 1800 Cans Per Minute (CPM) and 12 seaming
+                                    spindles, this machine is optimized for high-speed beverage applications.
+                                    Constructed from 304 stainless steel in all product contact areas, this machine
+                                    offers a clean, sanitary design, well suited for these projects. This rotary
+                                    machine
+                                    can be configured for random infeed or filler connection.
+
                                     <br><br>
 
                                     <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
 
-                                    • Runs at speeds of up to 2500 Containers Per Minute (CPM) <br>
-                                    • Eighteen seaming stations <br>
-                                    • Stainless steel base top plate and castings and components below-the-feed-line
+                                    • Runs at speeds from 400 to1800 Containers Per Minute (CPM) <br>
+                                    • Provided with random infeed or filler connection, in either mechanical or
+                                    servo
+                                    synchro <br>
+                                    • New and improved driven lower lifters <br>
+                                    • Motorized turret height adjustment with digital readout <br>
+                                    • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                    • Easy-adjust chuck plate springs keep downtime to a minimum <br>
+                                    • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
                                     <br>
-                                    • Under cover gassing attachment <br>
-                                    • Two-speed CO² gassing controls <br>
-                                    • One set of can and end change parts<br>
-                                    • Titanium Nitride-coated Angelloy® seaming chucks and seaming rolls, rolls have
+                                    • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
+                                    operator
+                                    safety <br>
+                                    • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                    • Under cover gassing control with variable valve for use in seaming beverages
                                     <br>
-                                    • ceramic bearings <br>
-                                    • Dual single roll cover separator<br>
-                                    • Driven lower lifter oil pump system<br>
-                                    • Automatic oil lubrication recirculating and filtration system<br>
-                                    • Second operation off-seam setting<br>
-                                    • Comes with a tool kit and operators manual
+                                    • Ancillary systems are integrated into the guarding enclosure <br>
+                                    • Vibration isolation pads on seamer legs <br>
+                                    • Comes with basic tool kit <br>
                             </div>
                             </p>
 
@@ -679,12 +702,10 @@ include('header.php');
                         </div>
                     </div>
                 </div>
-
-
             </div>
-
-            <!-- other products -->
-            <div class="group relative shadow-xl p-4 justify-center align-content">
+        </div>
+        <div>
+            <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
                     <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt="" class="image1" />
                     <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt="" class="image2" />
@@ -692,12 +713,13 @@ include('header.php');
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
 
-                        Angelus Legacy Series Can Seamer
+                        ALS Can Seamer V-Series - Model 18V
 
                         <p class="text-sm font-light">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis
-                            iste.
+                            The Angelus V-Series Model 18V seamer is ideal for running cans with diameters from 200
+                            to
+                            300. With speeds from 500 to 2500 Cans Per Minute (CPM) and 18 seaming spindles, this
+                            machine is optimized for high-speed beverage applications. Ensuring a perfect transfer
                         </p>
                     </h3>
 
@@ -707,14 +729,14 @@ include('header.php');
                 <div class="mt-4 flex justify-between w-70 gap-2">
                     <button type="button"
                         class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
-                        data-modal-id="modal-4">Request a Quote</button>
+                        data-modal-id="modal-7">Request a Quote</button>
                     <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
                         cart</button>
                 </div>
 
                 <!-- Modal -->
 
-                <div id="modal-4"
+                <div id="modal-7"
                     class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
                     role="dialog" aria-modal="true">
                     <!-- Modal Content -->
@@ -731,42 +753,46 @@ include('header.php');
 
                         <div class="w-full p-12">
                             <div class="container h-65vh">
-                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS Legacy
-                                    Series - Model 60L
+                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
+                                    Can Seamer V-Series - Model 18V
                                 </h2>
                                 <p class="text-sm text-gray-700 mb-4">
                                     <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
-                                    The Angelus Legacy Series of can seamers are rugged and reliable machines that
-                                    have
-                                    stood the test of time and have not only been an integral part of a wide array
-                                    of
-                                    seaming applications for decades, but are still relevant and trusted in today's
-                                    demanding markets and applications.
-                                    <br><br>
-                                    The Angelus Legacy Series seamers, like the newer V-Series, incorporates a
-                                    base-mounted stainless steel machine enclosure. The base-mounting provides
-                                    precision
-                                    and repeatability, while the stainless steel is durable and easy to clean. The
-                                    Model
-                                    60L has six seaming stations and runs at speeds from 175 to 500 Cans Per Minute
-                                    (CPM).
+                                    The Angelus V-Series Model 18V seamer is ideal for running cans with diameters
+                                    from
+                                    200 to 300. With speeds from 500 to 2500 Cans Per Minute (CPM) and 18 seaming
+                                    spindles, this machine is optimized for high-speed beverage applications,
+                                    ensuring a
+                                    perfect transfer of the can from the filler turrent onto the can feed extension,
+                                    without spilling product. Constructed from 304 stainless steel in all product
+                                    contact areas, this machine offers a clean, sanitary design, well suited for
+                                    these
+                                    projects. This rotary machine can be configured for random infeed or filler
+                                    connection.
+
                                     <br><br>
 
                                     <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
 
-                                    • Comes with a tool kit and operators manual<br>
-                                    • Runs at speeds of 175-500 Containers Per Minute (CPM)<br>
-                                    • Six seaming stations<br>
-                                    • One set of can and end change parts<br>
-                                    • Single roll cover separator<br>
-                                    • Gear-driven lower lifters with seven point lubrication system<br>
-                                    • Second operation off-seam setting<br>
-                                    • Automatic stop control system<br>
-                                    • Grease lubrication<br>
-                                    • Leading industry PLC and touch screen control<br>
-                                    • Pneumatic no can/no cover feed<br>
-                                    • Variable speed motor drive<br>
-                                    • Comes with a tool kit and operators manual
+                                    • Runs at speeds up to 500 -2500 Containers Per Minute (CPM) <br>
+                                    • Provided with random infeed or filler connection, in either mechanical or
+                                    servo
+                                    synchro <br>
+                                    • New and improved driven lower lifters <br>
+                                    • Motorized turret height adjustment with digital readout <br>
+                                    • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                    • Easy-adjust chuck plate springs keep downtime to a minimum <br>
+                                    • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
+                                    <br>
+                                    • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
+                                    operator
+                                    safety <br>
+                                    • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                    • Under cover gassing control with variable valve for use in seaming beverages
+                                    <br>
+                                    • Ancillary systems are integrated into the guarding enclosure <br>
+                                    • Vibration isolation pads on seamer legs <br>
+                                    • Comes with basic tool kit <br>
                             </div>
                             </p>
 
@@ -785,27 +811,24 @@ include('header.php');
                         </div>
                     </div>
                 </div>
-
-
             </div>
-
-            <!-- other products -->
-            <div class="group relative shadow-xl p-4 justify-center align-content">
+        </div>
+        <div>
+            <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Models 61H - 62H -  63H.jpg" alt=""
-                        class="image1" />
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Models 61H - 62H -  63H.0.jpg" alt=""
-                        class="image2" />
+                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt="" class="image1" />
+                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt="" class="image2" />
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
 
-                        Angelus Legacy Series Can Seamer
+                        ALS Can Seamer V-Series - Model 18V
 
                         <p class="text-sm font-light">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Labore nobis iure obcaecati pariatur. Officiis qui, enim cupiditate aliquam corporis
-                            iste.
+                            The Angelus V-Series Model 18V seamer is ideal for running cans with diameters from 200
+                            to
+                            300. With speeds from 500 to 2500 Cans Per Minute (CPM) and 18 seaming spindles, this
+                            machine is optimized for high-speed beverage applications. Ensuring a perfect transfer
                         </p>
                     </h3>
 
@@ -815,14 +838,14 @@ include('header.php');
                 <div class="mt-4 flex justify-between w-70 gap-2">
                     <button type="button"
                         class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
-                        data-modal-id="modal-1">Request a Quote</button>
+                        data-modal-id="modal-7">Request a Quote</button>
                     <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
                         cart</button>
                 </div>
 
                 <!-- Modal -->
 
-                <div id="modal-1"
+                <div id="modal-7"
                     class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
                     role="dialog" aria-modal="true">
                     <!-- Modal Content -->
@@ -830,50 +853,55 @@ include('header.php');
                         <!-- Header -->
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Models 61H - 62H -  63H.0.jpg"
-                                    alt="" class="image1" />
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Models 61H - 62H -  63H.jpg"
-                                    alt="" class="image2" />
+                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt=""
+                                    class="image1" />
+                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt=""
+                                    class="image2" />
                             </div>
                         </div>
 
                         <div class="w-full p-12">
                             <div class="container h-65vh">
-                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS Legacy
-                                    Series - Models 61H / 62H / 63H
+                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
+                                    Can Seamer V-Series - Model 18V
                                 </h2>
                                 <p class="text-sm text-gray-700 mb-4">
                                     <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
-                                    The Angelus Legacy Series of can seamers are rugged and reliable machines that
-                                    have
-                                    stood the test of time and have not only been an integral part of a wide array
-                                    of
-                                    seaming applications for decades, but are still relevant and trusted in today's
-                                    demanding markets and applications.
-                                    <br><br>
-                                    The Angelus Legacy Series seamers, like the newer V-Series, incorporates a
-                                    base-mounted stainless steel machine enclosure. The base-mounting provides
-                                    precision
-                                    and repeatability, while the stainless steel is durable and easy to clean. The
-                                    Model
-                                    63H has six seaming stations and runs at speeds from 225 to 700 Cans Per Minute
-                                    (CPM).
+                                    The Angelus V-Series Model 18V seamer is ideal for running cans with diameters
+                                    from
+                                    200 to 300. With speeds from 500 to 2500 Cans Per Minute (CPM) and 18 seaming
+                                    spindles, this machine is optimized for high-speed beverage applications,
+                                    ensuring a
+                                    perfect transfer of the can from the filler turrent onto the can feed extension,
+                                    without spilling product. Constructed from 304 stainless steel in all product
+                                    contact areas, this machine offers a clean, sanitary design, well suited for
+                                    these
+                                    projects. This rotary machine can be configured for random infeed or filler
+                                    connection.
+
                                     <br><br>
 
                                     <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
-                                    • Steam vacuum<br>
-                                    • Under cover gassing<br>
-                                    • Titanium Nitride-coated Angelloy® seaming chucks and seaming rolls, rolls
-                                    have<br>
-                                    • ceramic bearings<br>
-                                    • Quick set seaming can<br>
-                                    • Filler connecting parts<br>
-                                    • Random infeed<br>
-                                    • Cover feed chute with vibrator<br>
-                                    • Nickel-plated machine<br>
-                                    • Hot water automatic seamer washdown<br>
-                                    • Recipe motorized turret height elevating mechanism<br>
-                                    • Optional can heights are available for some applications
+
+                                    • Runs at speeds up to 500 -2500 Containers Per Minute (CPM) <br>
+                                    • Provided with random infeed or filler connection, in either mechanical or
+                                    servo
+                                    synchro <br>
+                                    • New and improved driven lower lifters <br>
+                                    • Motorized turret height adjustment with digital readout <br>
+                                    • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                    • Easy-adjust chuck plate springs keep downtime to a minimum <br>
+                                    • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
+                                    <br>
+                                    • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
+                                    operator
+                                    safety <br>
+                                    • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                    • Under cover gassing control with variable valve for use in seaming beverages
+                                    <br>
+                                    • Ancillary systems are integrated into the guarding enclosure <br>
+                                    • Vibration isolation pads on seamer legs <br>
+                                    • Comes with basic tool kit <br>
                             </div>
                             </p>
 
@@ -892,11 +920,7 @@ include('header.php');
                         </div>
                     </div>
                 </div>
-
-
-
             </div>
-
         </div>
     </div>
 
@@ -904,14 +928,9 @@ include('header.php');
 
 
 
-
-
-
-
-
     <script src="./src/js/ap-button.js"> </script>
     <script src="./src/js/modal.js">
-    </script>F
+    </script>
 
 
     <?php
