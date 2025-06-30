@@ -39,7 +39,7 @@
               <li><a href="./about.php">About</a></li>
               <li><a href="./services.php">Shop</a></li>
               <!-- <li><a href="">FAQS</a></li> -->
-              <li><a href="">Contact</a></li>
+              <li><a href="./contact.php">Contact</a></li>
           </ul>
           <div class="menu-icon">
               <i class="fa-solid fa-bars-staggered" onclick="toggleMenu()"></i>
