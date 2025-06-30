@@ -53,14 +53,22 @@ include('header.php');
 
     <!-- product -->
 
-    <div class="container w-full h-full p-32 px-48 text-[#2D2D2D] text-center mt-6">
-        <p class="text-4xl font-semibold mb-2">OUR TOP SELLING PRODUCT</p>
-        <p class="text-lg font-base mb-2 ">Can seamer machine</p>
-        <button class="button1 bg-[#171717] text-white px-6 py-2 mt-4 mb-10 font-open-sans button-hover w-32 ">
-            View Shop
-        </button>
+    <div class="container w-full h-auto p-32 px-48 text-[#2D2D2D] text-center mt-6">
 
-        <div class="grid grid-flow-col grid-rows-1 w-full h-auto gap-10">
+        <p class="text-4xl font-semibold mb-2">OUR TOP SELLING PRODUCT</p>
+        <p class="text-lg font-base mb-5">Can seamer machine</p>
+        <!-- 
+        <button class="button1 bg-[#171717] text-white px-6 py-2 mt-4 mb-10 font-open-sans button-hover w-32 "> -->
+
+        <!-- </button> -->
+        <a href="./services.php"
+            class="button1 bg-[#171717] text-white px-6 py-2 mt-4 inline-block mb-10 font-open-sans button-hover w-32 text-center align-content justify-center ">
+            View Shop
+        </a>
+
+
+
+        <div class="grid grid-flow-col grid-rows-1 w-full h-auto gap-10 pt-12">
 
             <div class="bg-white rounded-lg shadow-md grid place-items-center">
                 <div class="image-wrapper w-full p-4">
@@ -184,7 +192,7 @@ include('header.php');
     <!-- Other Products -->
 
     <!-- thirds column -->
-    <div class="container w-full h-full p-32 px-48  text-[#2D2D2D] text-center mt-6">
+    <div class="container w-full h-auto p-32 px-48  text-[#2D2D2D] text-center mt-6">
         <p class="text-4xl font-semibold mb-2">OTHER PRODUCTS</p>
         <p class="text-lg font-base mb-8 ">Machines Equipments</p>
 
