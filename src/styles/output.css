@@ -375,7 +375,11 @@
     width: 100vh;
   }
 
-
+  /* default container */
+  .container {
+    width: 100%;
+    margin: auto;
+  }
 
   .w-full {
     width: 100%;

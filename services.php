@@ -28,9 +28,6 @@ include('header.php');
 
     <!-- product list -->
 
-
-
-
     <div class="w-full h-auto px-48 p-20">
 
         <div class="mx-auto">
