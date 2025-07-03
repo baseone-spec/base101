@@ -51,7 +51,6 @@ include('header.php');
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
-
             </div>
             <div>
                 <div class="image">
