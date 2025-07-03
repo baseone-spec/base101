@@ -194,7 +194,7 @@ include('header.php');
     <!-- thirds column -->
     <div class="container w-full h-auto p-32 px-48  text-[#2D2D2D] text-center mt-6">
         <p class="text-4xl font-semibold mb-2">OTHER PRODUCTS</p>
-        <p class="text-lg font-base mb-8 ">Machines Equipments</p>
+        <p class="text-lg font-base mb-8 ">Explore our other products </p>
 
 
         <div class="grid grid-flow-col grid-rows-1 gap-10 w-full h-auto">
