@@ -40,6 +40,8 @@
               <li><a href="./services.php">Shop</a></li>
               <!-- <li><a href="">FAQS</a></li> -->
               <li><a href="./contact.php">Contact</a></li>
+              <li><button class="button "><a href="./contact.php">Log in</a></button></li>
+
           </ul>
           <div class="menu-icon">
               <i class="fa-solid fa-bars-staggered" onclick="toggleMenu()"></i>
