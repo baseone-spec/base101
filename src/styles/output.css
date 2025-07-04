@@ -1624,17 +1624,19 @@
     width: 80%;
   }
 
-  .button {
-    background-color: #D00000;
-    color: #fff;
-    padding: 10px 20px;
+  .border {
     border: none;
-    border-radius: 5px;
+    padding: 10px 20px;
+    border-radius: 15px;
     cursor: pointer;
+    border-color: #ca1313;
+    background-color: #ca1313;
+
   }
 
-  .button:hover {
+  .border:hover {
     background-color: #171717;
-    color: #fff;
+    color: var(--color-white);
+    border: 0;
   }
 }
