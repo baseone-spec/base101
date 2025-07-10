@@ -60,12 +60,15 @@
                 Get Started with Us Today!
             </p>
             <p class="text-center text-4xl mb-5 font-semibold ">
-                Boost your business with our innovative <br>
-                solutions and expert services. <br>
+                Power Your Growth with Proven Industrial Solutions
+
             </p>
             <p class="text-center mb-8">
-                Whether you need a custom solution or expert advice, we are here to help you succeed. <br>
-                Contact us today to learn more about our services and how we can help your business grow.
+                From manufacturing and food processing to packaging, logistics, and energy, we deliver industrial <br>
+                solutions engineered for performance and scalability. <br><br>
+                Whether you need custom-built systems, integration with existing operations, or strategic consulting,
+                <br>
+                our team helps streamline processes, reduce downtime, and improve output.
             </p>
             <button class="rounded-full bg-[#D00000] text-white px-6 py-2 font-open-sans button-hover">
                 Register Now </button>
