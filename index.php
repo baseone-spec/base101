@@ -68,15 +68,15 @@ include('header.php');
 
 
 
-        <div class="grid grid-flow-col grid-rows-1 w-full h-auto gap-10 pt-12">
+        <div class="grid grid-flow-col grid-rows-1 w-full h-auto gap-10">
 
-            <div class="bg-white rounded-lg shadow-md grid place-items-center">
-                <div class="image-wrapper w-full p-4">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-40vh">
+                <div class="image-wrapper w-full h-full">
                     <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 10P.jpg" alt="Image 1"
-                        class="h-48 object-contain">
+                        class=" object-contain">
                 </div>
                 <div class="text-center p-4">
-                    <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
+                    <h2 class="text-lg font-bold">Angelus Legacy Series Can Seamer</h2>
                     <p class="text-gray-600">Model 10P</p>
 
                     <!-- <button class="button1 bg-[#171717] text-white mt-8 font-open-sans button-hover">
@@ -85,13 +85,13 @@ include('header.php');
                 </div>
             </div>
 
-            <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
-                <div class="image-wrapper w-full p-4">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-40vh">
+                <div class="image-wrapper w-full h-full">
                     <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 121L.jpg"
-                        alt="Image 2" class="h-48 object-cover">
+                        alt="Image 2" class=" object-cover">
                 </div>
                 <div class="text-center p-4">
-                    <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
+                    <h2 class="text-lg font-bold">Angelus Legacy Series Can Seamer</h2>
                     <p class="text-gray-600">Model 121L</p>
                 </div>
                 <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
@@ -99,26 +99,26 @@ include('header.php');
                 </button> -->
             </div>
 
-            <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
-                <div class="image-wrapper w-full p-4">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-40vh ">
+                <div class="image-wrapper w-full h-full">
                     <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 140S.jpg"
-                        alt="Image 3" class="h-48 object-cover">
+                        alt="Image 3" class="object-cover">
                 </div>
                 <div class="text-center p-4">
-                    <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
+                    <h2 class="text-lg font-bold">Angelus Legacy Series Can Seamer</h2>
                     <p class="text-gray-600">Model 140S</p>
                     <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
                 </button> -->
                 </div>
             </div>
-            <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
-                <div class="image-wrapper w-full p-4">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-40vh ">
+                <div class="image-wrapper w-full h-full">
                     <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 181S.jpg"
-                        alt="Image 1" class="h-48 object-cover">
+                        alt="Image 1" class="object-cover">
                 </div>
                 <div class="text-center p-4">
-                    <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
+                    <h2 class="text-lg font-bold">Angelus Legacy Series Can Seamer</h2>
                     <p class="text-gray-600">Model 1815</p>
                     <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
@@ -129,13 +129,13 @@ include('header.php');
         <!-- second column -->
 
         <div class="grid grid-flow-col grid-rows-1 gap-10 w-full mt-12 ">
-            <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
-                <div class="image-wrapper w-full p-4">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-40vh ">
+                <div class="image-wrapper w-full h-full">
                     <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 63H.jpg" alt="Image 1"
-                        class="h-48 object-cover">
+                        class="object-cover">
                 </div>
                 <div class="text-center p-4">
-                    <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
+                    <h2 class="text-lg font-bold">Angelus Legacy Series Can Seamer</h2>
                     <p class="text-gray-600">Model 63H</p>
                 </div>
                 <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
@@ -144,13 +144,13 @@ include('header.php');
 
             </div>
 
-            <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center  ">
-                <div class="image-wrapper w-full p-4">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-40vh">
+                <div class="image-wrapper w-full h-full">
                     <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 62H.jpg" alt="Image 2"
-                        class="h-48 object-cover">
+                        class=" object-cover">
                 </div>
                 <div class="text-center p-4">
-                    <h2 class="text-lg font-bold mt-8">Angelus Legacy Can Seamer</h2>
+                    <h2 class="text-lg font-bold">Angelus Legacy Can Seamer</h2>
                     <p class="text-gray-600">Model 63H</p>
                 </div>
                 <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
@@ -158,26 +158,26 @@ include('header.php');
                 </button> -->
             </div>
 
-            <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center  ">
-                <div class="image-wrapper w-full p-4">
-                    <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 60L.jpg" alt="Image 3"
-                        class="h-48 object-cover">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-40vh">
+                <div class="image-wrapper w-full h-full">
+                    <img src="./src/img//product/seamers/Angelus Legacy Series Can Seamer- Model 40P.0.jpg"
+                        alt="Image 3" class=" object-cover">
                 </div>
                 <div class="text-center p-4">
-                    <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
-                    <p class="text-gray-600">Model 60L</p>
+                    <h2 class="text-lg font-bold">Angelus Legacy Series Can Seamer</h2>
+                    <p class="text-gray-600">Model 40P</p>
                     <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
                 </button> -->
                 </div>
             </div>
-            <div class="bg-white rounded-lg shadow-md p-8 grid place-items-center ">
-                <div class="image-wrapper w-full p-4">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-40vh ">
+                <div class="image-wrapper w-full h-full">
                     <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 56P.jpg" alt="Image 1"
-                        class="h-48 object-cover">
+                        class=" object-cover">
                 </div>
                 <div class="text-center p-4">
-                    <h2 class="text-lg font-bold mt-8">Angelus Legacy Series Can Seamer</h2>
+                    <h2 class="text-lg font-bold ">Angelus Legacy Series Can Seamer</h2>
                     <p class="text-gray-600">Model 56P</p>
                     <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details z

@@ -343,6 +343,10 @@
     height: 100%;
   }
 
+  .h-40vh {
+    height: 40vh;
+  }
+
   .h-55vh {
     height: 55vh;
   }
