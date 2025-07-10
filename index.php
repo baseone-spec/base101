@@ -27,7 +27,7 @@ include('header.php');
                     <br>
                     We are a team of passionate individuals dedicated to providing top-notch <br>
                     industrial sales and services. Our mission is to deliver innovative solutions <br>
-                    that me the needs of our clients.
+                    that meet the needs of our clients.
                 </p>
                 <br>
                 <button class="rounded-full bg-[#D00000] text-white px-6 py-2 font-open-sans button-hover ">
@@ -56,7 +56,7 @@ include('header.php');
     <div class="container w-full h-auto p-32 px-48 text-[#2D2D2D] text-center mt-6">
 
         <p class="text-4xl font-semibold mb-2">OUR TOP SELLING PRODUCT</p>
-        <p class="text-lg font-base mb-5">Can seamer machine</p>
+        <p class="text-lg font-base mb-5">Can seamer's machines</p>
         <!-- 
         <button class="button1 bg-[#171717] text-white px-6 py-2 mt-4 mb-10 font-open-sans button-hover w-32 "> -->
 

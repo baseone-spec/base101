@@ -40,7 +40,7 @@
               <li><a href="./services.php">Shop</a></li>
               <!-- <li><a href="">FAQS</a></li> -->
               <li><a href="./contact.php">Contact</a></li>
-              <button class="border shadow-md text-white"><a href=" ./contact.php">Log
+              <button class="border shadow-md text-white"><a href=" ./contact.php">Sign
                       in</a></button>
 
           </ul>
