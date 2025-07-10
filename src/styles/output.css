@@ -466,9 +466,9 @@
     width: calc(var(--spacing) * 80);
   }
 
-
-
-
+  .w-90 {
+    width: calc(var(--spacing) * 90);
+  }
 
   .border-collapse {
     border-collapse: collapse;
@@ -546,6 +546,10 @@
 
   .gap-4 {
     gap: calc(var(--spacing) * 4);
+  }
+
+  .gap-6 {
+    gap: calc(var(--spacing) * 6);
   }
 
   .gap-10 {

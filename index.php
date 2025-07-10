@@ -68,9 +68,9 @@ include('header.php');
 
 
 
-        <div class="grid grid-flow-col grid-rows-1 w-full h-auto gap-10">
+        <div class="grid grid-flow-col grid-rows-1 w-full h-auto gap-2">
 
-            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-40vh">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-55vh">
                 <div class="image-wrapper w-full h-full">
                     <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 10P.jpg" alt="Image 1"
                         class=" object-contain">
@@ -85,7 +85,7 @@ include('header.php');
                 </div>
             </div>
 
-            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-40vh">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-55vh">
                 <div class="image-wrapper w-full h-full">
                     <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 121L.jpg"
                         alt="Image 2" class=" object-cover">
@@ -99,7 +99,7 @@ include('header.php');
                 </button> -->
             </div>
 
-            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-40vh ">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-55vh ">
                 <div class="image-wrapper w-full h-full">
                     <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 140S.jpg"
                         alt="Image 3" class="object-cover">
@@ -112,7 +112,7 @@ include('header.php');
                 </button> -->
                 </div>
             </div>
-            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-40vh ">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-55vh ">
                 <div class="image-wrapper w-full h-full">
                     <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 181S.jpg"
                         alt="Image 1" class="object-cover">
@@ -128,8 +128,8 @@ include('header.php');
         </div>
         <!-- second column -->
 
-        <div class="grid grid-flow-col grid-rows-1 gap-10 w-full mt-12 ">
-            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-40vh ">
+        <div class="grid grid-flow-col grid-rows-1 gap-2 w-full mt-12 ">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-55vh ">
                 <div class="image-wrapper w-full h-full">
                     <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 63H.jpg" alt="Image 1"
                         class="object-cover">
@@ -144,7 +144,7 @@ include('header.php');
 
             </div>
 
-            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-40vh">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-55vh">
                 <div class="image-wrapper w-full h-full">
                     <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 62H.jpg" alt="Image 2"
                         class=" object-cover">
@@ -158,7 +158,7 @@ include('header.php');
                 </button> -->
             </div>
 
-            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-40vh">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-55vh">
                 <div class="image-wrapper w-full h-full">
                     <img src="./src/img//product/seamers/Angelus Legacy Series Can Seamer- Model 40P.0.jpg"
                         alt="Image 3" class=" object-cover">
@@ -171,7 +171,7 @@ include('header.php');
                 </button> -->
                 </div>
             </div>
-            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-40vh ">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-55vh ">
                 <div class="image-wrapper w-full h-full">
                     <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 56P.jpg" alt="Image 1"
                         class=" object-cover">
@@ -197,10 +197,10 @@ include('header.php');
         <p class="text-lg font-base mb-8 ">Explore our other products </p>
 
 
-        <div class="grid grid-flow-col grid-rows-1 gap-10 w-full h-auto">
-            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-60vh">
+        <div class="grid grid-flow-col grid-rows-1 w-full h-auto gap-2">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-60vh">
                 <div class="image-wrapper w-full h-full ">
-                    <img src="./src/img//other products/1.jpg" alt="Image 1" class="object-cover">
+                    <img src="./src/img//other products/24.jpg" alt="Image 1" class="object-cover">
                 </div>
                 <div class="text-left p-5">
                     <h2 class="text-lg font-bold ">Economy Dial Plunger Indicator</h2>
@@ -214,9 +214,9 @@ include('header.php');
 
             </div>
 
-            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-60vh ">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-60vh ">
                 <div class="image-wrapper w-full h-full">
-                    <img src="./src/img//other products/11.jpg" alt="Image 2" class="object-cover">
+                    <img src="./src/img//other products/25.jpg" alt="Image 2" class="object-cover">
                 </div>
                 <div class="text-left p-5">
                     <h2 class="text-lg font-bold ">SMC AMC520-04 Exhaust Cleaner</h2>
@@ -229,21 +229,25 @@ include('header.php');
                 </div>
             </div>
 
-            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-60vh">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-60vh">
                 <div class="image-wrapper w-full h-full">
-                    <img src="./src/img//other products/2.jpg" alt="Image 3" class=" object-cover">
+                    <img src="./src/img//other products/26.jpg" alt="Image 3" class=" object-cover">
                 </div>
                 <div class="text-left p-5">
                     <h2 class="text-lg font-bold">Reelcraft Grounding Reels</h2>
-                    <p class="text-sm font-normal">A Heavy duty Spring Retractable Hose Reels</p>
+                    <p class="text-sm font-normal">A Heavy duty Spring Retractable Hose Reels, Ideal for Grounding and
+                        Bonding Applications. It is designed to provide a reliable and efficient solution for grounding
+                        and bonding needs in various industrial settings.</p>
+
                     <!-- <button class="button1 bg-[#171717] text-white px-6 py-2 mt-8 font-open-sans button-hover ">
                     View Details
                 </button> -->
                 </div>
             </div>
-            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-60vh">
+
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-60vh">
                 <div class="image-wrapper w-full h-full">
-                    <img src="./src/img//other products/3.jpg" alt="Image 1" class="object-cover">
+                    <img src="./src/img//other products/23.jpg" alt="Image 1" class="object-cover">
                 </div>
                 <div class="text-left p-5">
                     <h2 class="text-lg font-bold">Ridgid Copper Pipe Reamer 1/2"-2"</h2>
@@ -258,8 +262,8 @@ include('header.php');
         </div>
         <!-- Fourth column -->
 
-        <div class="grid grid-flow-col grid-rows-1 gap-10 w-full h-auto mt-12">
-            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-60vh ">
+        <div class="grid grid-flow-col grid-rows-1 gap-2 w-full h-auto mt-12">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-60vh ">
                 <div class="image-wrapper w-full h-full">
                     <img src="./src/img//other products/4.jpg" alt="Image 1" class="object-cover">
                 </div>
@@ -277,7 +281,7 @@ include('header.php');
                 </div>
             </div>
 
-            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-60vh">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-60vh">
                 <div class="image-wrapper w-full h-full">
                     <img src="./src/img//other products/5.jpg" alt="Image 2" class="object-cover">
                 </div>
@@ -293,7 +297,7 @@ include('header.php');
                 </div>
             </div>
 
-            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-60vh ">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-60vh ">
                 <div class="image-wrapper w-full h-full">
                     <img src="./src/img//other products/6.jpg" alt="Image 3" class="object-cover">
                 </div>
@@ -312,7 +316,7 @@ include('header.php');
                 </button> -->
                 </div>
             </div>
-            <div class="bg-white rounded-lg shadow-md grid place-items-center w-64 h-60vh">
+            <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-60vh">
                 <div class="image-wrapper w-full h-full">
                     <img src="./src/img//other products/7.jpg" alt="Image 1" class="object-cover">
                 </div>
