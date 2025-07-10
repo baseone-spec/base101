@@ -505,6 +505,79 @@
         </div>
     </div>
 
+    <div class="w-full h-screen flex justify-center items-center">
+        <div class="container-fluid" id="main">
+            <div class="card" id="form-card">
+                <div class="row g-0" id="form-row">
+                    <div class="col" id="unang-col">
+                        <form action="main-lcode.php" method="POST">
+                            <p class="form-business-name"><span>DALINO</span>&nbsp;DENTAL CLINIC</p>
+                            <p class="form-title">Login</p>
+                            <?php
+                            if (isset($_SESSION['status'])) {
+                            ?>
+                                <div class="alert alert-success"
+                                    style="height: 2rem; padding: 5%; display: flex; align-items: center; justify-content:center;">
+                                    <p class="verify" style="font-size:12px; margin: 0 auto; padding: 0;">
+                                        <?= $_SESSION['status']; ?></p>
+                                </div>
+                            <?php
+                                unset($_SESSION['status']);
+                            }
+                            ?>
+                            <?php if (isset($_GET['error'])) { ?>
+                                <div class="alert alert-danger"
+                                    style="margin: 0 auto; padding: 2%; display: flex; justify-content: center; align-items: center;"
+                                    role="alert">
+                                    <?= htmlspecialchars($_GET['error']) ?>
+                                </div>
+                            <?php } ?>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" name="email" id="email"
+                                    placeholder="Your email address" aria-describedby="emailHelp" autocomplete="off">
+                            </div>
+                            <div class="mb-4">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" name="password" id="password"
+                                    placeholder="Enter password" autocomplete="off">
+
+                            </div>
+                            <button type="submit" id="form-btn" name="submit" value="Login" class="btn btn-primary">Log
+                                in</button>
+
+                            <p class="dh-acc mt-4"> Don't have an account? <span class="dh-accs"><a
+                                        href="main-regis.php">Sign Up.</a></span> </p>
+
+                        </form>
+                    </div>
+
+                    <div class="col-lg-6" id="pangalawang-col">
+
+                        <div class="col1img">
+                            <img src="./assets/image/dalino_logo.png"><span class="dalino">&nbsp;Dalino Dental
+                                Clinic</span>
+                        </div>
+                        <p class="discover-power mt-4">Discover the power <br>
+                            of healthy,
+                            <br>beautiful smile with us!
+                        </p>
+
+                        <img src="./assets/image/dalino_logo.png">
+
+                    </div>
+                </div>
+            </div>
+
+            <svg id="background-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#a5c0e8" fill-opacity="1"
+                    d="M0,96L48,133.3C96,171,192,245,288,256C384,267,480,213,576,192C672,171,768,181,864,186.7C960,192,1056,192,1152,170.7C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+
+        </div>
+    </div>
+
     <!-- Script -->
     <script src="./src/js/modal.js"></script>
 
