@@ -53,7 +53,7 @@ include('header.php');
 
     <!-- product -->
 
-    <div class="container w-full h-auto p-32 px-48 text-[#2D2D2D] text-center mt-6">
+    <div class="container w-full h-auto p-32 px-48 text-[#2D2D2D] text-center">
 
         <p class="text-4xl font-semibold mb-2">OUR TOP SELLING PRODUCT</p>
         <p class="text-lg font-base mb-5">Can seamer's machines</p>
@@ -62,7 +62,7 @@ include('header.php');
 
         <!-- </button> -->
         <a href="./services.php"
-            class="button1 bg-[#171717] text-white px-6 py-2 mt-4 inline-block mb-10 font-open-sans button-hover w-32 text-center align-content justify-center ">
+            class="button1 bg-[#171717] text-white px-6 py-2 mt-4 inline-block mb-20 font-open-sans button-hover w-32 text-center align-content justify-center ">
             View Shop
         </a>
 
