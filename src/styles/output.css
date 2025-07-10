@@ -454,6 +454,10 @@
     width: calc(var(--spacing) * 60);
   }
 
+  .w-64 {
+    width: calc(var(--spacing) * 64);
+  }
+
   .w-70 {
     width: calc(var(--spacing) * 70);
   }
