@@ -17,12 +17,13 @@ include('header.php');
 <body>
 
     <div class="container h-85vh w-full align-items-center bg-no-repeat bg-cover bg-center"
-        style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 10)), url('src/img/Base1 Warehouse.jpg'); background-size: cover;">
-        <div class="h-full justify-center align-content place-items-center">
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 10)), url('src/img/bg-billboard.jpg'); background-size: cover;">
+        <div class="h-full flex justify-end items-center px-48">
 
             <div
                 class="card rounded-lg bg-white shadow-xl w-half h-50vh justify-center align-content place-items-center  ">
-                <h2 class="text-center text-2xl font-bold">Sign in to your account</h2>
+                <h2 class="text-center text-3xl font-bold text-[#D00000] ">SIGN IN</h2>
+                <p class="text-sm">Sign in to your account </p>
 
                 <div class="mt-12 sm:mx-auto sm:w-full sm:max-w-sm justify-center align-content place-items-center  ">
                     <form class="space-y-6" action="#" method="POST">
