@@ -45,10 +45,12 @@ include('header.php');
 
                 <div class="container rounded-lg p-5">
                     <div class="iframe mt-5 mb-5">
+
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1565.9740053420755!2d121.0838670427297!3d14.57328442403218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7e6c54b5fc3%3A0x36494eb1ba4dd180!2sGood%20Harvest%20Complex%20Association%20Incorporated!5e0!3m2!1sen!2sph!4v1751521438096!5m2!1sen!2sph"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d287.0041566792365!2d121.08484655193944!3d14.573286183176338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c70058488e9d%3A0xf2c424908711f2bf!2sBase%20one%20Industrial%20Sales%20Inc.!5e0!3m2!1sen!2sph!4v1752219793232!5m2!1sen!2sph"
                             width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
+
                     </div>
                 </div>
             </div>

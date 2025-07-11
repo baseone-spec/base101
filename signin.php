@@ -54,11 +54,11 @@ include('header.php');
                                             class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2" />
 
 
-                                        <button type="button" id="password-toggle"
+                                        <a href="./signup.php" id="password-toggle"
                                             class="ml-2 text-gray-600 hover:text-[#D00000] transition-colors"
                                             aria-label="Toggle password visibility">
                                             <i class="fa-solid fa-eye" id="password-icon"></i>
-                                        </button>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -73,11 +73,17 @@ include('header.php');
                         Sign In
                     </button>
                 </div>
+
+                <div class="mt-4 text-center">
+                    <p class="text-sm text-gray-600">
+                        Don't have an account?
+                        <a href="signup.php" class="font-semibold text-[#D00000]">Sign up</a>
+                    </p>
+                </div>
             </div>
-        </div>
 
 
-        <script src="./src/js/pass-icon.js"></script>
+            <script src="./src/js/pass-icon.js"></script>
 </body>
 
 </html>

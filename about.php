@@ -78,7 +78,7 @@ include('header.php');
     <!-- about us -->
 
     <div class="grid grid-flow-col h-70vh text-white bg-no-repeat bg-cover bg-center"
-        style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/img/warehouse.jpg'); background-size: cover;">
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/img/Base1 Warehouse.jpg'); background-size: cover;">
         <div class=" p-24 align-content bg-[#171717] ">
             <p class="text-3xl font-semibold mb-5">
                 About us
