@@ -707,12 +707,14 @@
     }
   }
 
-  @media (max-width: 768px) {
-    .custom-padding {
-      padding-left: 20px !important;
-      padding-right: 20px !important;
+
+  .lg\:px-auto {
+    @media (max-width: 1024px) {
+      padding-left: auto;
+      padding-right: auto;
     }
   }
+
 
 
   .md\:p-20 {
@@ -990,6 +992,12 @@
   .lg\:px-8 {
     @media (min-width: 1024px) {
       padding-inline: calc(var(--spacing) * 8);
+    }
+  }
+
+  .lg\:p-0 {
+    @media (min-width: 1024px) {
+      padding: 0;
     }
   }
 
@@ -1758,17 +1766,12 @@
     color: #9CA3AF;
   }
 
-  @media (min-width: 640px) {
-    .custom-padding {
-      padding-left: 4rem;
-      padding-right: 2rem;
-    }
-  }
+  /* custom media queries */
 
-  @media (min-width: 768px) {
+  @media (max-width: 1024px) {
     .custom-padding {
-      padding-left: 2rem;
-      padding-right: 2rem;
+      padding-left: 20px !important;
+      padding-right: 20px !important;
     }
   }
 }
