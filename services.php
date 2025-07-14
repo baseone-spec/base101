@@ -28,7 +28,7 @@ include('header.php');
 
     <!-- product list -->
 
-    <div class="w-full h-auto px-48 p-20">
+    <div class="w-full h-auto custom-padding p-20">
 
         <div class="mx-auto">
             <h2 class="text-3xl font-bold font-open-sans text-[#171717] ">Our Available Can Seamer's Products</h2>
@@ -37,7 +37,7 @@ include('header.php');
     </div>
 
     <div
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-48 pb-30 custom-padding h-auto md:h-auto w-full justify-center place-items-center">
+        class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pb-30 custom-padding h-auto md:h-auto w-full justify-center place-items-center">
         <div class="pb-10">
             <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">

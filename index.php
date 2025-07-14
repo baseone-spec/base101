@@ -53,9 +53,9 @@ include('header.php');
 
     <!-- product -->
 
-    <div class="container w-full h-auto p-32 px-48 text-[#2D2D2D] text-center">
+    <div class="container w-full lg:grid-cols-4 h-auto px-48 text-[#2D2D2D] text-center">
 
-        <p class="text-4xl font-semibold mb-2">OUR TOP SELLING PRODUCT</p>
+        <p class="text-4xl font-semibold mb-2 mt-20">OUR TOP SELLING PRODUCT</p>
         <p class="text-lg font-base mb-5">Can seamer's machines</p>
         <!-- 
         <button class="button1 bg-[#171717] text-white px-6 py-2 mt-4 mb-10 font-open-sans button-hover w-32 "> -->
@@ -67,8 +67,7 @@ include('header.php');
         </a>
 
 
-
-        <div class="grid grid-flow-col grid-rows-1 w-full h-auto gap-2">
+        <div class="grid grid-flow-col lg:grid-cols-4 md:grid-cols-2 w-full h-auto gap-2 px- ">
 
             <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-55vh">
                 <div class="image-wrapper w-full h-full">
@@ -128,7 +127,7 @@ include('header.php');
         </div>
         <!-- second column -->
 
-        <div class="grid grid-flow-col grid-rows-1 gap-2 w-full mt-12 ">
+        <div class="grid grid-flow-col lg:grid-cols-4 md:grid-cols-2 gap-2 w-full mt-12 ">
             <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-55vh ">
                 <div class="image-wrapper w-full h-full">
                     <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 63H.jpg" alt="Image 1"
@@ -197,7 +196,7 @@ include('header.php');
         <p class="text-lg font-base mb-8 ">Explore our other products </p>
 
 
-        <div class="grid grid-flow-col grid-rows-1 w-full h-auto gap-2">
+        <div class="grid grid-flow-col lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 grid-rows-1 w-full h-auto gap-2">
             <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-60vh">
                 <div class="image-wrapper w-full h-full ">
                     <img src="./src/img//other products/24.jpg" alt="Image 1" class="object-cover">
@@ -262,7 +261,8 @@ include('header.php');
         </div>
         <!-- Fourth column -->
 
-        <div class="grid grid-flow-col grid-rows-1 gap-2 w-full h-auto mt-12">
+        <div
+            class="grid grid-flow-col lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 grid-rows-1 gap-2 w-full h-auto mt-12">
             <div class="bg-white rounded-lg shadow-md grid place-items-center w-90 h-60vh ">
                 <div class="image-wrapper w-full h-full">
                     <img src="./src/img//other products/4.jpg" alt="Image 1" class="object-cover">
