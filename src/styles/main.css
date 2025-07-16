@@ -70,17 +70,16 @@ nav ul li a {
     height: 70px;
 }
 
-@media (max-width:600px) {
+@media (max-width: 768px) {
 
     nav {
-        padding: 50px 30px;
+        padding: 50px 50px;
     }
 
     .logo img {
-        width: 120px;
-        height: 55px;
+        width: 140px;
+        height: 60px;
     }
-
 
     nav ul {
         position: absolute;
@@ -107,18 +106,55 @@ nav ul li a {
         transition: all 0.5s;
     }
 
-    /* starts from here */
-
     #menuList.hidden {
         height: 0;
         overflow: hidden;
     }
 
-    sub-nav {
-        margin: 0;
-        padding: 1.5rem;
-        height: 50px;
-        display: flex;
+    .contact-info {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+
+    nav {
+        padding: 50px 30px;
+    }
+
+    .logo img {
+        width: 120px;
+        height: 55px;
+    }
+
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #ffffff;
+        gap: 0;
+        overflow: hidden;
+    }
+
+    nav ul li {
+        padding: 20px;
+        padding-top: 0;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    #menuList {
+        transition: all 0.5s;
+    }
+
+    #menuList.hidden {
+        height: 0;
+        overflow: hidden;
     }
 
     .contact-info {

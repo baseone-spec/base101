@@ -14,19 +14,18 @@
 
   <body>
 
-      <sub-nav
-          class="w-full h-12 xl:px-40 lg:px-32 md:px-20 sm:px-10 bg-[#2D2D2D] text-white flex items-center justify-between custom-padding ">
+      <sub-nav class="flex w-full h-12 xl:px-40 lg:px-32 md:px-8 bg-[#2D2D2D] text-white">
           <div
-              class="grid grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 xl:w-3/4 justify-between ">
+              class="w-full grid grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-between ">
               <div class="w-auto flex items-center gap-4">
                   <i class="fa-brands fa-square-facebook"></i>
                   <i class="fa-brands fa-shopify"></i>
               </div>
               <div
-                  class=" contact-info flex items-center justify-end gap-4 text-sm font-serif md:p-0 md:m-0 md:px-0 .hide-on-small-screens">
+                  class="flex items-center justify-end gap-4 text-sm font-serif md:p-0 md:m-0 md:px-0 lg:hidden md:hidden sm:hidden ">
                   <i class="fa-solid fa-envelope"></i> <span class="ml-auto">salesbaseoneindustrial@gmail.com</span>
-                  <i class="fa-solid fa-phone"></i> <span class="xl:w-40 ml-auto">+63 928 398 5101</span>
-                  <i class="fa-solid fa-clock"></i> <span class="xl:w-40 ml-auto">Mon - Sat: 9:00am to 6:00pm</span>
+                  <i class="fa-solid fa-phone"></i> <span class="ml-auto">+63 928 398 5101</span>
+                  <i class="fa-solid fa-clock"></i> <span class="ml-auto">Mon - Sat: 9:00am to 6:00pm</span>
               </div>
           </div>
       </sub-nav>
