@@ -416,7 +416,11 @@
   }
 
   .max-w-5xl {
-    max-width: 50rem;
+    max-width: 55rem;
+  }
+
+  .max-w-6xl {
+    max-width: 60rem;
   }
 
   .max-w-7xl {
@@ -1299,6 +1303,12 @@
   }
 }
 
+.md\:px-24 {
+  @media (min-width: 768px) {
+    padding-inline: calc(var(--spacing) * 24);
+  }
+}
+
 .md\:grid-rows-2 {
 
   @media (max-width: 768px) {
@@ -1319,6 +1329,13 @@
   }
 }
 
+.md\:p-16 {
+  @media (max-width: 768px) {
+    padding: calc(var(--spacing) * 16);
+  }
+}
+
+
 .md\:p-20 {
   @media (max-width: 768px) {
     padding: calc(var(--spacing) * 20);
@@ -1329,6 +1346,12 @@
   @media (max-width: 768px) {
     padding-left: calc(var(--spacing) * 8);
     padding-right: calc(var(--spacing) * 8);
+  }
+}
+
+.md\:px-10 {
+  @media (max-width: 768px) {
+    padding-inline: calc(var(--spacing) * 10);
   }
 }
 
@@ -1363,6 +1386,12 @@
   }
 }
 
+.lg\:px-15 {
+  @media (min-width: 1024px) {
+    padding-inline: calc(var(--spacing) * 15);
+  }
+}
+
 .lg\:px-24 {
   @media (min-width: 1024px) {
     padding-inline: calc(var(--spacing) * 24);
@@ -1381,9 +1410,22 @@
   }
 }
 
+.lg\:px-40 {
+  @media (min-width: 1024px) {
+    padding-inline: calc(var(--spacing) * 40);
+  }
+}
+
+
 .lg\:p-0 {
   @media (min-width: 1024px) {
     padding: 0;
+  }
+}
+
+.lg\:p-32 {
+  @media (max-width: 1024px) {
+    padding: calc(var(--spacing) * 32);
   }
 }
 
@@ -1446,6 +1488,13 @@
   }
 }
 
+.xl\:p-32 {
+  @media (max-width: 1280px) {
+    padding: calc(var(--spacing) * 32);
+  }
+}
+
+
 .xl\:w-1\/2 {
   @media (min-width: 1280px) {
     width: 50%;
@@ -1480,6 +1529,12 @@
   }
 }
 
+.xl\:max-w-2xl {
+  @media (min-width: 1280px) {
+    max-width: 40rem;
+  }
+}
+
 /* margin */
 .xl\:m-0 {
   @media (min-width: 1280px) {
@@ -1494,7 +1549,7 @@
   }
 }
 
-}
+
 
 @property --tw-border-style {
   syntax: "*";

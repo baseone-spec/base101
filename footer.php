@@ -54,7 +54,7 @@
 
 
     <!-- footer -->
-    <footer class="container w-full h-full bg-[#171717] text-white p-32 px-48">
+    <footer class="container w-full h-full bg-[#171717] text-white xl:p-32 xl:px-48 lg:p-32 md:px-24 md:p-16 sm:px-16">
         <div class="text-center mb-8 font-open-sans">
             <p class="text-center mb-5 text-white font-medium">
                 Get Started with Us Today!
@@ -63,11 +63,14 @@
                 Power Your Growth with Proven Industrial Solutions
 
             </p>
-            <p class="text-center mb-8">
-                From manufacturing and food processing to packaging, logistics, and energy, we deliver industrial <br>
-                solutions engineered for performance and scalability. <br><br>
+            <p class="text-center mb-8 md:px-10 lg:px-15 xl:w-auto max-w-5xl mx-auto">
+                From manufacturing and food processing to packaging, logistics, and energy, we deliver industrial
+                solutions engineered for performance and scalability.
+
+
+                <br><br>
+
                 Whether you need custom-built systems, integration with existing operations, or strategic consulting,
-                <br>
                 our team helps streamline processes, reduce downtime, and improve output.
             </p>
             <button class="rounded-full bg-[#D00000] text-white px-6 py-2 font-open-sans button-hover">
