@@ -54,7 +54,8 @@
 
 
     <!-- footer -->
-    <footer class="container w-full h-full bg-[#171717] text-white xl:p-32 xl:px-48 lg:p-32 md:px-24 md:p-16 sm:px-16">
+    <footer
+        class="container w-full h-full bg-[#171717] text-white p-32 xl:p-32 xl:px-48 lg:p-32 md:px-24 md:p-16 sm:pt-10 sm:pb-10 sm:px-16">
         <div class="text-center mb-8 font-open-sans">
             <p class="text-center mb-5 text-white font-medium">
                 Get Started with Us Today!
