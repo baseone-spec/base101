@@ -80,32 +80,32 @@
 
     </footer>
 
-    <footer class="bg-[#fff] md:px-20 h-auto mt-24">
-        <div class="grid grid-flow-col grid-rows-4 px-48 md:px-20 py-4 md:py-10 h-auto p-32">
-            <div class="text m-0 p-0 flex flex-col justify-center items-center">
-                <img class="image block" src="./src/img/base1 logo.png" alt="Base1 Logo" width="150" height="100">
+    <footer class="bg-[#fff] h-auto mt-24">
+        <div class="grid grid-cols-3 md:grid-cols-1 gap-8 px-6 md:px-8 lg:px-20 xl:px-48 py-10">
+            <div class="flex flex-col justify-center items-center">
+                <img class="block" src="./src/img/base1 logo.png" alt="Base1 Logo" width="150" height="100">
             </div>
-            <div class="text text-center text-[#2D2D2D]">
-                <p class="text-lg font-semibold mb-5">Contact Info</p>
+            <div class="text-center text-[#2D2D2D]">
+                <p class="text-lg font-semibold mb-5 md:pt-15 sm:pt-15">Contact Info</p>
                 <p class="text-lg mb-3">
                     906 OMM-Citra Bldg San Miguel Avenue, Pasig City <br>
                     Metro Manila, Philippines <br>
                     <span class="font-semibold">Phone: </span>+63 2 8633 8888 <br>
-                    <span class="font-semibold">Email: </span> <a
-                        href="mailto: buyerbaseoneindustrial@gmail.com">buyerbaseoneindustrial@gmail.com</a>
+                    <span class="font-semibold">Email: </span>
+                    <a href="mailto: buyerbaseoneindustrial@gmail.com">buyerbaseoneindustrial@gmail.com</a>
                 </p>
             </div>
-            <div class="text text-center w-full text-[#2D2D2D]">
-                <p class="text-lg flex flex-col justify-center font-semibold mb-5 text-[#2D2D2D]"> Website <br>
-                <div class="flex flex-col justify-center ">
-                    <p class="text-lg text-[#2D2D2D]">
-                        <a href="./index.php">Home</a><br>
-                        <a href="./about.php">About Us</a><br>
-                        <a href="#">Services</a><br>
-                        <a href="#">Contact us</a><br>
-                    </p>
-                </div>
+            <div class="text-center w-full text-[#2D2D2D]">
+                <p class="text-lg font-semibold mb-5 md:pt-15 sm:pt-15">Website</p>
+                <div class="flex flex-col items-center"></div>
+                <p class="text-lg text-[#2D2D2D]">
+                    <a href="./index.php">Home</a><br>
+                    <a href="./about.php">About Us</a><br>
+                    <a href="#">Services</a><br>
+                    <a href="#">Contact us</a><br>
+                </p>
             </div>
+        </div>
         </div>
 
         <div style="height: 1px; background-color: #848484; margin: 0 200px; margin-top: 70px;">
