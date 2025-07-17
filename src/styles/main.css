@@ -70,6 +70,52 @@ nav ul li a {
     height: 70px;
 }
 
+@media (max-width: 1024px) {
+
+    nav {
+        padding: 50px 50px;
+    }
+
+    .logo img {
+        width: 140px;
+        height: 60px;
+    }
+
+    nav ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: #ffffff;
+        gap: 0;
+        overflow: hidden;
+    }
+
+    nav ul li {
+        padding: 20px;
+        padding-top: 0;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    #menuList {
+        transition: all 0.5s;
+    }
+
+    #menuList.hidden {
+        height: 0;
+        overflow: hidden;
+    }
+
+    .contact-info {
+        display: none;
+    }
+}
+
 @media (max-width: 768px) {
 
     nav {

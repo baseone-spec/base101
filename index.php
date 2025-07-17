@@ -38,7 +38,7 @@ include('header.php');
     </div>
 
 
-    <div class="container w-full h-78 p-20 px-48 rounded-lg bg-[#171717] text-white shadow-lg"
+    <div class="container w-full h-78 p-20 px-48 down-rounded-lg bg-[#171717] text-white shadow-lg"
         style="box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);">
         <div class="grid grid-rows-1 gap-10 w-full text-center">
             <h2 class="text-4xl font-semibold mb-2">OUR SERVICES</h2>
@@ -47,7 +47,6 @@ include('header.php');
                 &nbsp;&nbsp;&nbsp;|
                 &nbsp;&nbsp;&nbsp;Anchored On Integrity &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
                 Strong Alliances &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Efficiency Driven <br>
-
         </div>
     </div>
 
