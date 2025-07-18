@@ -18,10 +18,11 @@ include('header.php');
 
     <div class="container h-85vh w-full align-items-center bg-no-repeat bg-cover bg-center"
         style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 10)), url('src/img/bg-billboard.jpg'); background-size: cover;">
-        <div class="h-full flex justify-end items-center px-48">
+        <div
+            class="h-full flex justify-end items-center xl:px-40 lg:px-24 md:px-10 sm:px-6 px-4 lg:align-content lg:justify-center">
 
             <div
-                class="card rounded-lg bg-white shadow-xl w-half h-50vh justify-center align-content place-items-center  ">
+                class="card rounded-lg bg-white shadow-xl max-w-2xl h-auto p-10 justify-center align-content place-items-center ">
                 <h2 class="text-center text-3xl font-bold text-[#D00000] ">SIGN IN</h2>
                 <p class="text-sm">Sign in to your account </p>
 
@@ -83,8 +84,11 @@ include('header.php');
                 </div>
             </div>
 
+        </div>
+    </div>
 
-            <script src="./src/js/pass-icon.js"></script>
+
+    <script src="./src/js/pass-icon.js"></script>
 </body>
 
 </html>
