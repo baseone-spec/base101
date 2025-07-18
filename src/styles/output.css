@@ -1467,6 +1467,12 @@
     }
   }
 
+  .lg\:px-5 {
+    @media (min-width: 1024px) {
+      padding-inline: calc(var(--spacing) * 5);
+    }
+  }
+
   .lg\:px-8 {
     @media (min-width: 1024px) {
       padding-inline: calc(var(--spacing) * 8);
