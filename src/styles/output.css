@@ -798,8 +798,28 @@
     padding-top: calc(var(--spacing) * 6);
   }
 
+  .pt-8 {
+    padding-top: calc(var(--spacing) * 8);
+  }
+
+  .pt-10 {
+    padding-top: calc(var(--spacing) * 10);
+  }
+
+  .pt-20 {
+    padding-top: calc(var(--spacing) * 20);
+  }
+
   .px-16 {
     padding-inline: calc(var(--spacing) * 16);
+  }
+
+  .px-20 {
+    padding-inline: calc(var(--spacing) * 20);
+  }
+
+  .px-30 {
+    padding-inline: calc(var(--spacing) * 30);
   }
 
   .pr-4 {
@@ -1288,6 +1308,12 @@
     }
   }
 
+  .sm\:py-20 {
+    @media (min-width: 640px) {
+      padding-block: calc(var(--spacing) * 20);
+    }
+  }
+
   .sm\:py-24 {
     @media (max-width: 640px) {
       padding-block: calc(var(--spacing) * 24);
@@ -1429,6 +1455,18 @@
     }
   }
 
+  .md\:py-20 {
+    @media (min-width: 768px) {
+      padding-block: calc(var(--spacing) * 20);
+    }
+  }
+
+  .md\:pb-20 {
+    @media (max-width: 768px) {
+      padding-bottom: calc(var(--spacing) * 20);
+    }
+  }
+
   .md\:w-1\/2 {
     width: 33.333333%;
   }
@@ -1483,9 +1521,21 @@
     }
   }
 
+  .lg\:px-15 {
+    @media (min-width: 1024px) {
+      padding-inline: calc(var(--spacing) * 15);
+    }
+  }
+
   .lg\:px-20 {
     @media (min-width: 1024px) {
       padding-inline: calc(var(--spacing) * 20);
+    }
+  }
+
+  .lg\:px-30 {
+    @media (min-width: 1024px) {
+      padding-inline: calc(var(--spacing) * 30);
     }
   }
 
@@ -1517,6 +1567,12 @@
   .lg\:py-10 {
     @media (min-width: 1024px) {
       padding-block: calc(var(--spacing) * 10);
+    }
+  }
+
+  .lg\:py-20 {
+    @media (min-width: 1024px) {
+      padding-block: calc(var(--spacing) * 20);
     }
   }
 
@@ -1611,12 +1667,29 @@
     }
   }
 
+  .xl\:grid-cols-3 {
+    @media (min-width: 1280px) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  .xl\:grid-cols-4 {
+    @media (min-width: 1280px) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
   .xl\:gap-x-8 {
     @media (min-width: 1280px) {
       column-gap: calc(var(--spacing) * 8);
     }
   }
 
+  .xl\:px-30 {
+    @media (min-width: 1280px) {
+      padding-inline: calc(var(--spacing) * 30);
+    }
+  }
 
   .xl\:px-40 {
     @media (min-width: 1280px) {

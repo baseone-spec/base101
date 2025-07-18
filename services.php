@@ -16,11 +16,13 @@ include('header.php');
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
 
 
-    <div class="w-full h-96 text-center justify-center items-center align-content bg-no-repeat bg-cover bg-center"
+    <div class="p-20 w-full text-center justify-center items-center align-content bg-no-repeat bg-cover bg-center"
         style="background-image: url('./src/img/bg-product.jpg'); background-size: cover; background-blend-mode: overlay; background-color: rgba(255,255,255,0.5);">
-        <p class="text-6xl font-bold text-[#171717] mb-5">Official Distributor of Top Quality Psangelus Products
+        <p class="text-4xl font-bold text-[#171717] mb-5">Official Distributor of Top Quality Psangelus
+            Products
         </p>
-        <p class="text-2xl text-[#2D2D2D]">Most of our products are limited releases that won't come back. <br>
+        <p class="text-2xl text-[#2D2D2D] max-w-4xl mx-auto text-center">Most of our products are limited releases that
+            won't come back.
             Get your favorite items while they're in stock.</p>
         <button class="rounded-full bg-[#D00000] text-white px-6 py-2 mt-8 font-open-sans button-hover"
             data-ripple-light="true">Request a Quote</button>
@@ -28,16 +30,16 @@ include('header.php');
 
     <!-- product list -->
 
-    <div class="w-full h-auto custom-padding p-20">
+    <div class="w-full h-auto custom-padding pt-20 px-30 ">
 
-        <div class="mx-auto">
+        <div class="mx-auto lg:text-center">
             <h2 class="text-3xl font-bold font-open-sans text-[#171717] ">Our Available Can Seamer's Products</h2>
             <p class="font-open-sans font-light">ANGELUS V-Series Seamers</p>
         </div>
     </div>
 
     <div
-        class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 pb-30 custom-padding h-auto md:h-auto w-full justify-center place-items-center">
+        class="grid grid-cols-4 xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xl:px-30 xl:py-20 lg:px-20 lg:py-20 md:py-20 sm:py-20 h-auto w-full justify-center place-items-center">
         <div class="pb-10">
             <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
@@ -516,14 +518,13 @@ include('header.php');
                         cart</button>
                 </div>
 
-                <!-- Modal -->
 
                 <div id="modal-5"
                     class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
                     role="dialog" aria-modal="true">
-                    <!-- Modal Content -->
+
                     <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
-                        <!-- Header -->
+
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
                                 <img src="./src/img/psangelus/ANGELUS V-Series - Model 9V.jpg" alt="" class="image1" />
@@ -626,14 +627,14 @@ include('header.php');
                         cart</button>
                 </div>
 
-                <!-- Modal -->
+
 
                 <div id="modal-6"
                     class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
                     role="dialog" aria-modal="true">
-                    <!-- Modal Content -->
+
                     <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
-                        <!-- Header -->
+
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
                                 <img src="./src/img/psangelus/ANGELUS V-Series - Model 12V.jpg" alt="" class="image1" />
@@ -731,14 +732,14 @@ include('header.php');
                         cart</button>
                 </div>
 
-                <!-- Modal -->
+
 
                 <div id="modal-7"
                     class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
                     role="dialog" aria-modal="true">
-                    <!-- Modal Content -->
+
                     <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
-                        <!-- Header -->
+
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
                                 <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt=""
@@ -840,14 +841,14 @@ include('header.php');
                         cart</button>
                 </div>
 
-                <!-- Modal -->
+
 
                 <div id="modal-7"
                     class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
                     role="dialog" aria-modal="true">
-                    <!-- Modal Content -->
+
                     <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
-                        <!-- Header -->
+
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
                                 <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt=""
