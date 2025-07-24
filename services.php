@@ -39,7 +39,7 @@ include('header.php');
     </div>
 
     <div
-        class="grid grid-cols-4 xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xl:px-30 xl:py-20 lg:px-20 lg:py-20 md:py-20 sm:py-20 h-auto w-full justify-center place-items-center">
+        class="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xl:px-30 xl:py-20 lg:px-20 lg:py-20 md:py-20 sm:py-20 h-auto w-full justify-center place-items-center">
         <div class="pb-10">
             <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
