@@ -18,7 +18,9 @@ include('header.php');
     <!-- for content -->
     <div class="container mx-auto h-full w-full bg-[#fff] text-white bg-no-repeat bg-cover bg-center"
         style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/img/bgbaseone.jpg'); background-size: cover;">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 p-24 pl-48">
+        <div
+            class="grid grid-cols-1 md:align-content md:text-center xl:p-24 xl:px-40 md:max-w-6xl md:mx-auto sm:max-w-2xl sm:mx-auto  sm:py-20 py-20 ">
+
             <div class="p-4">
                 <p class="text-4xl font-semibold font-open-sans mb-4">Build the future of industrial
                     <br> Sales and Services
@@ -38,9 +40,9 @@ include('header.php');
     </div>
 
 
-    <div class="container w-full h-78 p-20 px-48 down-rounded-lg bg-[#171717] text-white shadow-lg"
+    <div class="container w-full h-78 md:mx-auto p-20 xl:p-24 xl:px-40  down-rounded-lg bg-[#171717] text-white shadow-lg"
         style="box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);">
-        <div class="grid grid-rows-1 gap-10 w-full text-center">
+        <div class="grid grid-rows-1 gap-10 w-full text-center sm:max-w-2xl sm:mx-auto">
             <h2 class="text-4xl font-semibold mb-2">OUR SERVICES</h2>
             <p class="text-lg font-base mb-8">Seamless Transaction &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;Sourcing
                 Adeptness
@@ -67,7 +69,7 @@ include('header.php');
 
 
         <div
-            class="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xl:px-30 xl:py-20  lg:px-20 lg:py-20 md:py-20 sm:py-20 w-full h-auto justify-center place-items-center gap-4">
+            class="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xl:px-30 xl:py-20 lg:px-20 lg:py-20 md:p-20 md:gap-8 w-full h-auto justify-center place-items-center gap-4">
 
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container grid grid-cols-1 gap-4 h-80 w-70 mb-10">
@@ -139,7 +141,7 @@ include('header.php');
         <!-- second column -->
 
         <div
-            class="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xl:px-30 xl:py-20  lg:px-20 lg:py-20 md:py-20 sm:py-20 h-auto justify-center place-items-center gap-4">
+            class="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xl:px-30 xl:py-20 lg:px-20 lg:py-20 md:p-20 md:gap-8 h-auto justify-center place-items-center gap-4">
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container grid grid-cols-1 gap-4 h-80 w-70 mb-10 ">
                     <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 63H.jpg" alt="Image 1"
@@ -226,7 +228,7 @@ include('header.php');
 
 
         <div
-            class="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xl:px-30 xl:py-20 lg:px-20 lg:py-20 md:py-20 sm:py-20 h-auto justify-center place-items-center gap-4">
+            class="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xl:px-30 xl:py-20 lg:px-20 lg:py-20 md:p-20 md:gap-8 h-auto justify-center place-items-center gap-4">
 
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container h-80 w-60 flex items-center justify-center">
@@ -278,7 +280,7 @@ include('header.php');
         <!-- second column -->
 
         <div
-            class="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xl:px-30 xl:py-20  lg:px-20 lg:py-20 md:py-20 sm:py-20 h-auto justify-center place-items-center gap-4">
+            class="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xl:px-30 xl:px-30 xl:py-20 lg:px-20 lg:py-20 md:p-20 md:gap-8 h-auto justify-center place-items-center gap-4">
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container grid grid-cols-1 gap-4 h-80 w-70">
                     <img src="./src/img//other products/4.jpg" alt="Image 1" class="object-cover">
