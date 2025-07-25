@@ -18,7 +18,8 @@ include('header.php');
 
     <div class="container h-85vh w-full align-items-center bg-no-repeat bg-cover bg-center"
         style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 10)), url('src/img/bg-billboard.jpg'); background-size: cover;">
-        <div class="h-full flex justify-end items-center px-48">
+        <div
+            class="h-full flex justify-end items-center xl:px-48 lg:px-24 md:px-10 sm:px-6 px-4 lg:align-content lg:justify-center">
             <div
                 class="card rounded-lg bg-white shadow-xl w-half h-70vh justify-center align-content place-items-center mr-16">
                 <h2 class="text-center text-3xl font-bold text-[#D00000] ">SIGN UP</h2>
@@ -41,7 +42,7 @@ include('header.php');
                         <div>
                             <div class="mt-4 w-80">
                                 <input type="email" name="email" id="email" autocomplete="email" required
-                                    placeholder="Email"
+                                    placeholder="Email Address"
                                     class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2" />
                             </div>
                         </div>
@@ -72,6 +73,14 @@ include('header.php');
                                     <i class="fa-solid fa-eye" id="confirm-password-icon"></i>
                                 </button>
                             </div>
+                        </div>
+
+                        <div>
+                            <p class="text-sm max-w-6xl lg:max-w-6xl md:max-w-6xl sm:max-w-6xl">
+                                By signing up, you agree to our
+                                <a href="#" class="font-semibold text-[#D00000]">Terms of Service</a> and
+                                <a href="#" class="font-semibold text-[#D00000]">Privacy Policy</a>.
+                            </p>
                         </div>
 
                         <div class="mt-8 w-80">
