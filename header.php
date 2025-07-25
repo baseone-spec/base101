@@ -58,7 +58,10 @@
           function toggleMenu() {
               if (menuList.style.maxHeight == "0px") {
                   menuList.style.maxHeight = "300px";
-                  F
+                  menuList.style.transition = "max-height 0.5s ease-in-out";
+                  menuList.style.overflow = "hidden";
+                  menuList.style.padding = "50px 0";
+
               } else {
                   menuList.style.maxHeight = "0px";
               }
