@@ -17,12 +17,20 @@
     const passwordToggle1 = document.getElementById('password-toggle1');
     const passwordIcon1 = document.getElementById('password-icon1');
 
+     const passwordInput2 = document.getElementById('password2');
+    const passwordToggle2 = document.getElementById('password-toggle2');
+    const passwordIcon2 = document.getElementById('password-icon2');
+
     if (passwordInput && passwordToggle && passwordIcon) {
       togglePasswordVisibility(passwordInput, passwordToggle, passwordIcon);
     }
 
     if (passwordInput1 && passwordToggle1 && passwordIcon1) {
       togglePasswordVisibility(passwordInput1, passwordToggle1, passwordIcon1);
+    }
+
+     if (passwordInput2 && passwordToggle2 && passwordIcon2) {
+      togglePasswordVisibility(passwordInput2, passwordToggle2, passwordIcon2);
     }
   });
 

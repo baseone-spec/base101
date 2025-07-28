@@ -3,6 +3,8 @@ include('header.php');
 
 include('conn/dbcon.php');
 
+session_start();
+
 
 if (isset($_POST['submit'])) {
 
