@@ -4,19 +4,18 @@ include('header.php');
 include('conn/dbcon.php');
 
 
-
-$first_name = $_POST['first_name'];
-$last_name = $_POST['last_name'];
-$email = $_POST['email_address'];
-$phone = $_POST['phone_num'];
-$password = $_POST['password'];
-$confirm_password = $_POST['confirm_password'];
-
 if (isset($_POST['submit'])) {
 
-    $check_query = mysqli_query($con, "SELECT * FROM user_registration WHERE email = '$email'");
+    $first_name = $_POST['first_name'];
+    $last_name = $_POST['last_name'];
+    $email_address = $_POST['email_address'];
+    $phone_num = $_POST['phone_num'];
+    $password = $_POST['password'];
+    $confirm_password = $_POST['confirm_password'];
+
+    $check_query = mysqli_query($con, "SELECT * FROM user_registration WHERE email = '$email_address'");
     if ($_SERVER['REQUEST_METHOD'] == "POST") {
-        if (empty($first_name) || empty($last_name) || empty($email) || empty($password)) {
+        if (empty($first_name) || empty($last_name) || empty($email_address) || empty($password)) {
             $error = "All fields are required";
             $password_day = "Please enter password";
             $first_name_day = "Please enter firstname";
@@ -26,13 +25,21 @@ if (isset($_POST['submit'])) {
             $password_day = "Password must be greater than 6";
         } elseif (mysqli_num_rows($check_query) > 0) {
             $email_day = "Email already exists";
-        } elseif (strpos($email, '.com') === false) {
+        } elseif (strpos($email_address, '.com') === false) {
             $email_day = "Please enter a valid email address";
         } else {
         }
 
-        $sql = "INSERT INTO user_registration (first_name,last_name,email_address,phone_num,password,confirm_password) VALUES ('$irstname', '$lastname', '$email', '$phone', '$password','$confirm_password')";
+        $sql = "INSERT INTO user_registration (first_name,last_name,email_address,phone_num,password,confirm_password) VALUES ('$irstname', '$lastname', '$email_address', '$phone_num', '$password','$confirm_password')";
         $query_run = mysqli_query($con, $sql);
+
+        if ($query_run) {
+            echo "<script>alert('Registration successful');</script>";
+            header("Location: signin.php");
+        } else {
+            echo "<script>alert('Registration failed');</script>";
+        }
+        mysqli_close($con);
     }
 }
 
@@ -77,36 +84,36 @@ if (isset($_POST['submit'])) {
                         </div>
                         <div>
                             <div class="mt-4 w-80">
-                                <input type="email" name="email" id="email" autocomplete="email" required
-                                    placeholder="Email Address"
+                                <input type="email" name="email_address" id="email_address" autocomplete="email"
+                                    required placeholder="Email Address"
                                     class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2" />
                             </div>
                         </div>
                         <div>
                             <div class="mt-4 w-80">
-                                <input type="tel" name="phone" id="phone" required placeholder="Phone Number"
+                                <input type="tel" name="phone_num" id="phone_num" required placeholder="Phone Number"
                                     class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2" />
                             </div>
                         </div>
                         <div>
                             <div class="mt-4 flex items-center w-full gap-1">
-                                <input type="password" name="password" id="password" autocomplete="new-password"
+                                <input type="password" name="password" id="password1" autocomplete="new-password"
                                     required placeholder="Enter your password"
                                     class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2" />
-                                <button type="button" id="password-toggle"
+                                <button type="button" id="password-toggle1"
                                     class="ml-2 text-gray-600 hover:text-[#D00000] transition-colors"
                                     aria-label="Toggle password visibility">
-                                    <i class="fa-solid fa-eye" id="password-icon"></i>
+                                    <i class="fa-solid fa-eye" id="password-icon1"></i>
                                 </button>
                             </div>
                             <div class="mt-4 flex items-center w-full gap-1">
-                                <input type="password" name="confirm_password" id="confirm_password"
-                                    autocomplete="new-password" required placeholder="Confirm your password"
+                                <input type="password" name="password" id="password2" autocomplete="new-password"
+                                    required placeholder="Enter your password"
                                     class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2" />
-                                <button type="button" id="confirm-password-toggle"
+                                <button type="button" id="password-toggle2"
                                     class="ml-2 text-gray-600 hover:text-[#D00000] transition-colors"
-                                    aria-label="Toggle confirm password visibility">
-                                    <i class="fa-solid fa-eye" id="confirm-password-icon"></i>
+                                    aria-label="Toggle password visibility">
+                                    <i class="fa-solid fa-eye" id="password-icon2"></i>
                                 </button>
                             </div>
                         </div>

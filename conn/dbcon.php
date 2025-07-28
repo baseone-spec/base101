@@ -1,10 +1,21 @@
 <?php
 
-// DB connection
-$conn = new mysqli("localhost", "username", "password", "baseone_data");
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+//main connection file for both admin & front end
+$hostname = "localhost";
+$username = "root";
+$password = "";
+$dbname = "baseone_data"; //databases
+
+// Create connection
+$con = mysqli_connect($hostname, $username, $password, $dbname); // connecting 
+// Check connection
+
+if (!$con) {
+
+
+    die("Connection failed: " . mysqli_connect_error());
 } else {
-    // Connection successful
-    echo "Connected successfully";
+    // echo "Connected successfully";
 }
+
+// mysqli_close($con);
