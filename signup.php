@@ -1,5 +1,41 @@
 <?php
 include('header.php');
+
+include('conn/dbcon.php');
+
+
+
+$first_name = $_POST['first_name'];
+$last_name = $_POST['last_name'];
+$email = $_POST['email_address'];
+$phone = $_POST['phone_num'];
+$password = $_POST['password'];
+$confirm_password = $_POST['confirm_password'];
+
+if (isset($_POST['submit'])) {
+
+    $check_query = mysqli_query($con, "SELECT * FROM user_registration WHERE email = '$email'");
+    if ($_SERVER['REQUEST_METHOD'] == "POST") {
+        if (empty($first_name) || empty($last_name) || empty($email) || empty($password)) {
+            $error = "All fields are required";
+            $password_day = "Please enter password";
+            $first_name_day = "Please enter firstname";
+            $last_name_day = "Please enter lastname";
+            $email_day = "Please enter email";
+        } elseif (strlen($_POST['password']) < 6) {
+            $password_day = "Password must be greater than 6";
+        } elseif (mysqli_num_rows($check_query) > 0) {
+            $email_day = "Email already exists";
+        } elseif (strpos($email, '.com') === false) {
+            $email_day = "Please enter a valid email address";
+        } else {
+        }
+
+        $sql = "INSERT INTO user_registration (first_name,last_name,email_address,phone_num,password,confirm_password) VALUES ('$irstname', '$lastname', '$email', '$phone', '$password','$confirm_password')";
+        $query_run = mysqli_query($con, $sql);
+    }
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -26,16 +62,16 @@ include('header.php');
                 <p class="text-sm">Create your account </p>
 
                 <div class="mt-8 sm:mx-auto sm:w-full sm:max-w-sm justify-center align-content place-items-center">
-                    <form class="space-y-6" action="#" method="POST">
+                    <form class="space-y-6" action="./signup.php" method="POST">
                         <div>
                             <div class=" w-80">
-                                <input type="text" name="firstname" id="firstname" required placeholder="First name"
+                                <input type="text" name="first_name" id="firstname" required placeholder="First name"
                                     class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2" />
                             </div>
                         </div>
                         <div>
                             <div class="mt-4 w-80">
-                                <input type="text" name="lastname" id="lastname" required placeholder="Last Name"
+                                <input type="text" name="last_name" id="lastname" required placeholder="Last Name"
                                     class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2" />
                             </div>
                         </div>
@@ -75,16 +111,16 @@ include('header.php');
                             </div>
                         </div>
 
-                        <div>
+                        <!-- <div>
                             <p class="text-sm max-w-6xl lg:max-w-6xl md:max-w-6xl sm:max-w-6xl">
                                 By signing up, you agree to our
                                 <a href="#" class="font-semibold text-[#D00000]">Terms of Service</a> and
                                 <a href="#" class="font-semibold text-[#D00000]">Privacy Policy</a>.
                             </p>
-                        </div>
+                        </div> -->
 
                         <div class="mt-8 w-80">
-                            <button type="submit"
+                            <button type="submit" name="submit"
                                 class="product-btn py-2 px-4 button-hover bg-[#D00000] text-white w-full">
                                 Register
                             </button>
