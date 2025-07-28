@@ -15,34 +15,40 @@ if (isset($_POST['submit'])) {
 
     $check_query = mysqli_query($con, "SELECT * FROM user_registration WHERE email_address = '$email_address'");
     if ($_SERVER['REQUEST_METHOD'] == "POST") {
-        if (empty($first_name) || empty($last_name) || empty($email_address) || empty($password)) {
-            $error = "All fields are required";
-            $password_day = "Please enter password";
-            $first_name_day = "Please enter firstname";
-            $last_name_day = "Please enter lastname";
-            $email_day = "Please enter email";
-        } elseif (strlen($_POST['password']) < 6) {
-            $password_day = "Password must be greater than 6";
-        } elseif (mysqli_num_rows($check_query) > 0) {
-            $email_day = "Email already exists";
+        if (empty($first_name) || empty($last_name) || empty($email_address) || empty($password) || empty($confirm_password)) {
+            echo "<script>alert('All fields are required');</script>";
+        } elseif (strlen($_POST['password']) < 6) { // check
+            echo "<script>alert('Password must be at least 6 characters');</script>";
+        } elseif ($password !== $confirm_password) {
+            echo "<script>alert('Passwords do not match');</script>";
+        } elseif (!filter_var($email_address, FILTER_VALIDATE_EMAIL)) { // check
+            echo "<script>alert('Please enter a valid email address');</script>";
+        } elseif (mysqli_num_rows($check_query) > 0) { // check
+            echo "<script>alert('Email already exists');</script>";
         } elseif (strpos($email_address, '.com') === false) {
-            $email_day = "Please enter a valid email address";
+            echo "<script>alert('Please enter a valid email address');</script>";  // check
         } else {
-        }
 
-        $sql = "INSERT INTO user_registration (first_name,last_name,email_address,phone_num,password,confirm_password) VALUES ('$first_name', '$last_name', '$email_address', '$phone_num', '$password','$confirm_password')";
-        $query_run = mysqli_query($con, $sql);
+            $password = password_hash($password, PASSWORD_DEFAULT);
+            $confirm_password = password_hash($confirm_password, PASSWORD_DEFAULT);
 
-        if ($query_run) {
-            echo "<script>alert('Registration successful');</script>";
-            header("Location: signin.php");
-        } else {
-            echo "<script>alert('Registration failed');</script>";
+            $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+
+            $sql = "INSERT INTO user_registration (first_name, last_name, email_address, phone_num, password, confirm_password)
+                VALUES ('$first_name', '$last_name', '$email_address', '$phone_num', '$hashed_password' , '$confirm_password')";
+
+            $query_run = mysqli_query($con, $sql);
+
+            if ($query_run) {
+                echo "<script>alert('Registration successful'); window.location.href='signin.php';</script>";
+                header("Location: signin.php");
+            } else {
+                echo "<script>alert('Registration failed');</script>";
+            }
+            mysqli_close($con);
         }
-        mysqli_close($con);
     }
 }
-
 ?>
 
 <!DOCTYPE html>
