@@ -13,7 +13,7 @@ if (isset($_POST['submit'])) {
     $password = $_POST['password'];
     $confirm_password = $_POST['confirm_password'];
 
-    $check_query = mysqli_query($con, "SELECT * FROM user_registration WHERE email = '$email_address'");
+    $check_query = mysqli_query($con, "SELECT * FROM user_registration WHERE email_address = '$email_address'");
     if ($_SERVER['REQUEST_METHOD'] == "POST") {
         if (empty($first_name) || empty($last_name) || empty($email_address) || empty($password)) {
             $error = "All fields are required";
@@ -30,7 +30,7 @@ if (isset($_POST['submit'])) {
         } else {
         }
 
-        $sql = "INSERT INTO user_registration (first_name,last_name,email_address,phone_num,password,confirm_password) VALUES ('$irstname', '$lastname', '$email_address', '$phone_num', '$password','$confirm_password')";
+        $sql = "INSERT INTO user_registration (first_name,last_name,email_address,phone_num,password,confirm_password) VALUES ('$first_name', '$last_name', '$email_address', '$phone_num', '$password','$confirm_password')";
         $query_run = mysqli_query($con, $sql);
 
         if ($query_run) {
@@ -96,24 +96,24 @@ if (isset($_POST['submit'])) {
                             </div>
                         </div>
                         <div>
+                            <!-- First Password -->
                             <div class="mt-4 flex items-center w-full gap-1">
-                                <input type="password" name="password" id="password1" autocomplete="new-password"
+                                <input type="password" name="password" id="password" autocomplete="new-password"
                                     required placeholder="Enter your password"
-                                    class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2" />
-                                <button type="button" id="password-toggle1"
-                                    class="ml-2 text-gray-600 hover:text-[#D00000] transition-colors"
-                                    aria-label="Toggle password visibility">
-                                    <i class="fa-solid fa-eye" id="password-icon1"></i>
+                                    class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 mr-4" />
+                                <button type="button" id="password-toggle" aria-label="Toggle password visibility">
+                                    <i class="fa-solid fa-eye" id="password-icon"></i>
                                 </button>
                             </div>
+
+
+                            <!-- Confirm Password -->
                             <div class="mt-4 flex items-center w-full gap-1">
-                                <input type="password" name="password" id="password2" autocomplete="new-password"
-                                    required placeholder="Enter your password"
-                                    class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2" />
-                                <button type="button" id="password-toggle2"
-                                    class="ml-2 text-gray-600 hover:text-[#D00000] transition-colors"
-                                    aria-label="Toggle password visibility">
-                                    <i class="fa-solid fa-eye" id="password-icon2"></i>
+                                <input type="password" name="confirm_password" id="password1"
+                                    autocomplete="new-password" required placeholder="Confirm your password"
+                                    class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 mr-4" />
+                                <button type="button" id="password-toggle1" aria-label="Toggle password visibility">
+                                    <i class="fa-solid fa-eye" id="password-icon1"></i>
                                 </button>
                             </div>
                         </div>
