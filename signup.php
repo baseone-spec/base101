@@ -16,17 +16,41 @@ if (isset($_POST['submit'])) {
     $check_query = mysqli_query($con, "SELECT * FROM user_registration WHERE email_address = '$email_address'");
     if ($_SERVER['REQUEST_METHOD'] == "POST") {
         if (empty($first_name) || empty($last_name) || empty($email_address) || empty($password) || empty($confirm_password)) {
-            echo "<script>alert('All fields are required');</script>";
+
+            echo '<div class= "bg-[#ffe8e8] text-[#D00000] text-center px-4 py-3 p-5 role="alert">
+                <strong class="font-bold">Error: All fields are required.</strong>
+              </div>';
+            // echo "<script>alert('All fields are required');</script>";
         } elseif (strlen($_POST['password']) < 6) { // check
-            echo "<script>alert('Password must be at least 6 characters');</script>";
+
+            echo '<div class= "bg-[#ffe8e8] text-[#D00000] text-center px-4 py-3 p-5 role="alert">
+                <strong class="font-bold">Error: Password must be at least 6 characters.</strong>
+              </div>';
+            // echo "<script>alert('Password must be at least 6 characters');</script>";
         } elseif ($password !== $confirm_password) {
-            echo "<script>alert('Passwords do not match');</script>";
+            echo '<div class= "bg-[#ffe8e8] text-[#D00000] text-center px-4 py-3 p-5 role="alert">
+                <strong class="font-bold">Error: Passwords do not match.</strong>
+              </div>';
         } elseif (!filter_var($email_address, FILTER_VALIDATE_EMAIL)) { // check
-            echo "<script>alert('Please enter a valid email address');</script>";
+
+            echo '<div class= "bg-[#ffe8e8] text-[#D00000] text-center px-4 py-3 p-5 role="alert">
+                <strong class="font-bold">Error: Please enter a valid email address.</strong>
+              </div>';
+            // echo "<script>alert('Please enter a valid email address');</script>";
         } elseif (mysqli_num_rows($check_query) > 0) { // check
-            echo "<script>alert('Email already exists');</script>";
+
+            echo '<div class= "bg-[#ffe8e8] text-[#D00000] text-center px-4 py-3 p-5 role="alert">
+                <strong class="font-bold">Error: Email already exists.</strong>
+              </div>';
+
+            // echo "<script>alert('Email already exists');</script>";
         } elseif (strpos($email_address, '.com') === false) {
-            echo "<script>alert('Please enter a valid email address');</script>";  // check
+
+            echo '<div class= "bg-[#ffe8e8] text-[#D00000] text-center px-4 py-3 p-5 role="alert">
+                <strong class="font-bold">Error: Please enter a valid email address.</strong>
+              </div>';
+
+            // echo "<script>alert('Please enter a valid email address');</script>";  // check
         } else {
 
             $password = password_hash($password, PASSWORD_DEFAULT);
@@ -39,13 +63,39 @@ if (isset($_POST['submit'])) {
 
             $query_run = mysqli_query($con, $sql);
 
+            // if ($query_run) {
+            //     echo "<script>alert('Registration successful'); window.location.href='signin.php';</script";
+            //     header("Location: signin.php");
+            // } else {
+            //     echo "<script>alert('Registration failed');</script>";
+            // }
+            // mysqli_close($con);
+
             if ($query_run) {
-                echo "<script>alert('Registration successful'); window.location.href='signin.php';</script>";
-                header("Location: signin.php");
+                echo "
+    <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
+    <script>
+        Swal.fire({
+            position: 'center',
+            icon: 'success',
+            title: 'Registration successful!',
+            showConfirmButton: false,
+            timer: 1500
+        }).then(() => {
+            window.location.href = 'signin.php';
+        });
+    </script>";
             } else {
-                echo "<script>alert('Registration failed');</script>";
+                echo "
+    <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
+    <script>
+        Swal.fire({
+            icon: 'error',
+            title: 'Oops...',
+            text: 'Registration failed. Please try again.'
+        });
+    </script>";
             }
-            mysqli_close($con);
         }
     }
 }
@@ -61,6 +111,10 @@ if (isset($_POST['submit'])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Include SweetAlert2 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </head>
 
 <body>
@@ -152,6 +206,7 @@ if (isset($_POST['submit'])) {
 
 
     <script src="./src/js/pass-icon.js"></script>
+
 </body>
 
 </html>
