@@ -12,6 +12,8 @@ if (isset($_POST['submit'])) {
     $email_address = trim($_POST['email_address']);
     $password = trim($_POST['password']);
 
+
+
     if (!empty($email_address) && !empty($password)) {
         // 1. Check if user is registered
         $stmt = $con->prepare("SELECT * FROM user_registration WHERE email_address = ?");
@@ -26,6 +28,8 @@ if (isset($_POST['submit'])) {
                 // $_SESSION['user_id'] = $user['id'];c       
                 $_SESSION['first_name'] = $user['first_name'];
                 $_SESSION['last_name'] = $user['last_name'];
+
+                date_default_timezone_set("Asia/Manila");
 
                 // 4. Store login event in user_logs
                 $name = $user['first_name'] . ' ' . $user['last_name'];
