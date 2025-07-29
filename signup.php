@@ -55,13 +55,11 @@ if (isset($_POST['submit'])) {
             // echo "<script>alert('Please enter a valid email address');</script>";  // check
         } else {
 
-            $password = password_hash($password, PASSWORD_DEFAULT);
-            $confirm_password = password_hash($confirm_password, PASSWORD_DEFAULT);
 
             $hashed_password = password_hash($password, PASSWORD_DEFAULT);
 
-            $sql = "INSERT INTO user_registration (first_name, last_name, email_address, phone_num, password, confirm_password)
-                VALUES ('$first_name', '$last_name', '$email_address', '$phone_num', '$hashed_password' , '$confirm_password')";
+            $sql = "INSERT INTO user_registration (first_name, last_name, email_address, phone_num, password)
+                VALUES ('$first_name', '$last_name', '$email_address', '$phone_num', '$hashed_password')";
 
             $query_run = mysqli_query($con, $sql);
 
@@ -75,28 +73,28 @@ if (isset($_POST['submit'])) {
 
             if ($query_run) {
                 echo "
-    <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
-    <script>
-        Swal.fire({
-            position: 'center',
-            icon: 'success',
-            title: 'Registration successful!',
-            showConfirmButton: false,
-            timer: 1500
-        }).then(() => {
-            window.location.href = 'signin.php';
-        });
-    </script>";
+                        <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
+                        <script>
+                            Swal.fire({
+                                position: 'center',
+                                icon: 'success',
+                                title: 'Registration successful!',
+                                showConfirmButton: false,
+                                timer: 1500
+                            }).then(() => {
+                                window.location.href = 'signin.php';
+                            });
+                        </script>";
             } else {
                 echo "
-    <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
-    <script>
-        Swal.fire({
-            icon: 'error',
-            title: 'Oops...',
-            text: 'Registration failed. Please try again.'
-        });
-    </script>";
+                        <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
+                        <script>
+                            Swal.fire({
+                                icon: 'error',
+                                title: 'Oops...',
+                                text: 'Registration failed. Please try again.'
+                            });
+                        </script>";
             }
         }
     }

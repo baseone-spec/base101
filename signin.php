@@ -1,70 +1,109 @@
 <?php
-include('header.php');
-include('conn/dbcon.php');
 session_start();
+include('header.php');
+require 'conn/dbcon.php';
+
+// Optional: enable error reporting for development
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
 
 if (isset($_POST['submit'])) {
-
     $email_address = trim($_POST['email_address']);
     $password = trim($_POST['password']);
 
     if (!empty($email_address) && !empty($password)) {
-
+        // 1. Check if user is registered
         $stmt = $con->prepare("SELECT * FROM user_registration WHERE email_address = ?");
         $stmt->bind_param("s", $email_address);
         $stmt->execute();
         $result = $stmt->get_result();
 
         if ($user = $result->fetch_assoc()) {
-            // Verify hashed password
+            // 2. Verify the password
             if (password_verify($password, $user['password'])) {
-
-                // Save user name in session
+                // 3. Save user data in session
+                // $_SESSION['user_id'] = $user['id'];c       
                 $_SESSION['first_name'] = $user['first_name'];
                 $_SESSION['last_name'] = $user['last_name'];
 
-                // Log login event
+                // 4. Store login event in user_logs
+                $name = $user['first_name'] . ' ' . $user['last_name'];
                 $status = "login";
                 $date = date("Y-m-d");
                 $time = date("h:i a");
 
-                $name = $user['first_name'] . ' ' . $user['last_name'];
                 $logStmt = $con->prepare("INSERT INTO user_logs (name, status, time, date) VALUES (?, ?, ?, ?)");
                 $logStmt->bind_param("ssss", $name, $status, $time, $date);
-                $logStmt->execute();
 
-                // Success popup and redirect
+                if ($logStmt->execute()) {
+                    // 5. Show success message and redirect
+                    echo "
+                    <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
+                    <script>
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Welcome, {$user['first_name']}!',
+                            showConfirmButton: false,
+                            timer: 1500
+                        }).then(() => {
+                            window.location.href = 'index.php';
+                        });
+                    </script>";
+                    exit();
+                } else {
+                    echo "<script>alert('Login succeeded, but failed to log the login.');</script>";
+                }
+            } else {
+                // Password incorrect
                 echo "
                 <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
                 <script>
                     Swal.fire({
-                        icon: 'success',
-                        title: 'Signed in successfully!',
-                        showConfirmButton: false,
-                        timer: 1500
+                        icon: 'error',
+                        title: 'Incorrect password!',
+                        confirmButtonText: 'Try again'
                     }).then(() => {
-                        window.location.href = 'index.php';
+                        window.location.href = 'signin.php';
                     });
                 </script>";
                 exit();
-            } else {
-                $_SESSION['status'] = "Incorrect password.";
-                echo "<script>alert('Incorrect password.');</script>";
             }
         } else {
-            $_SESSION['status'] = "User not found.";
-            echo "<script>alert('User not found');</script>";
+            // User not found
+            echo "
+            <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
+            <script>
+                Swal.fire({
+                    icon: 'error',
+                    title: 'User not found!',
+                    text: 'Please register first.',
+                    confirmButtonText: 'Go to Register'
+                }).then(() => {
+                    window.location.href = 'signup.php';
+                });
+            </script>";
+            exit();
         }
     } else {
-        $_SESSION['status'] = "All fields are required.";
-        echo "<script>alert('All fields are required.');</script>";
+        // Fields empty
+        echo "
+        <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
+        <script>
+            Swal.fire({
+                icon: 'warning',
+                title: 'All fields are required!',
+                confirmButtonText: 'OK'
+            }).then(() => {
+                window.location.href = 'login.php';
+            });
+        </script>";
+        exit();
     }
-
-    // Redirect back if failed
-    header("Location: index.php");
-    exit();
 }
 ?>
+
+
 
 
 <!DOCTYPE html>
@@ -118,7 +157,7 @@ if (isset($_POST['submit'])) {
                                     <div class="flex items-center w-full gap-1">
                                         <input type="password" name="password" id="password2"
                                             autocomplete="current-password" required placeholder="Enter your password"
-                                            class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2" />
+                                            class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 mr-4" />
 
 
                                         <button type="button" id="password-toggle2"
@@ -131,14 +170,18 @@ if (isset($_POST['submit'])) {
 
 
                         </div>
+
+                        <div class="mt-8 w-80">
+                            <button type="submit" name="submit"
+                                class="product-btn py-2 px-4  button-hover bg-[#D00000] text-white">
+                                Sign In
+                            </button>
+                        </div>
+
                     </form>
                 </div>
 
-                <div class="mt-8 w-80">
-                    <button type="submit" class="product-btn py-2 px-4  button-hover bg-[#D00000] text-white">
-                        Sign In
-                    </button>
-                </div>
+
 
                 <div class="mt-4 text-center">
                     <p class="text-sm text-gray-600">
