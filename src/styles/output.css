@@ -1567,646 +1567,650 @@
     @media (min-width: 1024px) {
       max-width: 60rem;
     }
-
-
-    .lg\:max-w-7xl {
-      @media (min-width: 1024px) {
-        max-width: 1024px;
-      }
-    }
-
-    .lg\:px-5 {
-      @media (min-width: 1024px) {
-        padding-inline: calc(var(--spacing) * 5);
-      }
-    }
-
-    .lg\:px-8 {
-      @media (min-width: 1024px) {
-        padding-inline: calc(var(--spacing) * 8);
-      }
-    }
-
-    .lg\:px-15 {
-      @media (min-width: 1024px) {
-        padding-inline: calc(var(--spacing) * 15);
-      }
-    }
-
-    .lg\:px-20 {
-      @media (min-width: 1024px) {
-        padding-inline: calc(var(--spacing) * 20);
-      }
-    }
-
-    .lg\:px-30 {
-      @media (min-width: 1024px) {
-        padding-inline: calc(var(--spacing) * 30);
-      }
-    }
-
-    .lg\:px-40 {
-      @media (min-width: 1024px) {
-        padding-inline: calc(var(--spacing) * 40);
-      }
-    }
-
-
-    .lg\:p-0 {
-      @media (min-width: 1024px) {
-        padding: 0;
-      }
-    }
-
-    .lg\:p-4 {
-      @media (max-width: 1024px) {
-        padding: calc(var(--spacing) * 4);
-      }
-    }
-
-    .lg\:p-8 {
-      @media (min-width: 1024px) {
-        padding: calc(var(--spacing) * 8);
-      }
-    }
-
-    .lg\:py-10 {
-      @media (min-width: 1024px) {
-        padding-block: calc(var(--spacing) * 10);
-      }
-    }
-
-    .lg\:py-20 {
-      @media (min-width: 1024px) {
-        padding-block: calc(var(--spacing) * 20);
-      }
-    }
-
-    .lg\:p-20 {
-      @media (min-width: 1024px) {
-        padding: calc(var(--spacing) * 20);
-      }
-    }
-
-
-    .lg\:p-32 {
-      @media (min-width: 1024px) {
-        padding: calc(var(--spacing) * 32);
-      }
-    }
-
-    .lg\:grid-cols-4 {
-      @media (min-width: 1024px) {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-      }
-    }
-
-    .lg\:justify-center {
-      @media (max-width: 1024px) {
-        justify-content: center;
-      }
-    }
-
-    .lg\:align-content {
-      @media (max-width: 1024px) {
-        align-content: center;
-      }
-    }
-
-    .lg\:text-center {
-      @media (max-width: 1024px) {
-        text-align: center;
-      }
-    }
-
-
-    .lg\:aspect-auto {
-      @media (max-width: 1024px) {
-        aspect-ratio: auto;
-      }
-    }
-
-    .lg\:max-h-70 {
-      @media (max-width: 1024px) {
-        max-height: 70vh;
-      }
-    }
-
-    .lg\:h-full {
-      @media (max-width: 1024px) {
-        height: 100%;
-      }
-    }
-
-
-    .lg\:h-80 {
-      @media (max-width: 1024px) {
-        height: calc(var(--spacing) * 80);
-      }
-    }
-
-    .lg\:w-20 {
-      @media (max-width: 1024px) {
-        width: calc(var(--spacing) * 20);
-      }
-    }
-
-    .lg\:hidden {
-      @media (max-width: 1024px) {
-        display: none;
-      }
-    }
-
-
-    /* responsive media queries utilities 1280 */
-
-    .xl\:grid-cols-1 {
-      @media (min-width: 1280px) {
-        grid-template-columns: repeat(1, minmax(0, 1fr));
-      }
-    }
-
-    .xl\:grid-cols-2 {
-
-      @media (min-width: 1280px) {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-    }
-
-    .xl\:grid-cols-3 {
-      @media (min-width: 1280px) {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-      }
-    }
-
-    .xl\:grid-cols-4 {
-      @media (min-width: 1280px) {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-      }
-    }
-
-    .xl\:gap-x-8 {
-      @media (min-width: 1280px) {
-        column-gap: calc(var(--spacing) * 8);
-      }
-    }
-
-    .xl\:px-30 {
-      @media (min-width: 1280px) {
-        padding-inline: calc(var(--spacing) * 30);
-      }
-    }
-
-    .xl\:px-40 {
-      @media (min-width: 1280px) {
-        padding-inline: calc(var(--spacing) * 40);
-      }
-    }
-
-    .xl\:p-20 {
-      @media (max-width: 1280px) {
-        padding: calc(var(--spacing) * 20);
-      }
-    }
-
-    .xl\:p-32 {
-      @media (min-width: 1280px) {
-        padding: calc(var(--spacing) * 32);
-      }
-    }
-
-
-    .xl\:w-1\/2 {
-      @media (min-width: 1280px) {
-        width: 50%;
-        max-width: 50%;
-      }
-    }
-
-
-
-    .xl\:w-3\/4 {
-      @media (min-width: 1280px) {
-        width: 75%;
-        max-width: 75%;
-      }
-    }
-
-    .xl\:w-auto {
-      @media (min-width: 1280px) {
-        width: auto;
-      }
-    }
-
-    .xl\:w-full {
-      @media (min-width: 1280px) {
-        width: 100%;
-      }
-    }
-
-    .xl\:w-40 {
-      @media (min-width: 1280px) {
-        width: calc(var(--spacing) * 40);
-      }
-    }
-
-    .xl\:max-w-2xl {
-      @media (min-width: 1280px) {
-        max-width: 40rem;
-      }
-    }
-
-    /* margin */
-    .xl\:m-0 {
-      @media (min-width: 1280px) {
-        margin: 0;
-      }
-    }
-
-    /* padding */
-    .xl\:p-0 {
-      @media (min-width: 1280px) {
-        padding: 0;
-      }
-    }
-
   }
 
-
-
-  @property --tw-border-style {
-    syntax: "*";
-    inherits: false;
-    initial-value: solid;
-  }
-
-  @property --tw-font-weight {
-    syntax: "*";
-    inherits: false;
-  }
-
-  @property --tw-shadow {
-    syntax: "*";
-    inherits: false;
-    initial-value: 0 0 #0000;
-  }
-
-  @property --tw-shadow-color {
-    syntax: "*";
-    inherits: false;
-  }
-
-  @property --tw-shadow-alpha {
-    syntax: "<percentage>";
-    inherits: false;
-    initial-value: 100%;
-  }
-
-  @property --tw-inset-shadow {
-    syntax: "*";
-    inherits: false;
-    initial-value: 0 0 #0000;
-  }
-
-  @property --tw-inset-shadow-color {
-    syntax: "*";
-    inherits: false;
-  }
-
-  @property --tw-inset-shadow-alpha {
-    syntax: "<percentage>";
-    inherits: false;
-    initial-value: 100%;
-  }
-
-  @property --tw-ring-color {
-    syntax: "*";
-    inherits: false;
-  }
-
-  @property --tw-ring-shadow {
-    syntax: "*";
-    inherits: false;
-    initial-value: 0 0 #0000;
-  }
-
-  @property --tw-inset-ring-color {
-    syntax: "*";
-    inherits: false;
-  }
-
-  @property --tw-inset-ring-shadow {
-    syntax: "*";
-    inherits: false;
-    initial-value: 0 0 #0000;
-  }
-
-  @property --tw-ring-inset {
-    syntax: "*";
-    inherits: false;
-  }
-
-  @property --tw-ring-offset-width {
-    syntax: "<length>";
-    inherits: false;
-    initial-value: 0px;
-  }
-
-  @property --tw-ring-offset-color {
-    syntax: "*";
-    inherits: false;
-    initial-value: #fff;
-  }
-
-  @property --tw-ring-offset-shadow {
-    syntax: "*";
-    inherits: false;
-    initial-value: 0 0 #0000;
-  }
-
-  @property --tw-outline-style {
-    syntax: "*";
-    inherits: false;
-    initial-value: solid;
-  }
-
-  @layer properties {
-    @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
-
-      *,
-      ::before,
-      ::after,
-      ::backdrop {
-        --tw-border-style: solid;
-        --tw-font-weight: initial;
-        --tw-shadow: 0 0 #0000;
-        --tw-shadow-color: initial;
-        --tw-shadow-alpha: 100%;
-        --tw-inset-shadow: 0 0 #0000;
-        --tw-inset-shadow-color: initial;
-        --tw-inset-shadow-alpha: 100%;
-        --tw-ring-color: initial;
-        --tw-ring-shadow: 0 0 #0000;
-        --tw-inset-ring-color: initial;
-        --tw-inset-ring-shadow: 0 0 #0000;
-        --tw-ring-inset: initial;
-        --tw-ring-offset-width: 0px;
-        --tw-ring-offset-color: #fff;
-        --tw-ring-offset-shadow: 0 0 #0000;
-        --tw-outline-style: solid;
-      }
+  .lg\:max-w-7xl {
+    @media (min-width: 1024px) {
+      max-width: 1024px;
     }
   }
 
-  @layer components {
-
-    /* partners */
-
-    @keyframes slide {
-      from {
-        transform: translateX(0);
-      }
-
-      to {
-        transform: translateX(-100%);
-      }
+  .lg\:px-5 {
+    @media (min-width: 1024px) {
+      padding-inline: calc(var(--spacing) * 5);
     }
+  }
 
-    .logos {
-      overflow: hidden;
-      padding: 30px 50px;
-      background: #232323;
-      height: auto;
-      white-space: nowrap;
-      position: relative;
+  .lg\:px-8 {
+    @media (min-width: 1024px) {
+      padding-inline: calc(var(--spacing) * 8);
+    }
+  }
+
+  .lg\:px-15 {
+    @media (min-width: 1024px) {
+      padding-inline: calc(var(--spacing) * 15);
+    }
+  }
+
+  .lg\:px-20 {
+    @media (min-width: 1024px) {
+      padding-inline: calc(var(--spacing) * 20);
+    }
+  }
+
+  .lg\:px-30 {
+    @media (min-width: 1024px) {
+      padding-inline: calc(var(--spacing) * 30);
+    }
+  }
+
+  .lg\:px-40 {
+    @media (min-width: 1024px) {
+      padding-inline: calc(var(--spacing) * 40);
+    }
+  }
+
+
+  .lg\:p-0 {
+    @media (min-width: 1024px) {
+      padding: 0;
+    }
+  }
+
+  .lg\:p-4 {
+    @media (max-width: 1024px) {
+      padding: calc(var(--spacing) * 4);
+    }
+  }
+
+  .lg\:p-8 {
+    @media (min-width: 1024px) {
+      padding: calc(var(--spacing) * 8);
+    }
+  }
+
+  .lg\:py-10 {
+    @media (min-width: 1024px) {
+      padding-block: calc(var(--spacing) * 10);
+    }
+  }
+
+  .lg\:py-20 {
+    @media (min-width: 1024px) {
+      padding-block: calc(var(--spacing) * 20);
+    }
+  }
+
+  .lg\:p-20 {
+    @media (min-width: 1024px) {
+      padding: calc(var(--spacing) * 20);
+    }
+  }
+
+
+  .lg\:p-32 {
+    @media (min-width: 1024px) {
+      padding: calc(var(--spacing) * 32);
+    }
+  }
+
+  .lg\:grid-cols-4 {
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  .lg\:justify-center {
+    @media (max-width: 1024px) {
+      justify-content: center;
+    }
+  }
+
+  .lg\:align-content {
+    @media (max-width: 1024px) {
+      align-content: center;
+    }
+  }
+
+  .lg\:text-center {
+    @media (max-width: 1024px) {
       text-align: center;
     }
+  }
 
-    #contact p {
-      color: #ecf3fe;
-      font-size: 20px;
+
+  .lg\:aspect-auto {
+    @media (max-width: 1024px) {
+      aspect-ratio: auto;
     }
+  }
 
+  .lg\:max-h-70 {
+    @media (max-width: 1024px) {
+      max-height: 70vh;
+    }
+  }
 
-    .logos:before,
-    .logos:after {
-      position: absolute;
-      top: 0;
-      width: 250px;
+  .lg\:h-full {
+    @media (max-width: 1024px) {
       height: 100%;
-      content: "";
-      z-index: 2;
     }
+  }
 
-    .logos:before {
-      left: 0;
-      background: linear-gradient(to left, rgba(255, 255, 255, 0), #000000);
+
+  .lg\:h-80 {
+    @media (max-width: 1024px) {
+      height: calc(var(--spacing) * 80);
     }
+  }
 
-    .logos:after {
-      right: 0;
-      background: linear-gradient(to right, rgba(255, 255, 255, 0), #000000);
+  .lg\:w-20 {
+    @media (max-width: 1024px) {
+      width: calc(var(--spacing) * 20);
     }
+  }
 
-    .logos:hover .logos-slide {
-      animation-play-state: paused;
-    }
-
-    .logos-slide {
-      display: inline-block;
-      animation: 35s slide infinite linear;
-      display: flex;
-    }
-
-    .logos-slide img {
-      height: 150px;
-      width: auto;
-      margin: 0 40px;
-    }
-
-
-    /* button */
-
-    .rounded-full {
-      border-radius: calc(infinity * 1px);
-      padding: calc(var(--spacing) * 4) calc(var(--spacing) * 8);
-      width: fit-content;
-    }
-
-    .button1 {
-      border-radius: 20px;
-      width: 30%;
-      height: 50px;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .product-btn {
-      border-radius: 10px;
-      width: 100%;
-      height: 50px;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .product-checkout {
-      border-radius: 10px;
-      width: 40%;
-      height: 50px;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-    }
-
-
-    .button-hover:hover {
-      background-color: #2D2D2D;
-      color: white;
-    }
-
-    /* button up scroll */
-    #myBtn {
+  .lg\:hidden {
+    @media (max-width: 1024px) {
       display: none;
-      /* Hidden by default */
-      position: fixed;
-      /* Fixed/sticky position */
-      bottom: 20px;
-      /* Place the button at the bottom of the page */
-      right: 30px;
-      /* Place the button 30px from the right */
-      z-index: 99;
-      /* Make sure it does not overlap */
-      border: none;
-      /* Remove borders */
-      outline: none;
-      /* Remove outline */
-      background-color: #CC1515;
-      /* Set a background color */
-      color: white;
-      /* Text color */
-      cursor: pointer;
-      /* Add a mouse pointer on hover */
-      padding: 15px;
-      /* Some padding */
-      border-radius: 10px;
-      /* Rounded corners */
-      font-size: 18px;
-      /* Increase font size */
     }
+  }
 
-    #myBtn:hover {
-      background-color: #555;
-      /* Add a dark-grey background on hover */
+
+  /* responsive media queries utilities 1280 */
+
+  .xl\:grid-cols-1 {
+    @media (min-width: 1280px) {
+      grid-template-columns: repeat(1, minmax(0, 1fr));
     }
+  }
 
-    .card {
-      border-radius: 10px;
-      height: 50vh;
+  .xl\:grid-cols-2 {
+
+    @media (min-width: 1280px) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  .xl\:grid-cols-3 {
+    @media (min-width: 1280px) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  .xl\:grid-cols-4 {
+    @media (min-width: 1280px) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  .xl\:gap-x-8 {
+    @media (min-width: 1280px) {
+      column-gap: calc(var(--spacing) * 8);
+    }
+  }
+
+  .xl\:px-30 {
+    @media (min-width: 1280px) {
+      padding-inline: calc(var(--spacing) * 30);
+    }
+  }
+
+  .xl\:px-40 {
+    @media (min-width: 1280px) {
+      padding-inline: calc(var(--spacing) * 40);
+    }
+  }
+
+  .xl\:p-20 {
+    @media (max-width: 1280px) {
+      padding: calc(var(--spacing) * 20);
+    }
+  }
+
+  .xl\:p-24 {
+    @media (min-width: 1280px) {
+      padding: calc(var(--spacing) * 24);
+    }
+  }
+
+  .xl\:p-32 {
+    @media (min-width: 1280px) {
+      padding: calc(var(--spacing) * 32);
+    }
+  }
+
+
+  .xl\:w-1\/2 {
+    @media (min-width: 1280px) {
+      width: 50%;
+      max-width: 50%;
+    }
+  }
+
+
+
+  .xl\:w-3\/4 {
+    @media (min-width: 1280px) {
+      width: 75%;
+      max-width: 75%;
+    }
+  }
+
+  .xl\:w-auto {
+    @media (min-width: 1280px) {
+      width: auto;
+    }
+  }
+
+  .xl\:w-full {
+    @media (min-width: 1280px) {
       width: 100%;
     }
+  }
 
-    .products {
-      border-radius: 10px;
-      object-fit: cover;
+  .xl\:w-40 {
+    @media (min-width: 1280px) {
+      width: calc(var(--spacing) * 40);
+    }
+  }
+
+  .xl\:max-w-2xl {
+    @media (min-width: 1280px) {
+      max-width: 40rem;
+    }
+  }
+
+  /* margin */
+  .xl\:m-0 {
+    @media (min-width: 1280px) {
+      margin: 0;
+    }
+  }
+
+  /* padding */
+  .xl\:p-0 {
+    @media (min-width: 1280px) {
+      padding: 0;
+    }
+  }
+
+}
+
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
+
+@property --tw-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+
+@property --tw-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+
+@property --tw-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+
+@property --tw-inset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+
+@property --tw-inset-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+
+@property --tw-inset-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+
+@property --tw-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+
+@property --tw-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+
+@property --tw-inset-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+
+@property --tw-inset-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+
+@property --tw-ring-inset {
+  syntax: "*";
+  inherits: false;
+}
+
+@property --tw-ring-offset-width {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+
+@property --tw-ring-offset-color {
+  syntax: "*";
+  inherits: false;
+  initial-value: #fff;
+}
+
+@property --tw-ring-offset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+
+    *,
+    ::before,
+    ::after,
+    ::backdrop {
+      --tw-border-style: solid;
+      --tw-font-weight: initial;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-color: initial;
+      --tw-shadow-alpha: 100%;
+      --tw-inset-shadow: 0 0 #0000;
+      --tw-inset-shadow-color: initial;
+      --tw-inset-shadow-alpha: 100%;
+      --tw-ring-color: initial;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-inset-ring-color: initial;
+      --tw-inset-ring-shadow: 0 0 #0000;
+      --tw-ring-inset: initial;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-offset-shadow: 0 0 #0000;
+      --tw-outline-style: solid;
+    }
+  }
+}
+
+@layer components {
+
+  /* partners */
+
+  @keyframes slide {
+    from {
+      transform: translateX(0);
     }
 
-
-    /* product 1 */
-    .image-wrapper {
-      position: relative;
-      display: block;
-      width: 100%;
-      height: 15rem;
-      /* same as h-48 */
-      padding: 1rem;
-      /* same as p-4 */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
-      /* mimic shadow-md */
-      overflow: hidden;
-      /* prevent overflow on scale */
+    to {
+      transform: translateX(-100%);
     }
+  }
 
-    .image-wrapper img {
-      height: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      object-fit: contain;
-      transition: transform 0.8s ease;
-    }
+  .logos {
+    overflow: hidden;
+    padding: 30px 50px;
+    background: #232323;
+    height: auto;
+    white-space: nowrap;
+    position: relative;
+    text-align: center;
+  }
 
-    .image-wrapper:hover img {
-      transform: scale(1.05);
-    }
+  #contact p {
+    color: #ecf3fe;
+    font-size: 20px;
+  }
 
 
-    /* product 2 */
+  .logos:before,
+  .logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+  }
 
-    .image-container {
-      position: relative;
-      width: 100%;
-      height: 100%;
-    }
+  .logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #000000);
+  }
 
-    .image-container img {
-      position: absolute;
-      inset: 0;
-      /* top:0; right:0; bottom:0; left:0 */
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: opacity 0.3s ease;
-    }
+  .logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), #000000);
+  }
 
-    .image1 {
-      opacity: 1;
-      z-index: 10;
-    }
+  .logos:hover .logos-slide {
+    animation-play-state: paused;
+  }
 
-    .image2 {
-      opacity: 0;
-      z-index: 20;
-    }
+  .logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+    display: flex;
+  }
 
-    .image-container:hover .image1 {
-      opacity: 0;
-    }
+  .logos-slide img {
+    height: 150px;
+    width: auto;
+    margin: 0 40px;
+  }
 
-    .image-container:hover .image2 {
-      opacity: 1;
-    }
 
-    .modal-size {
-      height: 80vh;
-      width: 80%;
-    }
+  /* button */
 
-    .border {
-      border: none;
-      padding: 10px 20px;
-      border-radius: 15px;
-      cursor: pointer;
-      border-color: #ca1313;
-      background-color: #ca1313;
+  .rounded-full {
+    border-radius: calc(infinity * 1px);
+    padding: calc(var(--spacing) * 4) calc(var(--spacing) * 8);
+    width: fit-content;
+  }
 
-    }
+  .button1 {
+    border-radius: 20px;
+    width: 30%;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .border:hoer {
-      background-color: #171717;
-      color: var(--color-white);
-      border: 0;
-    }
+  .product-btn {
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .rounded {
-      border-radius: 10px;
-      outline-style: var(--tw-outline-style);
-      outline-width: 1px;
-      height: 40px;
-      color: #9CA3AF;
-    }
+  .product-checkout {
+    border-radius: 10px;
+    width: 40%;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .button-hover:hover {
+    background-color: #2D2D2D;
+    color: white;
+  }
+
+  /* button up scroll */
+  #myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: #CC1515;
+    /* Set a background color */
+    color: white;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+  }
+
+  #myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+  }
+
+  .card {
+    border-radius: 10px;
+    height: 50vh;
+    width: 100%;
+  }
+
+  .products {
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+
+  /* product 1 */
+  .image-wrapper {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 15rem;
+    /* same as h-48 */
+    padding: 1rem;
+    /* same as p-4 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    /* mimic shadow-md */
+    overflow: hidden;
+    /* prevent overflow on scale */
+  }
+
+  .image-wrapper img {
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+    transition: transform 0.8s ease;
+  }
+
+  .image-wrapper:hover img {
+    transform: scale(1.05);
+  }
+
+
+  /* product 2 */
+
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-container img {
+    position: absolute;
+    inset: 0;
+    /* top:0; right:0; bottom:0; left:0 */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+  }
+
+  .image1 {
+    opacity: 1;
+    z-index: 10;
+  }
+
+  .image2 {
+    opacity: 0;
+    z-index: 20;
+  }
+
+  .image-container:hover .image1 {
+    opacity: 0;
+  }
+
+  .image-container:hover .image2 {
+    opacity: 1;
+  }
+
+  .modal-size {
+    height: 80vh;
+    width: 80%;
+  }
+
+  .border {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    border-color: #ca1313;
+    background-color: #ca1313;
 
   }
+
+  .border:hoer {
+    background-color: #171717;
+    color: var(--color-white);
+    border: 0;
+  }
+
+  .rounded {
+    border-radius: 10px;
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
+    height: 40px;
+    color: #9CA3AF;
+  }
+
+}
