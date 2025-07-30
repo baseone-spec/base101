@@ -149,8 +149,8 @@ if (!isset($_SESSION['email_address'])) {
             class="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xl:px-30 xl:py-20 lg:px-20 lg:py-20 md:p-20 md:gap-8 h-auto justify-center place-items-center gap-4">
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container grid grid-cols-1 gap-4 h-80 w-70 mb-10 ">
-                    <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 63H.jpg" alt="Image 1"
-                        class="object-cover">
+                    <img src="../src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 63H.jpg"
+                        alt="Image 1" class="object-cover">
                 </div>
                 <div class="text-center max-w-6xl">
                     <h2 class="text-lg font-bold">Angelus Legacy Series Can Seamer</h2>
