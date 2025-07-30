@@ -53,7 +53,7 @@ include('customer_header.php');
             </div>
             <div class="align-content justify-center">
                 <div class="image">
-                    <img src="./src/img/B1-container.jpg" class="object-cover rounded-lg w-full">
+                    <img src="../src/img/B1-container.jpg" class="object-cover rounded-lg w-full">
                 </div>
             </div>
         </div>
@@ -66,11 +66,13 @@ include('customer_header.php');
 
 
     <!-- script -->
-    <script src="./src/js/ap-button.js">
+    <script src="../src/js/ap-button.js">
     </script>
+
     <?php
-    include('footer.php');
+    include('./cust_footer.php');
     ?>
+
 </body>
 
 </html>

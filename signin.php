@@ -55,7 +55,7 @@ if (isset($_POST['submit'])) {
                             showConfirmButton: false,
                             timer: 1500
                         }).then(() => {
-                            window.location.href = 'customer_page.php';
+                            window.location.href = './client/customer_page.php';
                         });
                     </script>";
                     exit();

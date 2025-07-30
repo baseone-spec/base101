@@ -1,5 +1,5 @@
 <?php
-include('customer_header.php');
+include('./customer_header.php');
 ?>
 
 <!DOCTYPE html>
@@ -8,7 +8,7 @@ include('customer_header.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./src/styles/output.css" rel="stylesheet">
+    <link href="../src/styles/output.css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,7 +17,7 @@ include('customer_header.php');
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
     <!-- for content -->
     <div class="container mx-auto h-full w-full bg-[#fff] text-white bg-no-repeat bg-cover bg-center"
-        style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/img/bgbaseone.jpg'); background-size: cover;">
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../src/img/bgbaseone.jpg'); background-size: cover;">
         <div
             class="grid grid-cols-1 md:align-content md:text-center xl:p-24 xl:px-40 md:max-w-6xl md:mx-auto sm:max-w-2xl sm:mx-auto  sm:py-20 py-20 ">
 
@@ -62,7 +62,7 @@ include('customer_header.php');
         <button class="button1 bg-[#171717] text-white px-6 py-2 mt-4 mb-10 font-open-sans button-hover w-32 "> -->
 
         <!-- </button> -->
-        <a href="./services.php"
+        <a href="/services.php"
             class="button1 bg-[#171717] text-white px-6 py-2 mt-4 inline-block mb-20 font-open-sans button-hover w-32 text-center align-content justify-center ">
             View Shop
         </a>
@@ -73,8 +73,8 @@ include('customer_header.php');
 
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container grid grid-cols-1 gap-4 h-80 w-70 mb-10">
-                    <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 10P.jpg" alt="Image 1"
-                        class=" object-contain">
+                    <img src="../src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 10P.jpg"
+                        alt="Image 1" class=" object-contain">
                 </div>
                 <div class="text-center max-w-6xl">
                     <h2 class="text-lg font-bold">Angelus Legacy Series Can Seamer</h2>
@@ -92,7 +92,7 @@ include('customer_header.php');
 
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container grid grid-cols-1 gap-4 h-80 w-70 mb-10">
-                    <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 121L.jpg"
+                    <img src="../src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 121L.jpg"
                         alt="Image 2" class=" object-cover">
                 </div>
                 <div class="text-center max-w-6xl">
@@ -108,7 +108,7 @@ include('customer_header.php');
 
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container grid grid-cols-1 gap-4 h-80 w-70 mb-10">
-                    <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 140S.jpg"
+                    <img src="../src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 140S.jpg"
                         alt="Image 3" class="object-cover">
                 </div>
                 <div class="text-center max-w-6xl">
@@ -124,7 +124,7 @@ include('customer_header.php');
             </div>
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container grid grid-cols-1 gap-4 h-80 w-70 mb-10 ">
-                    <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 181S.jpg"
+                    <img src="../src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 181S.jpg"
                         alt="Image 1" class="object-cover">
                 </div>
                 <div class="text-center max-w-6xl">
@@ -161,8 +161,8 @@ include('customer_header.php');
 
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container grid grid-cols-1 gap-4 h-80 w-70 mb-10">
-                    <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 62H.jpg" alt="Image 2"
-                        class=" object-cover">
+                    <img src="../src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 62H.jpg"
+                        alt="Image 2" class=" object-cover">
                 </div>
                 <div class="text-center max-w-6xl">
                     <h2 class="text-lg font-bold">Angelus Legacy Can Seamer</h2>
@@ -177,7 +177,7 @@ include('customer_header.php');
 
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container grid grid-cols-1 gap-4 h-80 w-70 mb-10 ">
-                    <img src="./src/img//product/seamers/Angelus Legacy Series Can Seamer- Model 40P.0.jpg"
+                    <img src="../src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 40P.0.jpg"
                         alt="Image 3" class=" object-cover">
                 </div>
                 <div class="text-center max-w-6xl">
@@ -192,8 +192,8 @@ include('customer_header.php');
             </div>
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container grid grid-cols-1 h-80 w-70 mb-10">
-                    <img src="./src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 56P.jpg" alt="Image 1"
-                        class=" object-cover">
+                    <img src="../src/img//product//seamers/Angelus Legacy Series Can Seamer- Model 56P.jpg"
+                        alt="Image 1" class=" object-cover">
                 </div>
                 <div class="text-center max-w-6xl">
                     <h2 class="text-lg font-bold ">Angelus Legacy Series Can Seamer</h2>
@@ -232,7 +232,7 @@ include('customer_header.php');
 
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container h-80 w-60 flex items-center justify-center">
-                    <img src="./src/img//other products/24.jpg" alt="Image 1" class="object-cover h-72 w-56">
+                    <img src="../src/img//other products/24.jpg" alt="Image 1" class="object-cover h-72 w-56">
                 </div>
                 <div class="text-left max-w-6xl">
                     <h2 class="text-lg font-bold">Economy Dial Plunger Indicator</h2>
@@ -244,7 +244,7 @@ include('customer_header.php');
 
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container h-80 w-60 flex items-center justify-center">
-                    <img src="./src/img//other products/25.jpg" alt="Image 2" class="object-cover h-72 w-56">
+                    <img src="../src/img//other products/25.jpg" alt="Image 2" class="object-cover h-72 w-56">
                 </div>
                 <div class="text-left max-w-6xl">
                     <h2 class="text-lg font-bold">SMC AMC520-04 Exhaust Cleaner</h2>
@@ -256,7 +256,7 @@ include('customer_header.php');
 
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container h-80 w-60 flex items-center justify-center">
-                    <img src="./src/img//other products/26.jpg" alt="Image 3" class="object-cover h-72 w-56">
+                    <img src="../src/img//other products/26.jpg" alt="Image 3" class="object-cover h-72 w-56">
                 </div>
                 <div class="text-left max-w-6xl">
                     <h2 class="text-lg font-bold">Reelcraft Grounding Reels</h2>
@@ -267,7 +267,7 @@ include('customer_header.php');
             </div>
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container h-80 w-60 flex items-center justify-center">
-                    <img src="./src/img//other products/23.jpg" alt="Image 1" class="object-cover h-72 w-56">
+                    <img src="../src/img//other products/23.jpg" alt="Image 1" class="object-cover h-72 w-56">
                 </div>
                 <div class="text-left max-w-6xl">
                     <h2 class="text-lg font-bold">Ridgid Copper Pipe Reamer 1/2"-2"</h2>
@@ -283,7 +283,7 @@ include('customer_header.php');
             class="grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 xl:px-30 xl:py-20 lg:px-20 lg:py-20 md:p-20 md:gap-8 h-auto justify-center place-items-center gap-4">
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container grid grid-cols-1 gap-4 h-80 w-70">
-                    <img src="./src/img//other products/4.jpg" alt="Image 1" class="object-cover">
+                    <img src="../src/img//other products/4.jpg" alt="Image 1" class="object-cover">
                 </div>
                 <div class="text-left max-w-6xl">
                     <h2 class="text-lg font-bold">Refrigerant Freon 407C 11.30KG</h2>
@@ -302,7 +302,7 @@ include('customer_header.php');
 
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container grid grid-cols-1 gap-4 h-80 w-70 ">
-                    <img src="./src/img//other products/5.jpg" alt="Image 2" class=" object-cover">
+                    <img src="../src/img//other products/5.jpg" alt="Image 2" class=" object-cover">
                 </div>
                 <div class="text-left max-w-6xl">
                     <h2 class="text-lg font-bold">Proximity Sensor PF125-8DN</h2>
@@ -318,7 +318,7 @@ include('customer_header.php');
 
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container grid grid-cols-1 gap-4 h-80 w-70 ">
-                    <img src="./src/img//other products/6.jpg" alt="Image 3" class=" object-cover">
+                    <img src="../src/img//other products/6.jpg" alt="Image 3" class=" object-cover">
                 </div>
                 <div class="text-left max-w-6xl">
                     <h2 class="text-lg font-bold">LSE Lighting GPH303T5L/4 Ultraviolet UV Lamp Bulb 4-pins
@@ -336,7 +336,7 @@ include('customer_header.php');
             </div>
             <div class="group relative shadow-xl p-6 justify-center align-content place-items-center max-w-6xl h-full">
                 <div class="image-container grid grid-cols-1 gap-4 h-80 w-70 ">
-                    <img src="./src/img//other products/7.jpg" alt="Image 1" class=" object-cover">
+                    <img src="../src/img//other products/7.jpg" alt="Image 1" class=" object-cover">
                 </div>
                 <div class="text-left max-w-6xl">
                     <h2 class="text-lg font-bold ">Proximity Sensor PS12-4DN</h2>
@@ -354,10 +354,10 @@ include('customer_header.php');
     </div>
 
 
-    <script src="./src/js/ap-button.js"> </script>
+    <script src="../src/js/ap-button.js"> </script>
 
     <?php
-    include('footer.php');
+    include('./cust_footer.php');
     ?>
 
 </body>

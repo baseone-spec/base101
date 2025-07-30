@@ -8,7 +8,7 @@ include('customer_header.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./src/styles/output.css" rel="stylesheet">
+    <link href="../src/styles/output.css" rel="stylesheet">
 </head>
 
 <body>
@@ -19,7 +19,7 @@ include('customer_header.php');
 
     <!-- about us -->
     <div class="grid grid-flow-col grid-rows-2 lg:justify-center px-48 align-content md:px-20 py-4 md:py-10 h-70vh text-white bg-no-repeat bg-cover bg-center"
-        style="background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('./src/img/Base1 Warehouse.jpg'); background-size: cover;">
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url('../src/img/Base1 Warehouse.jpg'); background-size: cover;">
 
         <div class="text m-0 p-0 justify-center items-center max-w-3xl">
             <p class="text-4xl font-semibold mb-5 lg:text-center">We're a passionate group of people
@@ -80,7 +80,7 @@ include('customer_header.php');
     <!-- about us -->
 
     <div class="grid grid-flow-col h-full lg:h-full md:h-full sm:h-full text-white bg-no-repeat bg-cover bg-center"
-        style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/img/Base1 Warehouse.jpg'); background-size: cover;">
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../src/img/Base1 Warehouse.jpg'); background-size: cover;">
         <div class="p-20 xl:p-20 sm:px-10 sm:py-24 lg:h-full md:h-full sm:h-full align-content bg-[#171717] ">
             <p class="text-3xl font-semibold mb-5">
                 About us
@@ -109,16 +109,15 @@ include('customer_header.php');
             <i class="fa-solid fa-envelope pr-4"></i>
         </div>
         <div class="image lg:hidden md:hidden sm:hidden">
-            <img src="./src/img/Base1 Warehouse.jpg" class="w-full h-full object-cover">
+            <img src="../src/img/Base1 Warehouse.jpg" class="w-full h-full object-cover">
         </div>
     </div>
 
 
-    <script src="./src/js/ap-button.js"> </script>
+    <script src="../src/js/ap-button.js"> </script>
     <?php
-    include('footer.php');
+    include('./cust_footer.php');
     ?>
-
 
 </body>
 

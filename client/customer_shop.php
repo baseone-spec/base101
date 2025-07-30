@@ -8,7 +8,7 @@ include('customer_header.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./src/styles/output.css" rel="stylesheet">
+    <link href="../src/styles/output.css" rel="stylesheet">
 </head>
 
 <body>
@@ -17,7 +17,7 @@ include('customer_header.php');
 
 
     <div class="p-20 w-full text-center justify-center items-center align-content bg-no-repeat bg-cover bg-center"
-        style="background-image: url('./src/img/bg-product.jpg'); background-size: cover; background-blend-mode: overlay; background-color: rgba(255,255,255,0.5);">
+        style="background-image: url('../src/img/bg-product.jpg'); background-size: cover; background-blend-mode: overlay; background-color: rgba(255,255,255,0.5);">
         <p class="text-4xl font-bold text-[#171717] mb-5">Official Distributor of Top Quality Psangelus
             Products
         </p>
@@ -43,8 +43,8 @@ include('customer_header.php');
         <div class="pb-10">
             <div class="group relative shadow-xl p-6 justify-center align-content ">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
-                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 3V.jpg" alt="" class="image1" />
-                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 3V.0.jpg" alt="" class="image2" />
+                    <img src="../src/img/psangelus/ANGELUS V-Series - Model 3V.jpg" alt="" class="image1" />
+                    <img src="../src/img/psangelus/ANGELUS V-Series - Model 3V.0.jpg" alt="" class="image2" />
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
@@ -80,8 +80,8 @@ include('customer_header.php');
                         <!-- Header -->
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
-                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 3V.jpg" alt="" class="image1" />
-                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 3V.0.jpg" alt=""
+                                <img src="../src/img/psangelus/ANGELUS V-Series - Model 3V.jpg" alt="" class="image1" />
+                                <img src="../src/img/psangelus/ANGELUS V-Series - Model 3V.0.jpg" alt=""
                                     class="image2" />
                             </div>
                         </div>
@@ -153,8 +153,8 @@ include('customer_header.php');
         <div class="pb-10">
             <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
-                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 4V.0.jpg" alt="" class="image1" />
-                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 4V.jpg" alt="" class="image2" />
+                    <img src="../src/img/psangelus/ANGELUS V-Series - Model 4V.0.jpg" alt="" class="image1" />
+                    <img src="../src/img/psangelus/ANGELUS V-Series - Model 4V.jpg" alt="" class="image2" />
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
@@ -193,8 +193,8 @@ include('customer_header.php');
                         <!-- Header -->
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
-                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 4V.jpg" alt="" class="image1" />
-                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 4V.0.jpg" alt=""
+                                <img src="../src/img/psangelus/ANGELUS V-Series - Model 4V.jpg" alt="" class="image1" />
+                                <img src="../src/img/psangelus/ANGELUS V-Series - Model 4V.0.jpg" alt=""
                                     class="image2" />
                             </div>
                         </div>
@@ -265,8 +265,8 @@ include('customer_header.php');
         <div class="pb-10">
             <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
-                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 6V.0.jpg" alt="" class="image1" />
-                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 6V.jpg" alt="" class="image2" />
+                    <img src="../src/img/psangelus/ANGELUS V-Series - Model 6V.0.jpg" alt="" class="image1" />
+                    <img src="../src/img/psangelus/ANGELUS V-Series - Model 6V.jpg" alt="" class="image2" />
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
@@ -304,9 +304,9 @@ include('customer_header.php');
                         <!-- Header -->
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
-                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 6V.1.jpg" alt=""
+                                <img src="../src/img/psangelus/ANGELUS V-Series - Model 6V.1.jpg" alt=""
                                     class="image1" />
-                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 6V.2.jpg" alt=""
+                                <img src="../src/img/psangelus/ANGELUS V-Series - Model 6V.2.jpg" alt=""
                                     class="image2" />
                             </div>
                         </div>
@@ -375,8 +375,8 @@ include('customer_header.php');
         <div class="pb-10">
             <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
-                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 8V.0.jpg" alt="" class="image1" />
-                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 8V.jpg" alt="" class="image2" />
+                    <img src="../src/img/psangelus/ANGELUS V-Series - Model 8V.0.jpg" alt="" class="image1" />
+                    <img src="../src/img/psangelus/ANGELUS V-Series - Model 8V.jpg" alt="" class="image2" />
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
@@ -414,9 +414,9 @@ include('customer_header.php');
                         <!-- Header -->
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
-                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 8V.1.jpg" alt=""
+                                <img src="../src/img/psangelus/ANGELUS V-Series - Model 8V.1.jpg" alt=""
                                     class="image1" />
-                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 8V.jpg" alt="" class="image2" />
+                                <img src="../src/img/psangelus/ANGELUS V-Series - Model 8V.jpg" alt="" class="image2" />
                             </div>
                         </div>
 
@@ -489,8 +489,8 @@ include('customer_header.php');
         <div>
             <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
-                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 9V.jpg" alt="" class="image1" />
-                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 9V.0.jpg" alt="" class="image2" />
+                    <img src="../src/img/psangelus/ANGELUS V-Series - Model 9V.jpg" alt="" class="image1" />
+                    <img src="../src/img/psangelus/ANGELUS V-Series - Model 9V.0.jpg" alt="" class="image2" />
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
@@ -527,8 +527,8 @@ include('customer_header.php');
 
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
-                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 9V.jpg" alt="" class="image1" />
-                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 9V.0.jpg" alt=""
+                                <img src="../src/img/psangelus/ANGELUS V-Series - Model 9V.jpg" alt="" class="image1" />
+                                <img src="../src/img/psangelus/ANGELUS V-Series - Model 9V.0.jpg" alt=""
                                     class="image2" />
                             </div>
                         </div>
@@ -596,8 +596,8 @@ include('customer_header.php');
         <div>
             <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
-                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 12V.jpg" alt="" class="image1" />
-                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 12V.0.jpg" alt="" class="image2" />
+                    <img src="../src/img/psangelus/ANGELUS V-Series - Model 12V.jpg" alt="" class="image1" />
+                    <img src="../src/img/psangelus/ANGELUS V-Series - Model 12V.0.jpg" alt="" class="image2" />
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
@@ -637,8 +637,9 @@ include('customer_header.php');
 
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
-                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 12V.jpg" alt="" class="image1" />
-                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 12V.0.jpg" alt=""
+                                <img src="../src/img/psangelus/ANGELUS V-Series - Model 12V.jpg" alt=""
+                                    class="image1" />
+                                <img src="../src/img/psangelus/ANGELUS V-Series - Model 12V.0.jpg" alt=""
                                     class="image2" />
                             </div>
                         </div>
@@ -705,8 +706,8 @@ include('customer_header.php');
         <div>
             <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt="" class="image1" />
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt="" class="image2" />
+                    <img src="../src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt="" class="image1" />
+                    <img src="../src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt="" class="image2" />
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
@@ -742,9 +743,9 @@ include('customer_header.php');
 
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt=""
+                                <img src="../src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt=""
                                     class="image1" />
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt=""
+                                <img src="../src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt=""
                                     class="image2" />
                             </div>
                         </div>
@@ -814,8 +815,8 @@ include('customer_header.php');
         <div>
             <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt="" class="image1" />
-                    <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt="" class="image2" />
+                    <img src="../src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt="" class="image1" />
+                    <img src="../src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt="" class="image2" />
                 </div>
                 <div class="mt-4 flex justify-between w-70 ">
                     <h3 class="text-lg font-bold text-[#171717]">
@@ -851,9 +852,9 @@ include('customer_header.php');
 
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt=""
+                                <img src="../src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt=""
                                     class="image1" />
-                                <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt=""
+                                <img src="../src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt=""
                                     class="image2" />
                             </div>
                         </div>
@@ -926,13 +927,14 @@ include('customer_header.php');
 
 
 
-    <script src="./src/js/ap-button.js"> </script>
-    <script src="./src/js/modal.js">
+    <script src="../src/js/ap-button.js"> </script>
+    <script src="../src/js/modal.js">
     </script>
 
 
+
     <?php
-    include('footer.php');
+    include('./cust_footer.php');
     ?>
 
 
