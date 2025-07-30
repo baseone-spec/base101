@@ -4,7 +4,7 @@ include('header.php');
 require 'conn/dbcon.php';
 
 if (isset($_SESSION['email_address'])) {
-    header("location: index.php");
+    header("location:./client/customer_page.php ");
 }
 
 // Optional: enable error reporting for development
@@ -16,7 +16,7 @@ if (isset($_POST['submit'])) {
     $email_address = trim($_POST['email_address']);
     $password = trim($_POST['password']);
 
-
+    $_SESSION['email_address'] = $email_address;
 
     if (!empty($email_address) && !empty($password)) {
         // 1. Check if user is registered

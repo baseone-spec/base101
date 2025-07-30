@@ -2,10 +2,9 @@
     include('../conn/dbcon.php');
     session_start();
 
-    // if (!isset($_SESSION['email_address'])) {
-    //     header("location: signin.php");
-    // }
-
+    if (!isset($_SESSION['email_address'])) {
+        header("location: ../signin.php");
+    }
 
     ?>
 
@@ -42,7 +41,7 @@
               position: absolute;
               left: 0px;
               right: 10px;
-              top: 40px;
+              top: 25px;
               background-color: white;
               border: 1px solid #ccc;
               border-radius: 5px;
@@ -126,7 +125,7 @@
 
                       <a href="/profile">Go to Profile</a>
                       <a href="/orders">Orders</a>
-                      <a href="./signin.php">Logout</a>
+                      <a href="../signin.php">Logout</a>
                   </div>
               </li>
           </ul>

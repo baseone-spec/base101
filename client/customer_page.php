@@ -1,5 +1,10 @@
 <?php
 include('./customer_header.php');
+
+if (!isset($_SESSION['email_address'])) {
+    header("location: ../signup.php");
+}
+
 ?>
 
 <!DOCTYPE html>
