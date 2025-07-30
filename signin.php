@@ -3,6 +3,10 @@ session_start();
 include('header.php');
 require 'conn/dbcon.php';
 
+if (isset($_SESSION['email_address'])) {
+    header("location: index.php");
+}
+
 // Optional: enable error reporting for development
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -51,7 +55,7 @@ if (isset($_POST['submit'])) {
                             showConfirmButton: false,
                             timer: 1500
                         }).then(() => {
-                            window.location.href = 'index.php';
+                            window.location.href = 'customer_page.php';
                         });
                     </script>";
                     exit();
