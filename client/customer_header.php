@@ -1,15 +1,3 @@
-  <?php
-    include('../conn/dbcon.php');
-    session_start();
-
-    if (!isset($_SESSION['email_address'])) {
-        header("location: ../signin.php");
-    }
-
-    ?>
-
-
-
   <!DOCTYPE html>
   <html lang="en">
 
@@ -24,64 +12,64 @@
           crossorigin="anonymous" referrerpolicy="no-referrer" />
 
       <style>
-          .user-menu {
-              position: relative;
-              display: inline-block;
-          }
+      .user-menu {
+          position: relative;
+          display: inline-block;
+      }
 
-          .user-menu i {
-              font-size: 24px;
-              cursor: pointer;
-              color: #333;
-          }
+      .user-menu i {
+          font-size: 24px;
+          cursor: pointer;
+          color: #333;
+      }
 
-          /* Dropdown menu */
-          .dropdown {
-              display: none;
-              position: absolute;
-              left: 0px;
-              right: 10px;
-              top: 25px;
-              background-color: white;
-              border: 1px solid #ccc;
-              border-radius: 5px;
-              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-              z-index: 1000;
-              min-width: 160px;
-          }
+      /* Dropdown menu */
+      .dropdown {
+          display: none;
+          position: absolute;
+          left: 0px;
+          right: 10px;
+          top: 25px;
+          background-color: white;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          z-index: 1000;
+          min-width: 160px;
+      }
 
-          .dropdown a {
-              display: block;
-              padding: 10px 15px;
-              color: #333;
-              text-decoration: none;
-          }
+      .dropdown a {
+          display: block;
+          padding: 10px 15px;
+          color: #333;
+          text-decoration: none;
+      }
 
-          .dropdown a:hover {
-              background-color: #f0f0f0;
-          }
+      .dropdown a:hover {
+          background-color: #f0f0f0;
+      }
 
-          /* Show dropdown on hover */
-          .user-menu:hover .dropdown {
-              display: block;
-          }
+      /* Show dropdown on hover */
+      .user-menu:hover .dropdown {
+          display: block;
+      }
 
-          .account-title {
-              position: relative;
-              display: inline-block;
-              padding-bottom: 5px;
-          }
+      .account-title {
+          position: relative;
+          display: inline-block;
+          padding-bottom: 5px;
+      }
 
-          .account-title::after {
-              content: "";
-              position: absolute;
-              left: 0;
-              bottom: 0;
-              height: 2px;
-              width: 100%;
-              background-color: #333;
-              /* Change this to match your theme */
-          }
+      .account-title::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          height: 2px;
+          width: 100%;
+          background-color: #333;
+          /* Change this to match your theme */
+      }
       </style>
 
   </head>
@@ -125,7 +113,10 @@
 
                       <a href="/profile">Go to Profile</a>
                       <a href="/orders">Orders</a>
-                      <a href="../signin.php">Logout</a>
+                      <form action="./logout.php" method="POST">
+                          <button type="submit">Logout</button>
+                      </form>
+
                   </div>
               </li>
           </ul>
@@ -136,20 +127,20 @@
 
 
       <script>
-          let menuList = document.getElementById("menuList")
-          menuList.style.maxHeight = "0px";
+      let menuList = document.getElementById("menuList")
+      menuList.style.maxHeight = "0px";
 
-          function toggleMenu() {
-              if (menuList.style.maxHeight == "0px") {
-                  menuList.style.maxHeight = "300px";
-                  menuList.style.transition = "max-height 0.5s ease-in-out";
-                  menuList.style.overflow = "hidden";
-                  menuList.style.padding = "50px 0";
+      function toggleMenu() {
+          if (menuList.style.maxHeight == "0px") {
+              menuList.style.maxHeight = "300px";
+              menuList.style.transition = "max-height 0.5s ease-in-out";
+              menuList.style.overflow = "hidden";
+              menuList.style.padding = "50px 0";
 
-              } else {
-                  menuList.style.maxHeight = "0px";
-              }
+          } else {
+              menuList.style.maxHeight = "0px";
           }
+      }
       </script>
 
   </body>

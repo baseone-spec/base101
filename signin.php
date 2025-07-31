@@ -1,11 +1,11 @@
 <?php
-session_start();
-include('header.php');
+// session_start();
 require 'conn/dbcon.php';
 
-if (isset($_SESSION['email_address'])) {
-    header("location:./client/customer_page.php ");
-}
+// if (isset($_SESSION['email_address'])) {
+//     header("location:./client/customer_page.php");
+//     exit();
+// }
 
 // Optional: enable error reporting for development
 ini_set('display_errors', 1);
@@ -29,7 +29,7 @@ if (isset($_POST['submit'])) {
             // 2. Verify the password
             if (password_verify($password, $user['password'])) {
                 // 3. Save user data in session
-                // $_SESSION['user_id'] = $user['id'];c       
+                // $_SESSION['user_id'] = $user['id'];
                 $_SESSION['first_name'] = $user['first_name'];
                 $_SESSION['last_name'] = $user['last_name'];
 
@@ -127,6 +127,11 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
+
+    <?php
+
+    include('header.php');
+    ?>
 
     <div class="container h-85vh w-full align-items-center bg-no-repeat bg-cover bg-center"
         style="background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 10)), url('src/img/bg-billboard.jpg'); background-size: cover;">
