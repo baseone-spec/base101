@@ -1,7 +1,7 @@
 <?php
+session_start();
 
-
-if (!isset($_SESSION['email_address'])) {
+if (!isset($_SESSION['first_name'])) {
     header("Location: ../signin.php");
     exit();
 }

@@ -2,6 +2,11 @@
 session_start();
 require 'conn/dbcon.php';
 
+if (isset($_SESSION['first_name'])) {
+    header("Location: ./client/customer_page.php"); // or dashboard
+    exit();
+}
+
 // Optional: enable error reporting for development
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
@@ -28,6 +33,7 @@ if (isset($_POST['submit'])) {
                 // $_SESSION['user_id'] = $user['id'];
                 $_SESSION['first_name'] = $user['first_name'];
                 $_SESSION['last_name'] = $user['last_name'];
+
 
                 date_default_timezone_set("Asia/Manila");
 

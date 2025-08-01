@@ -114,7 +114,7 @@
                       <a href="/profile">Go to Profile</a>
                       <a href="/orders">Orders</a>
                       <form action="./logout.php" method="POST">
-                          <button type="submit">Logout</button>
+                          <a href=""><button type="submit">Logout</button></a>
                       </form>
 
                   </div>
