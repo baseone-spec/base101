@@ -130,7 +130,7 @@ if (isset($_POST['submit'])) {
                 <div class="mt-12 sm:mx-auto sm:w-full sm:max-w-sm justify-center align-content place-items-center  ">
                     <form class="space-y-6" action="signin.php" method="POST">
                         <div class="">
-                            <label for="email" class="block text-base font-sm">Email address</label>
+                            <label for="email_address" class="block text-base font-sm">Email address</label>
                             <div class="mt-2 w-80">
                                 <input type="email" name="email_address" id="email_address" autocomplete="email"
                                     required placeholder="Enter your email"
@@ -142,7 +142,7 @@ if (isset($_POST['submit'])) {
                         <div>
                             <div class="mt-4 w-80">
                                 <div class="flex items-center justify-between ">
-                                    <label for="password"
+                                    <label for="password2"
                                         class="block text-base font-sm  text-gray-900">Password</label>
                                     <div class="text-sm">
                                         <a href="#" class="font-semibold text-[#D00000]">Forgot

@@ -18,11 +18,9 @@ if (!isset($_SESSION['first_name'])) {
 </head>
 
 <body>
-
     <?php
     include('./customer_header.php');
     ?>
-
 
     <!-- upper button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>

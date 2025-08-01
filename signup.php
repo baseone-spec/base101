@@ -5,6 +5,11 @@ include('conn/dbcon.php');
 
 session_start();
 
+if (isset($_SESSION['first_name'])) {
+    header("Location: ./client/customer_page.php"); // or dashboard
+    exit();
+}
+
 
 if (isset($_POST['submit'])) {
 
@@ -133,13 +138,15 @@ if (isset($_POST['submit'])) {
                         <div>
                             <div class=" w-80">
                                 <input type="text" name="first_name" id="firstname" required placeholder="First name"
-                                    class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2" />
+                                    class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 "
+                                    autocomplete="first_name" />
                             </div>
                         </div>
                         <div>
                             <div class="mt-4 w-80">
                                 <input type="text" name="last_name" id="lastname" required placeholder="Last Name"
-                                    class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2" />
+                                    class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2
+                                    autocomplete=" last_name"" />
                             </div>
                         </div>
                         <div>
