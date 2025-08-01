@@ -1,11 +1,6 @@
 <?php
-// session_start();
+session_start();
 require 'conn/dbcon.php';
-
-// if (isset($_SESSION['email_address'])) {
-//     header("location:./client/customer_page.php");
-//     exit();
-// }
 
 // Optional: enable error reporting for development
 ini_set('display_errors', 1);
@@ -16,13 +11,14 @@ if (isset($_POST['submit'])) {
     $email_address = trim($_POST['email_address']);
     $password = trim($_POST['password']);
 
-    $_SESSION['email_address'] = $email_address;
+    // $_SESSION['email_address'] = $email_address;
 
     if (!empty($email_address) && !empty($password)) {
-        // 1. Check if user is registered
+
         $stmt = $con->prepare("SELECT * FROM user_registration WHERE email_address = ?");
         $stmt->bind_param("s", $email_address);
         $stmt->execute();
+
         $result = $stmt->get_result();
 
         if ($user = $result->fetch_assoc()) {
@@ -45,10 +41,7 @@ if (isset($_POST['submit'])) {
                 $logStmt->bind_param("ssss", $name, $status, $time, $date);
 
                 if ($logStmt->execute()) {
-                    // 5. Show success message and redirect
-                    echo "
-                    <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
-                    <script>
+                    $alertScript = "
                         Swal.fire({
                             icon: 'success',
                             title: 'Welcome, {$user['first_name']}!',
@@ -57,16 +50,10 @@ if (isset($_POST['submit'])) {
                         }).then(() => {
                             window.location.href = './client/customer_page.php';
                         });
-                    </script>";
-                    exit();
-                } else {
-                    echo "<script>alert('Login succeeded, but failed to log the login.');</script>";
+                    ";
                 }
             } else {
-                // Password incorrect
-                echo "
-                <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
-                <script>
+                $alertScript = "
                     Swal.fire({
                         icon: 'error',
                         title: 'Incorrect password!',
@@ -74,30 +61,22 @@ if (isset($_POST['submit'])) {
                     }).then(() => {
                         window.location.href = 'signin.php';
                     });
-                </script>";
-                exit();
+                ";
             }
         } else {
-            // User not found
-            echo "
-            <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
-            <script>
-                Swal.fire({
-                    icon: 'error',
-                    title: 'User not found!',
-                    text: 'Please register first.',
-                    confirmButtonText: 'Go to Register'
-                }).then(() => {
-                    window.location.href = 'signup.php';
-                });
-            </script>";
-            exit();
+            $alertScript = "
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'User not found!',
+                        text: 'Please register first.',
+                        confirmButtonText: 'Go to Register'
+                    }).then(() => {
+                        window.location.href = 'signup.php';
+                    });
+                ";
         }
     } else {
-        // Fields empty
-        echo "
-        <script src='https://cdn.jsdelivr.net/npm/sweetalert2@11'></script>
-        <script>
+        $alertScript = "
             Swal.fire({
                 icon: 'warning',
                 title: 'All fields are required!',
@@ -105,8 +84,7 @@ if (isset($_POST['submit'])) {
             }).then(() => {
                 window.location.href = 'login.php';
             });
-        </script>";
-        exit();
+        ";
     }
 }
 ?>
@@ -144,7 +122,7 @@ if (isset($_POST['submit'])) {
                 <p class="text-sm">Sign in to your account </p>
 
                 <div class="mt-12 sm:mx-auto sm:w-full sm:max-w-sm justify-center align-content place-items-center  ">
-                    <form class="space-y-6" action="./signin.php" method="POST">
+                    <form class="space-y-6" action="signin.php" method="POST">
                         <div class="">
                             <label for="email" class="block text-base font-sm">Email address</label>
                             <div class="mt-2 w-80">
@@ -207,6 +185,12 @@ if (isset($_POST['submit'])) {
         </div>
     </div>
 
+    <?php if (!empty($alertScript)): ?>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script>
+            <?php echo $alertScript; ?>
+        </script>
+    <?php endif; ?>
 
     <script src="./src/js/pass-icon.js"></script>
 </body>
