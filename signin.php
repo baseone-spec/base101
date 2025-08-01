@@ -132,8 +132,8 @@ if (isset($_POST['submit'])) {
                         <div class="">
                             <label for="email_address" class="block text-base font-sm">Email address</label>
                             <div class="mt-2 w-80">
-                                <input type="email" name="email_address" id="email_address" autocomplete="email"
-                                    required placeholder="Enter your email"
+                                <input type="email" name="email_address" id="email_address" autocomplete="off" required
+                                    placeholder="Enter your email"
                                     class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 " />
 
                             </div>
@@ -152,8 +152,8 @@ if (isset($_POST['submit'])) {
                                 <div class="mt-2 w-80 relative">
 
                                     <div class="flex items-center w-full gap-1">
-                                        <input type="password" name="password" id="password2"
-                                            autocomplete="current-password" required placeholder="Enter your password"
+                                        <input type="password" name="password" id="password2" autocomplete="off"
+                                            required placeholder="Enter your password"
                                             class="block w-full rounded bg-white px-3 py-1.5 text-base sm:text-sm placeholder-black outline-1 -outline-offset-1 outline-gray-300 focus:outline-2 focus:-outline-offset-2 mr-4" />
 
 
