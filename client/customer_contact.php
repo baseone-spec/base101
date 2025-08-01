@@ -1,10 +1,9 @@
 <?php
-include('customer_header.php');
-
-
-if (!isset($_SESSION['email_address'])) {
-    header("location: ../signin.php");
+if (!isset($_SESSION['first_name'])) {
+    header("Location: ../signin.php");
+    exit();
 }
+
 
 ?>
 
@@ -19,6 +18,12 @@ if (!isset($_SESSION['email_address'])) {
 </head>
 
 <body>
+
+
+    <?php
+    include('./customer_header.php');
+    ?>
+
     <!-- button -->
     <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
 
