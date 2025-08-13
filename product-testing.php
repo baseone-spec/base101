@@ -1,3 +1,8 @@
+<?php
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,6 +16,264 @@
 <body>
 
     <div class="w-full h-screen flex justify-center items-center">
+        <div class="pb-10">
+            <div class="group relative shadow-xl p-6 justify-center align-content ">
+                <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
+                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 3V.jpg" alt="" class="image1" />
+                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 3V.0.jpg" alt="" class="image2" />
+                </div>
+                <div class="mt-4 flex justify-between w-70 ">
+                    <h3 class="text-lg font-bold text-[#171717]">
+
+                        ALS Can Seamer V-Series - Model 3V
+
+                    </h3>
+
+
+                </div>
+
+                <div class="mt-4 flex justify-between w-70 gap-2">
+                    <button type="button"
+                        class="openModalBtn product-btn bg-[#101828] text-white mt-4 font-open-sans button-hover"
+                        data-modal-id="modal-2">Request a Quote</button>
+                </div>
+
+                <!-- Modal -->
+
+                <div id="modal-2"
+                    class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
+                    role="dialog" aria-modal="true">
+                    <!-- Modal Content -->
+                    <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
+                        <!-- Header -->
+                        <div class="w-full justify-center align-content place-items-center p-12">
+                            <div class=" image-container grid grid-cols-1">
+                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 3V.jpg" alt="" class="image1" />
+                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 3V.0.jpg" alt=""
+                                    class="image2" />
+                            </div>
+                        </div>
+
+                        <div class="w-full p-12">
+                            <form action="product-form.php" method="post">
+                                <div class="container h-65vh">
+
+                                    <h2 id="dialog-title" class=" text-lg font-medium text-[#171717] mb-4">
+                                        ANGELUS
+                                        Can Seamer V-Series - Model 3V
+                                    </h2>
+
+                                    <input type="hidden" name="product_name"
+                                        value="ANGELUS Can Seamer V-Series - Model 3V">
+                                    <input type="hidden" name="product_img"
+                                        value="./src/img/psangelus/ANGELUS V-Series - Model 3V.jpg">
+                                    <input type="hidden" name="product_desc" value=" The Angelus V-Series Model 3V seamer is ideal for running large 2- and 3-piece cans
+                                        with diameters from 211 to 603. With speeds from 75 to 350 Cans Per Minute (CPM) and
+                                        3 seaming spindles, this machine is well suited for seaming powdered food
+                                        ingredients, powdered drinks, nutraceuticals, and powdered infant formula.
+                                        Constructed of 304 stainless steel in all product contact areas, this machine
+                                        offers a clean, sanitary design for food and beverage applications. This rotary machine
+                                        can be configured for random infeed or filler connection.">
+
+                                    <p id="product-description" class="text-sm text-gray-700 mb-2">
+                                        <span class="font-semibold"> ABOUT THIS MACHINE </span>
+                                        <select name="" id="" disabled="disabled"></select>
+                                        <br>
+                                        The Angelus V-Series Model 3V seamer is ideal for running large 2- and 3-piece
+                                        cans
+                                        with diameters from 211 to 603. With speeds from 75 to 350 Cans Per Minute (CPM)
+                                        and
+                                        3 seaming spindles, this machine is well suited for seaming powdered food
+                                        ingredients, powdered drinks, nutraceuticals, and powdered infant formula.
+                                        Constructed of 304 stainless steel in all product contact areas, this machine
+                                        offers
+                                        a clean, sanitary design for food and beverage applications. This rotary machine
+                                        can
+                                        be configured for random infeed or filler connection
+
+                                        <br><br>
+
+                                    </p>
+
+                                    <p class="text-sm text-gray-700 mb-4">
+                                        <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
+                                        • Runs at speeds from 75 to 350 Containers Per Minute (CPM) <br>
+                                        • Provided with random infeed or filler connection, in either mechanical or
+                                        servo
+                                        synchro <br>
+                                        • New and improved driven lower lifters <br>
+                                        • Motorized turret height adjustment with digital readout <br>
+                                        • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                        • Easy-adjust chuck plate springs to minimize downtime <br>
+                                        • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
+                                        <br>
+                                        • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
+                                        operator
+                                        safety <br>
+                                        • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                        • Under cover gassing control with variable valve for use in seaming beverages
+                                        <br>
+                                        • Ancillary systems are integrated into the guarding enclosure <br>
+                                        • Vibration isolation pads on seamer legs <br>
+                                        • Comes with basic tool kit <br>
+                                    </p>
+
+                                </div>
+
+
+
+                                <div class="mt-6  gap-2">
+
+                                    <button type="submit"
+                                        class="product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Proceed to Quotation
+                                    </button>
+                                    <button type="button" id="closeModalBtn"
+                                        class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Close
+                                    </button>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="w-full h-screen flex justify-center items-center">
+        <div class="pb-10">
+            <div class="group relative shadow-xl p-6 justify-center align-content ">
+                <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
+                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 4V.0.jpg" alt="" class="image1" />
+                    <img src="./src/img/psangelus/ANGELUS V-Series - Model 4V.jpg" alt="" class="image2" />
+                </div>
+                <div class="mt-4 flex justify-between w-70 ">
+                    <h3 class="text-lg font-bold text-[#171717]">
+
+                        ALS Can Seamer V-Series - Model 4V
+
+                    </h3>
+
+
+                </div>
+
+                <div class="mt-4 flex justify-between w-70 gap-2">
+                    <button type="button"
+                        class="openModalBtn product-btn bg-[#101828] text-white mt-4 font-open-sans button-hover"
+                        data-modal-id="modal-3">Request a Quote</button>
+                </div>
+
+                <!-- Modal -->
+
+                <div id="modal-3"
+                    class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
+                    role="dialog" aria-modal="true">
+                    <!-- Modal Content -->
+                    <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
+                        <!-- Header -->
+                        <div class="w-full justify-center align-content place-items-center p-12">
+                            <div class=" image-container grid grid-cols-1">
+                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 4V.0.jpg" alt=""
+                                    class="image1" />
+                                <img src="./src/img/psangelus/ANGELUS V-Series - Model 4V.jpg" alt="" class="image2" />
+                            </div>
+                        </div>
+
+                        <div class="w-full p-12">
+                            <form action="product-form.php" method="post">
+                                <div class="container h-65vh">
+
+                                    <h2 id="dialog-title" class=" text-lg font-medium text-[#171717] mb-4">
+                                        ANGELUS
+                                        Can Seamer V-Series - Model 4V
+                                    </h2>
+
+                                    <input type="hidden" name="product_name"
+                                        value="ANGELUS Can Seamer V-Series - Model 4V">
+                                    <input type="hidden" name="product_img"
+                                        value="./src/img/psangelus/ANGELUS V-Series - Model 4V.0.jpg">
+                                    <input type="hidden" name="product_desc" value=" The Angelus V-Series Model 4V seamer is ideal for running large 2- and 3-piece cans
+                                        with diameters from 211 to 603. With speeds from 75 to 350 Cans Per Minute (CPM) and
+                                        3 seaming spindles, this machine is well suited for seaming powdered food
+                                        ingredients, powdered drinks, nutraceuticals, and powdered infant formula.
+                                        Constructed of 304 stainless steel in all product contact areas, this machine
+                                        offers a clean, sanitary design for food and beverage applications. This rotary machine
+                                        can be configured for random infeed or filler connection.">
+
+                                    <p class="text-sm text-gray-700 mb-2">
+                                        <span class="font-semibold"> ABOUT THIS MACHINE </span>
+                                        <select name="" id="" disabled="disabled"></select>
+                                        <br>
+                                        The Angelus V-Series Model 4V seamer is ideal for running large 2- and 3-piece
+                                        cans
+                                        with diameters from 211 to 603. With speeds from 75 to 350 Cans Per Minute (CPM)
+                                        and
+                                        3 seaming spindles, this machine is well suited for seaming powdered food
+                                        ingredients, powdered drinks, nutraceuticals, and powdered infant formula.
+                                        Constructed of 304 stainless steel in all product contact areas, this machine
+                                        offers a clean, sanitary design for food and beverage applications. This rotary
+                                        machine
+                                        can be configured for random infeed or filler connection.
+
+                                        <br><br>
+
+                                    </p>
+
+                                    <p class="text-sm text-gray-700 mb-4">
+                                        <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
+                                        • Runs at speeds from 75 to 350 Containers Per Minute (CPM) <br>
+                                        • Provided with random infeed or filler connection, in either mechanical or
+                                        servo
+                                        synchro <br>
+                                        • New and improved driven lower lifters <br>
+                                        • Motorized turret height adjustment with digital readout <br>
+                                        • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                        • Easy-adjust chuck plate springs to minimize downtime <br>
+                                        • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
+                                        <br>
+                                        • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
+                                        operator
+                                        safety <br>
+                                        • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                        • Under cover gassing control with variable valve for use in seaming beverages
+                                        <br>
+                                        • Ancillary systems are integrated into the guarding enclosure <br>
+                                        • Vibration isolation pads on seamer legs <br>
+                                        • Comes with basic tool kit <br>
+                                    </p>
+
+                                </div>
+
+
+
+                                <div class="mt-6  gap-2">
+
+                                    <button type="submit"
+                                        class="product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Proceed to Quotation
+                                    </button>
+                                    <button type="button" id="closeModalBtn"
+                                        class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Close
+                                    </button>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="w-full h-screen flex justify-center items-center">
         <div class="grid grid-cols-1 gap-4 h-96 w-80 shadow-xl place-items-center">
             <div class="image-wrapper">
                 <img src="./src/img/product/seamers/Angelus Legacy Series Can Seamer- Model 10P.0.jpg" alt="">
@@ -20,32 +283,32 @@
                 <p class="text-gray-600">Model 10P</p>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="w-full h-screen flex justify-center items-center">
+    <!-- <div class="w-full h-screen flex justify-center items-center">
         <div class=" image-container grid grid-cols-1 gap-4 h-96 w-80 shadow-xl place-items-center ">
             <img src="./src/img/product/seamers/Angelus Legacy Series Can Seamer- Model 10P.jpg" alt=""
                 class="image1" />
             <img src="./src/img/product/seamers/Angelus Legacy Series Can Seamer- Model 10P.0.jpg" alt=""
                 class="image2" />
         </div>
-    </div>
+    </div> -->
 
     <!-- Trigger Button Wrapper -->
-    <div class="w-full h-screen flex justify-center items-center">
+    <!-- <div class="w-full h-screen flex justify-center items-center">
         <div class="flex justify-center items-center w-half">
             <button id="openModalBtn" class="product-btn bg-[#f3f4f6] text-[#171717] text-sm font-semibold">
                 Open Dialog
             </button>
         </div>
 
-        <!-- Modal -->
+       
         <div id="myModal" class="hidden fixed inset-0 z-10 bg-gray-500/75 flex items-center justify-center"
             role="dialog" aria-modal="true">
-            <!-- Modal Content -->
+          
             <div
                 class="grid grid-flow-col grid-rows-1 modal-size bg-white rounded-lg shadow-xl max-w-md p-20 relative z-20 ">
-                <!-- Header -->
+          
                 <div>
                     <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">Modal Title</h2>
                     <p class="text-sm text-gray-700 mb-4">
@@ -74,13 +337,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-
-    <div
+    <!-- <div
         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-48 custom-padding h-screen md:h-auto w-full justify-center place-items-center">
         <div>
-            <!-- other products -->
+           
             <div class="group relative shadow-xl p-4 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
                     <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt="" class="image1" />
@@ -110,14 +372,14 @@
                         cart</button>
                 </div>
 
-                <!-- Modal -->
+             
 
                 <div id="modal-7"
                     class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
                     role="dialog" aria-modal="true">
-                    <!-- Modal Content -->
+                   
                     <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
-                        <!-- Header -->
+                    
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
                                 <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt=""
@@ -186,7 +448,7 @@
             </div>
         </div>
         <div>
-            <!-- other products -->
+           
             <div class="group relative shadow-xl p-4 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
                     <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt="" class="image1" />
@@ -216,14 +478,14 @@
                         cart</button>
                 </div>
 
-                <!-- Modal -->
+               
 
                 <div id="modal-7"
                     class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
                     role="dialog" aria-modal="true">
-                    <!-- Modal Content -->
+                 
                     <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
-                        <!-- Header -->
+                       
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
                                 <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt=""
@@ -292,7 +554,7 @@
             </div>
         </div>
         <div>
-            <!-- other products -->
+          
             <div class="group relative shadow-xl p-4 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
                     <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt="" class="image1" />
@@ -322,14 +584,14 @@
                         cart</button>
                 </div>
 
-                <!-- Modal -->
+             
 
                 <div id="modal-7"
                     class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
                     role="dialog" aria-modal="true">
-                    <!-- Modal Content -->
+                 
                     <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
-                        <!-- Header -->
+                    
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
                                 <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt=""
@@ -398,7 +660,7 @@
             </div>
         </div>
         <div>
-            <!-- other products -->
+          
             <div class="group relative shadow-xl p-4 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
                     <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.jpg" alt="" class="image1" />
@@ -428,14 +690,14 @@
                         cart</button>
                 </div>
 
-                <!-- Modal -->
+              
 
                 <div id="modal-7"
                     class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
                     role="dialog" aria-modal="true">
-                    <!-- Modal Content -->
+                 
                     <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
-                        <!-- Header -->
+                      
                         <div class="w-full justify-center align-content place-items-center p-12">
                             <div class=" image-container grid grid-cols-1">
                                 <img src="./src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg" alt=""
@@ -503,9 +765,9 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="w-full h-screen flex justify-center items-center">
+    <!-- <div class="w-full h-screen flex justify-center items-center">
         <div class="container-fluid" id="main">
             <div class="card" id="form-card">
                 <div class="row g-0" id="form-row">
@@ -576,10 +838,24 @@
             </svg>
 
         </div>
-    </div>
+    </div> -->
 
     <!-- Script -->
     <script src="./src/js/modal.js"></script>
+
+    <!-- <script>
+        
+        document.getElementById('productName').value =
+            document.getElementById('dialog-title').innerText.trim();
+
+     
+        document.getElementById('productImg').value =
+            document.querySelector('.image1').getAttribute('src');
+
+       
+        document.getElementById('productDesc').value =
+            document.getElementById('product-description').innerHTML.trim();
+    </script> -->
 
 </body>
 

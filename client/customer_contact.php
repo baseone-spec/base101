@@ -1,8 +1,8 @@
 <?php
-if (!isset($_SESSION['first_name'])) {
-    header("Location: ../signin.php");
-    exit();
-}
+// if (!isset($_SESSION['first_name'])) {
+//     header("Location: ../signin.php");
+//     exit();
+// }
 
 
 ?>
