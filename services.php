@@ -21,11 +21,12 @@ include('header.php');
         <p class="text-4xl font-bold text-[#171717] mb-5">Official Distributor of Top Quality Psangelus
             Products
         </p>
-        <p class="text-2xl text-[#2D2D2D] max-w-4xl mx-auto text-center">Most of our products are limited releases that
-            won't come back.
-            Get your favorite items while they're in stock.</p>
-        <button class="rounded-full bg-[#D00000] text-white px-6 py-2 mt-8 font-open-sans button-hover"
-            data-ripple-light="true">Request a Quote</button>
+        <p class="text-xl text-[#2D2D2D] max-w-5xl mx-auto text-center mb-8">Need industrial equipment, heavy-duty
+            tools, or
+            specialized machinery? Sign up, share your requirements, and get a tailored quote with competitive pricing —
+            the right machines, at the right time, for the right price. </p>
+        <a href="./signup.php"
+            class="rounded-full bg-[#D00000] text-white px-6 py-2 font-open-sans button-hover">Register Now</a>
     </div>
 
     <!-- product list -->
@@ -62,13 +63,13 @@ include('header.php');
 
                 </div>
 
-                <div class="mt-4 flex justify-between w-70 gap-2">
+                <!-- <div class="mt-4 flex justify-between w-70 gap-2">
                     <button type="button"
                         class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
                         data-modal-id="modal-2">Request a Quote</button>
                     <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
                         cart</button>
-                </div>
+                </div> -->
 
                 <!-- Modal -->
 
@@ -174,14 +175,14 @@ include('header.php');
 
                 </div>
 
-                <div class="mt-4 flex justify-between w-70 gap-2">
+                <!-- <div class="mt-4 flex justify-between w-70 gap-2">
                     <button type="button"
                         class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
                         data-modal-id="modal-3">Request a Quote</button>
                     <button class="product-btn bg-[#101828] text-white mt-4 font-open-sans button-hover">add
                         to
                         cart</button>
-                </div>
+                </div> -->
 
                 <!-- Modal -->
 
@@ -285,14 +286,14 @@ include('header.php');
 
 
                 </div>
-
+                <!-- 
                 <div class="mt-4 flex justify-between w-70 gap-2">
                     <button type="button"
                         class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
                         data-modal-id="modal-4">Request a Quote</button>
                     <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
                         cart</button>
-                </div>
+                </div> -->
 
                 <!-- Modal -->
 
@@ -395,14 +396,14 @@ include('header.php');
 
 
                 </div>
-
+                <!-- 
                 <div class="mt-4 flex justify-between w-70 gap-2">
                     <button type="button"
                         class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
                         data-modal-id="modal-1">Request a Quote</button>
                     <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
                         cart</button>
-                </div>
+                </div> -->
 
                 <!-- Modal -->
 
@@ -510,13 +511,13 @@ include('header.php');
 
                 </div>
 
-                <div class="mt-4 flex justify-between w-70 gap-2">
+                <!-- <div class="mt-4 flex justify-between w-70 gap-2">
                     <button type="button"
                         class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
                         data-modal-id="modal-5">Request a Quote</button>
                     <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
                         cart</button>
-                </div>
+                </div> -->
 
 
                 <div id="modal-5"
@@ -619,13 +620,13 @@ include('header.php');
 
                 </div>
 
-                <div class="mt-4 flex justify-between w-70 gap-2">
+                <!-- <div class="mt-4 flex justify-between w-70 gap-2">
                     <button type="button"
                         class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
                         data-modal-id="modal-6">Request a Quote</button>
                     <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
                         cart</button>
-                </div>
+                </div> -->
 
 
 
@@ -724,13 +725,13 @@ include('header.php');
 
                 </div>
 
-                <div class="mt-4 flex justify-between w-70 gap-2">
+                <!-- <div class="mt-4 flex justify-between w-70 gap-2">
                     <button type="button"
                         class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
                         data-modal-id="modal-7">Request a Quote</button>
                     <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
                         cart</button>
-                </div>
+                </div> -->
 
 
 
@@ -833,13 +834,13 @@ include('header.php');
 
                 </div>
 
-                <div class="mt-4 flex justify-between w-70 gap-2">
+                <!-- <div class="mt-4 flex justify-between w-70 gap-2">
                     <button type="button"
                         class="openModalBtn product-btn bg-[#f3f4f6] text-[#171717] mt-4 font-open-sans button-hover"
                         data-modal-id="modal-7">Request a Quote</button>
                     <button class="product-btn bg-[#101828] text-white  mt-4 font-open-sans button-hover">add to
                         cart</button>
-                </div>
+                </div> -->
 
 
 

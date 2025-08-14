@@ -74,8 +74,10 @@
                 Whether you need custom-built systems, integration with existing operations, or strategic consulting,
                 our team helps streamline processes, reduce downtime, and improve output.
             </p>
-            <button class="rounded-full bg-[#D00000] text-white px-6 py-2 font-open-sans button-hover">
-                Register Now </button>
+
+            <a href="./signup.php"
+                class="rounded-full bg-[#D00000] text-white px-6 py-2 font-open-sans button-hover">Register Now</a>
+
         </div>
 
     </footer>
