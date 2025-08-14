@@ -88,69 +88,74 @@ include('header.php');
                         </div>
 
                         <div class="w-full p-12 ">
-                            <div class="container h-65vh">
-                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
-                                    Can Seamer V-Series - Model 3V
-                                </h2>
-                                <p class="text-sm text-gray-700 mb-4">
-                                    <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
-                                    The Angelus V-Series Model 3V seamer is ideal for running large 2- and 3-piece
-                                    cans
-                                    with diameters from 211 to 603. With speeds from 75 to 350 Cans Per Minute (CPM)
-                                    and
-                                    3 seaming spindles, this machine is well suited for seaming powdered food
-                                    ingredients, powdered drinks, nutraceuticals, and powdered infant formula.
-                                    Constructed of 304 stainless steel in all product contact areas, this machine
-                                    offers
-                                    a clean, sanitary design for food and beverage applications. This rotary machine
-                                    can
-                                    be configured for random infeed or filler connection
+                            <form action="services-form.php" method="post">
+                                <div class="container h-65vh">
+                                    <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
+                                        Can Seamer V-Series - Model 3V
+                                    </h2>
+                                    <p class="text-sm text-gray-700 mb-4">
+                                        <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
+                                        The Angelus V-Series Model 3V seamer is ideal for running large 2- and 3-piece
+                                        cans
+                                        with diameters from 211 to 603. With speeds from 75 to 350 Cans Per Minute (CPM)
+                                        and
+                                        3 seaming spindles, this machine is well suited for seaming powdered food
+                                        ingredients, powdered drinks, nutraceuticals, and powdered infant formula.
+                                        Constructed of 304 stainless steel in all product contact areas, this machine
+                                        offers
+                                        a clean, sanitary design for food and beverage applications. This rotary machine
+                                        can
+                                        be configured for random infeed or filler connection
 
-                                    <br><br>
+                                        <br><br>
 
-                                    <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
+                                        <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
 
-                                    • Runs at speeds from 75 to 350 Containers Per Minute (CPM) <br>
-                                    • Provided with random infeed or filler connection, in either mechanical or
-                                    servo
-                                    synchro <br>
-                                    • New and improved driven lower lifters <br>
-                                    • Motorized turret height adjustment with digital readout <br>
-                                    • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
-                                    • Easy-adjust chuck plate springs to minimize downtime <br>
-                                    • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
-                                    <br>
-                                    • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
-                                    operator
-                                    safety <br>
-                                    • NEMA 4X junction box is machine mounted and integrated into guarding <br>
-                                    • Under cover gassing control with variable valve for use in seaming beverages
-                                    <br>
-                                    • Ancillary systems are integrated into the guarding enclosure <br>
-                                    • Vibration isolation pads on seamer legs <br>
-                                    • Comes with basic tool kit <br>
-                            </div>
-                            </p>
+                                        • Runs at speeds from 75 to 350 Containers Per Minute (CPM) <br>
+                                        • Provided with random infeed or filler connection, in either mechanical or
+                                        servo
+                                        synchro <br>
+                                        • New and improved driven lower lifters <br>
+                                        • Motorized turret height adjustment with digital readout <br>
+                                        • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                        • Easy-adjust chuck plate springs to minimize downtime <br>
+                                        • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
+                                        <br>
+                                        • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
+                                        operator
+                                        safety <br>
+                                        • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                        • Under cover gassing control with variable valve for use in seaming beverages
+                                        <br>
+                                        • Ancillary systems are integrated into the guarding enclosure <br>
+                                        • Vibration isolation pads on seamer legs <br>
+                                        • Comes with basic tool kit <br>
+                                    </p>
+                                </div>
 
+                                <div class="mt-6  gap-2">
 
-                            <div class="mt-6  gap-2">
+                                    <button type="button"
+                                        class="product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Proceed to Quote
+                                    </button>
+                                    <button type="button" id="closeModalBtn"
+                                        class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Close
+                                    </button>
 
-                                <button type="button" class="product-checkout bg-[#171717] text-white text-sm rounded">
-                                    Proceed to Quote
-                                </button>
-                                <button type="button" id="closeModalBtn"
-                                    class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
-                                    Close
-                                </button>
-
-                            </div>
+                                </div>
+                            </form>
                         </div>
+
                     </div>
+
+
                 </div>
-
-
             </div>
         </div>
+
+
         <div class="pb-10">
             <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
@@ -201,61 +206,70 @@ include('header.php');
                         </div>
 
                         <div class="w-full p-12">
-                            <div class="container h-65vh">
-                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
-                                    Can Seamer V-Series - Model 4V
-                                </h2>
-                                <p class="text-sm text-gray-700 mb-4">
-                                    <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
-                                    The Angelus V-Series Model 4V seamer is ideal for running metal and composite
-                                    cans
-                                    with diameters from 200 to 401. With speeds from 100 to 450 Cans Per Minute
-                                    (CPM)
-                                    and 4 seaming spindles, and constructed of 304 stainless steel in all product
-                                    contact areas, this machine offers a clean, sanitary design, well suited for
-                                    food
-                                    and beverage applications. This rotary machine can be configured for random
-                                    infeed
-                                    or filler connection.
+                            <form action="services-form.php" method="post">
+                                <div class="container h-65vh">
+                                    <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
+                                        Can Seamer V-Series - Model 4V
+                                    </h2>
+                                    <p class="text-sm text-gray-700 mb-4">
+                                        <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
+                                        The Angelus V-Series Model 4V seamer is ideal for running metal and
+                                        composite
+                                        cans
+                                        with diameters from 200 to 401. With speeds from 100 to 450 Cans Per Minute
+                                        (CPM)
+                                        and 4 seaming spindles, and constructed of 304 stainless steel in all
+                                        product
+                                        contact areas, this machine offers a clean, sanitary design, well suited for
+                                        food
+                                        and beverage applications. This rotary machine can be configured for random
+                                        infeed
+                                        or filler connection.
 
-                                    <br><br>
+                                        <br><br>
 
-                                    <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
+                                        <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
 
-                                    • Runs at speeds up to 100 - 450 Cans Per Minute (CPM) <br>
-                                    • Provided with random infeed or filler connection, in either mechanical or
-                                    servo
-                                    synchro <br>
-                                    • New and improved driven lower lifters <br>
-                                    • Motorized turret height adjustment with digital readout <br>
-                                    • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
-                                    • Easy-adjust chuck plate springs keep downtime to a minimum <br>
-                                    • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
-                                    <br>
-                                    • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
-                                    operator
-                                    safety <br>
-                                    • NEMA 4X junction box is machine mounted and integrated into guarding <br>
-                                    • Under cover gassing control with variable valve for use in seaming beverages
-                                    <br>
-                                    • Ancillary systems are integrated into the guarding enclosure <br>
-                                    • Vibration isolation pads on seamer legs <br>
-                                    • Comes with basic tool kit <br>
-                            </div>
-                            </p>
+                                        • Runs at speeds up to 100 - 450 Cans Per Minute (CPM) <br>
+                                        • Provided with random infeed or filler connection, in either mechanical or
+                                        servo
+                                        synchro <br>
+                                        • New and improved driven lower lifters <br>
+                                        • Motorized turret height adjustment with digital readout <br>
+                                        • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                        • Easy-adjust chuck plate springs keep downtime to a minimum <br>
+                                        • Industry-standard PLC and HMI controls, pilot devices, and E-Stop
+                                        (Non-OEM)
+                                        <br>
+                                        • NEMA 12 electrical enclosure (standalone), with lockable disconnect
+                                        ensures
+                                        operator
+                                        safety <br>
+                                        • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                        • Under cover gassing control with variable valve for use in seaming
+                                        beverages
+                                        <br>
+                                        • Ancillary systems are integrated into the guarding enclosure <br>
+                                        • Vibration isolation pads on seamer legs <br>
+                                        • Comes with basic tool kit <br>
+                                    </p>
+                                </div>
 
 
-                            <div class="mt-6  gap-2">
 
-                                <button type="button" class="product-checkout bg-[#171717] text-white text-sm rounded">
-                                    Proceed to Quote
-                                </button>
-                                <button type="button" id="closeModalBtn"
-                                    class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
-                                    Close
-                                </button>
+                                <div class="mt-6  gap-2">
 
-                            </div>
+                                    <button type="button"
+                                        class="product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Proceed to Quote
+                                    </button>
+                                    <button type="button" id="closeModalBtn"
+                                        class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Close
+                                    </button>
+
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -263,6 +277,7 @@ include('header.php');
 
             </div>
         </div>
+
         <div class="pb-10">
             <div class="group relative shadow-xl p-6 justify-center align-content">
                 <div class=" image-container grid grid-cols-1 gap-4 h-80 w-70 place-items-center ">
@@ -313,60 +328,69 @@ include('header.php');
                         </div>
 
                         <div class="w-full p-12">
-                            <div class="container h-65vh">
-                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
-                                    Can Seamer V-Series - Model 6V
-                                </h2>
-                                <p class="text-sm text-gray-700 mb-4">
-                                    <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
-                                    TThe Angelus V-Series Model 6V seamer is ideal for running metal and composite
-                                    cans
-                                    with diameters from 200 to 401. With speeds from 175 to 700 Cans Per Minute
-                                    (CPM)
-                                    and 6 seaming spindles, and constructed of 304 stainless steel in all product
-                                    contact areas, this machine offers a clean, sanitary design, well suited for
-                                    food
-                                    and beverage applications. This rotary machine can be configured for random
-                                    infeed
-                                    or filler connection.
+                            <form action="services-form.php" method="post">
+                                <div class="container h-65vh">
+                                    <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
+                                        Can Seamer V-Series - Model 6V
+                                    </h2>
+                                    <p class="text-sm text-gray-700 mb-4">
+                                        <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
+                                        TThe Angelus V-Series Model 6V seamer is ideal for running metal and
+                                        composite
+                                        cans
+                                        with diameters from 200 to 401. With speeds from 175 to 700 Cans Per Minute
+                                        (CPM)
+                                        and 6 seaming spindles, and constructed of 304 stainless steel in all
+                                        product
+                                        contact areas, this machine offers a clean, sanitary design, well suited for
+                                        food
+                                        and beverage applications. This rotary machine can be configured for random
+                                        infeed
+                                        or filler connection.
 
-                                    <br><br>
+                                        <br><br>
 
-                                    <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
+                                        <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
 
-                                    • Runs at speeds up to 175 -700 Containers Per Minute (CPM) <br>
-                                    • Provided with random infeed or filler connection, in either mechanical or
-                                    servo
-                                    synchro <br>
-                                    • New and improved driven lower lifters <br>
-                                    • Motorized turret height adjustment with digital readout <br>
-                                    • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
-                                    • Easy-adjust chuck plate springs keep downtime to a minimum <br>
-                                    • Industry-standard PLC and HMI controls, pilot devices, and E-Stop <br>
-                                    • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
-                                    operator
-                                    safety <br>
-                                    • NEMA 4X junction box is machine mounted and integrated into guarding <br>
-                                    • Under cover gassing control with variable valve for use in seaming beverages
-                                    <br>
-                                    • Ancillary systems are integrated into the guarding enclosure <br>
-                                    • Vibration isolation pads on seamer legs <br>
-                                    • Comes with basic tool kit <br>
-                            </div>
-                            </p>
+                                        • Runs at speeds up to 175 -700 Containers Per Minute (CPM) <br>
+                                        • Provided with random infeed or filler connection, in either mechanical or
+                                        servo
+                                        synchro <br>
+                                        • New and improved driven lower lifters <br>
+                                        • Motorized turret height adjustment with digital readout <br>
+                                        • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                        • Easy-adjust chuck plate springs keep downtime to a minimum <br>
+                                        • Industry-standard PLC and HMI controls, pilot devices, and E-Stop <br>
+                                        • NEMA 12 electrical enclosure (standalone), with lockable disconnect
+                                        ensures
+                                        operator
+                                        safety <br>
+                                        • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                        • Under cover gassing control with variable valve for use in seaming
+                                        beverages
+                                        <br>
+                                        • Ancillary systems are integrated into the guarding enclosure <br>
+                                        • Vibration isolation pads on seamer legs <br>
+                                        • Comes with basic tool kit <br>
+                                    </p>
+                                </div>
 
 
-                            <div class="mt-6  gap-2">
 
-                                <button type="button" class="product-checkout bg-[#171717] text-white text-sm rounded">
-                                    Proceed to Quote
-                                </button>
-                                <button type="button" id="closeModalBtn"
-                                    class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
-                                    Close
-                                </button>
 
-                            </div>
+                                <div class="mt-6  gap-2">
+
+                                    <button type="button"
+                                        class="product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Proceed to Quote
+                                    </button>
+                                    <button type="button" id="closeModalBtn"
+                                        class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Close
+                                    </button>
+
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -422,61 +446,65 @@ include('header.php');
                         </div>
 
                         <div class="w-full p-12">
-                            <div class="container h-65vh">
-                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
-                                    Can Seamer V-Series - Model 8V
-                                </h2>
-                                <p class="text-sm text-gray-700 mb-4">
-                                    <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
-                                    The Angelus V-Series Model 8V seamer is ideal for running metal and composite
-                                    cans
-                                    with diameters from 200 to 300. With speeds from 250 to 1000 Cans Per Minute
-                                    (CPM)
-                                    and 8 seaming spindles, and constructed from 304 stainless steel in all product
-                                    contact areas, this machine offers a clean, sanitary design, well suited for
-                                    food
-                                    and beverage applications. This rotary machine can be configured for random
-                                    infeed
-                                    or filler connection.
-                                    <br><br>
+                            <form action="services-form.php" method="post">
+                                <div class="container h-65vh">
+                                    <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
+                                        Can Seamer V-Series - Model 8V
+                                    </h2>
+                                    <p class="text-sm text-gray-700 mb-4">
+                                        <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
+                                        The Angelus V-Series Model 8V seamer is ideal for running metal and composite
+                                        cans
+                                        with diameters from 200 to 300. With speeds from 250 to 1000 Cans Per Minute
+                                        (CPM)
+                                        and 8 seaming spindles, and constructed from 304 stainless steel in all product
+                                        contact areas, this machine offers a clean, sanitary design, well suited for
+                                        food
+                                        and beverage applications. This rotary machine can be configured for random
+                                        infeed
+                                        or filler connection.
+                                        <br><br>
 
-                                    <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
+                                        <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
 
-                                    • Runs at speeds up to 250 -1000 Containers Per Minute (CPM) <br>
-                                    • Provided with random infeed or filler connection, in either mechanical or
-                                    servo
-                                    synchro <br>
-                                    • New and improved driven lower lifters <br>
-                                    • Motorized turret height adjustment with digital readout <br>
-                                    • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
-                                    • Easy-adjust chuck plate springs keep downtime to a minimum <br>
-                                    • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
-                                    <br>
-                                    • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
-                                    <br>
-                                    operator
-                                    safety <br>
-                                    • NEMA 4X junction box is machine mounted and integrated into guarding <br>
-                                    • Under cover gassing control with variable valve for use in seaming beverages
-                                    <br>
-                                    • Ancillary systems are integrated into the guarding enclosure <br>
-                                    • Vibration isolation pads on seamer legs <br>
-                                    • Comes with basic tool kit <br>
-                            </div>
-                            </p>
+                                        • Runs at speeds up to 250 -1000 Containers Per Minute (CPM) <br>
+                                        • Provided with random infeed or filler connection, in either mechanical or
+                                        servo
+                                        synchro <br>
+                                        • New and improved driven lower lifters <br>
+                                        • Motorized turret height adjustment with digital readout <br>
+                                        • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                        • Easy-adjust chuck plate springs keep downtime to a minimum <br>
+                                        • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
+                                        <br>
+                                        • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
+                                        <br>
+                                        operator
+                                        safety <br>
+                                        • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                        • Under cover gassing control with variable valve for use in seaming beverages
+                                        <br>
+                                        • Ancillary systems are integrated into the guarding enclosure <br>
+                                        • Vibration isolation pads on seamer legs <br>
+                                        • Comes with basic tool kit <br>
+                                    </p>
+                                </div>
 
 
-                            <div class="mt-6  gap-2">
 
-                                <button type="button" class="product-checkout bg-[#171717] text-white text-sm rounded">
-                                    Proceed to Quote
-                                </button>
-                                <button type="button" id="closeModalBtn"
-                                    class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
-                                    Close
-                                </button>
+                                <div class="mt-6  gap-2">
 
-                            </div>
+                                    <button type="button"
+                                        class="product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Proceed to Quote
+                                    </button>
+                                    <button type="button" id="closeModalBtn"
+                                        class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Close
+                                    </button>
+
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -535,59 +563,62 @@ include('header.php');
                         </div>
 
                         <div class="w-full p-12 ">
-                            <div class="container h-65vh">
-                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
-                                    Can Seamer V-Series - Model 9V
-                                </h2>
-                                <p class="text-sm text-gray-700 mb-4">
-                                    <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
-                                    The Angelus V-Series Model 9V seamer is ideal for running cans with diameters
-                                    from
-                                    200 to 401. With speeds from 300 to 1200 Cans Per Minute (CPM) and 9 seaming
-                                    spindles, this machine delivers high speed performance when needed. Constructed
-                                    from
-                                    304 stainless steel in all product contact areas, this machine offers a clean,
-                                    sanitary design, well suited for food applications. This rotary machine can be
-                                    configured for random infeed or filler connection.
+                            <form action="services-form.php" method="post">
+                                <div class="container h-65vh">
+                                    <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
+                                        Can Seamer V-Series - Model 9V
+                                    </h2>
+                                    <p class="text-sm text-gray-700 mb-4">
+                                        <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
+                                        The Angelus V-Series Model 9V seamer is ideal for running cans with diameters
+                                        from
+                                        200 to 401. With speeds from 300 to 1200 Cans Per Minute (CPM) and 9 seaming
+                                        spindles, this machine delivers high speed performance when needed. Constructed
+                                        from
+                                        304 stainless steel in all product contact areas, this machine offers a clean,
+                                        sanitary design, well suited for food applications. This rotary machine can be
+                                        configured for random infeed or filler connection.
 
-                                    <br><br>
+                                        <br><br>
 
-                                    <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
+                                        <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
 
-                                    • Runs at speeds up to 300 -1200 Containers Per Minute (CPM) <br>
-                                    • Provided with random infeed or filler connection, in either mechanical or
-                                    servo
-                                    synchro <br>
-                                    • New and improved driven lower lifters <br>
-                                    • Motorized turret height adjustment with digital readout <br>
-                                    • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
-                                    • Easy-adjust chuck plate springs keep downtime to a minimum <br>
-                                    • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
-                                    <br>
-                                    •NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
-                                    operator
-                                    safety <br>
-                                    • NEMA 4X junction box is machine mounted and integrated into guarding <br>
-                                    • Under cover gassing control with variable valve for use in seaming beverages
-                                    <br>
-                                    • Ancillary systems are integrated into the guarding enclosure <br>
-                                    • Vibration isolation pads on seamer legs <br>
-                                    • Comes with basic tool kit <br>
-                            </div>
-                            </p>
+                                        • Runs at speeds up to 300 -1200 Containers Per Minute (CPM) <br>
+                                        • Provided with random infeed or filler connection, in either mechanical or
+                                        servo
+                                        synchro <br>
+                                        • New and improved driven lower lifters <br>
+                                        • Motorized turret height adjustment with digital readout <br>
+                                        • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                        • Easy-adjust chuck plate springs keep downtime to a minimum <br>
+                                        • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
+                                        <br>
+                                        •NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
+                                        operator
+                                        safety <br>
+                                        • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                        • Under cover gassing control with variable valve for use in seaming beverages
+                                        <br>
+                                        • Ancillary systems are integrated into the guarding enclosure <br>
+                                        • Vibration isolation pads on seamer legs <br>
+                                        • Comes with basic tool kit <br>
+                                    </p>
+                                </div>
 
 
-                            <div class="mt-6  gap-2">
+                                <div class="mt-6  gap-2">
 
-                                <button type="button" class="product-checkout bg-[#171717] text-white text-sm rounded">
-                                    Proceed to Quote
-                                </button>
-                                <button type="button" id="closeModalBtn"
-                                    class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
-                                    Close
-                                </button>
+                                    <button type="button"
+                                        class="product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Proceed to Quote
+                                    </button>
+                                    <button type="button" id="closeModalBtn"
+                                        class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Close
+                                    </button>
 
-                            </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -645,59 +676,63 @@ include('header.php');
                         </div>
 
                         <div class="w-full p-12">
-                            <div class="container h-65vh">
-                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
-                                    Can Seamer V-Series - Model 12V
-                                </h2>
-                                <p class="text-sm text-gray-700 mb-4">
-                                    <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
-                                    The Angelus V-Series Model 12V seamer is ideal for running cans with diameters
-                                    from
-                                    200 to 300. With speeds from 400 to 1800 Cans Per Minute (CPM) and 12 seaming
-                                    spindles, this machine is optimized for high-speed beverage applications.
-                                    Constructed from 304 stainless steel in all product contact areas, this machine
-                                    offers a clean, sanitary design, well suited for these projects. This rotary
-                                    machine
-                                    can be configured for random infeed or filler connection.
+                            <form action="services-form.php" method="post">
+                                <div class="container h-65vh">
+                                    <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
+                                        Can Seamer V-Series - Model 12V
+                                    </h2>
+                                    <p class="text-sm text-gray-700 mb-4">
+                                        <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
+                                        The Angelus V-Series Model 12V seamer is ideal for running cans with diameters
+                                        from
+                                        200 to 300. With speeds from 400 to 1800 Cans Per Minute (CPM) and 12 seaming
+                                        spindles, this machine is optimized for high-speed beverage applications.
+                                        Constructed from 304 stainless steel in all product contact areas, this machine
+                                        offers a clean, sanitary design, well suited for these projects. This rotary
+                                        machine
+                                        can be configured for random infeed or filler connection.
 
-                                    <br><br>
+                                        <br><br>
 
-                                    <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
+                                        <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
 
-                                    • Runs at speeds from 400 to1800 Containers Per Minute (CPM) <br>
-                                    • Provided with random infeed or filler connection, in either mechanical or
-                                    servo
-                                    synchro <br>
-                                    • New and improved driven lower lifters <br>
-                                    • Motorized turret height adjustment with digital readout <br>
-                                    • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
-                                    • Easy-adjust chuck plate springs keep downtime to a minimum <br>
-                                    • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
-                                    <br>
-                                    • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
-                                    operator
-                                    safety <br>
-                                    • NEMA 4X junction box is machine mounted and integrated into guarding <br>
-                                    • Under cover gassing control with variable valve for use in seaming beverages
-                                    <br>
-                                    • Ancillary systems are integrated into the guarding enclosure <br>
-                                    • Vibration isolation pads on seamer legs <br>
-                                    • Comes with basic tool kit <br>
-                            </div>
-                            </p>
+                                        • Runs at speeds from 400 to1800 Containers Per Minute (CPM) <br>
+                                        • Provided with random infeed or filler connection, in either mechanical or
+                                        servo
+                                        synchro <br>
+                                        • New and improved driven lower lifters <br>
+                                        • Motorized turret height adjustment with digital readout <br>
+                                        • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                        • Easy-adjust chuck plate springs keep downtime to a minimum <br>
+                                        • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
+                                        <br>
+                                        • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
+                                        operator
+                                        safety <br>
+                                        • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                        • Under cover gassing control with variable valve for use in seaming beverages
+                                        <br>
+                                        • Ancillary systems are integrated into the guarding enclosure <br>
+                                        • Vibration isolation pads on seamer legs <br>
+                                        • Comes with basic tool kit <br>
+                                    </p>
+                                </div>
 
 
-                            <div class="mt-6  gap-2">
 
-                                <button type="button" class="product-checkout bg-[#171717] text-white text-sm rounded">
-                                    Proceed to Quote
-                                </button>
-                                <button type="button" id="closeModalBtn"
-                                    class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
-                                    Close
-                                </button>
+                                <div class="mt-6  gap-2">
 
-                            </div>
+                                    <button type="button"
+                                        class="product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Proceed to Quote
+                                    </button>
+                                    <button type="button" id="closeModalBtn"
+                                        class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Close
+                                    </button>
+
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -751,62 +786,66 @@ include('header.php');
                         </div>
 
                         <div class="w-full p-12">
-                            <div class="container h-65vh">
-                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
-                                    Can Seamer V-Series - Model 18V
-                                </h2>
-                                <p class="text-sm text-gray-700 mb-4">
-                                    <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
-                                    The Angelus V-Series Model 18V seamer is ideal for running cans with diameters
-                                    from
-                                    200 to 300. With speeds from 500 to 2500 Cans Per Minute (CPM) and 18 seaming
-                                    spindles, this machine is optimized for high-speed beverage applications,
-                                    ensuring a
-                                    perfect transfer of the can from the filler turrent onto the can feed extension,
-                                    without spilling product. Constructed from 304 stainless steel in all product
-                                    contact areas, this machine offers a clean, sanitary design, well suited for
-                                    these
-                                    projects. This rotary machine can be configured for random infeed or filler
-                                    connection.
+                            <form action="services-form.php" method="post">
+                                <div class="container h-65vh">
+                                    <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
+                                        Can Seamer V-Series - Model 18V
+                                    </h2>
+                                    <p class="text-sm text-gray-700 mb-4">
+                                        <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
+                                        The Angelus V-Series Model 18V seamer is ideal for running cans with diameters
+                                        from
+                                        200 to 300. With speeds from 500 to 2500 Cans Per Minute (CPM) and 18 seaming
+                                        spindles, this machine is optimized for high-speed beverage applications,
+                                        ensuring a
+                                        perfect transfer of the can from the filler turrent onto the can feed extension,
+                                        without spilling product. Constructed from 304 stainless steel in all product
+                                        contact areas, this machine offers a clean, sanitary design, well suited for
+                                        these
+                                        projects. This rotary machine can be configured for random infeed or filler
+                                        connection.
 
-                                    <br><br>
+                                        <br><br>
 
-                                    <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
+                                        <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
 
-                                    • Runs at speeds up to 500 -2500 Containers Per Minute (CPM) <br>
-                                    • Provided with random infeed or filler connection, in either mechanical or
-                                    servo
-                                    synchro <br>
-                                    • New and improved driven lower lifters <br>
-                                    • Motorized turret height adjustment with digital readout <br>
-                                    • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
-                                    • Easy-adjust chuck plate springs keep downtime to a minimum <br>
-                                    • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
-                                    <br>
-                                    • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
-                                    operator
-                                    safety <br>
-                                    • NEMA 4X junction box is machine mounted and integrated into guarding <br>
-                                    • Under cover gassing control with variable valve for use in seaming beverages
-                                    <br>
-                                    • Ancillary systems are integrated into the guarding enclosure <br>
-                                    • Vibration isolation pads on seamer legs <br>
-                                    • Comes with basic tool kit <br>
-                            </div>
-                            </p>
+                                        • Runs at speeds up to 500 -2500 Containers Per Minute (CPM) <br>
+                                        • Provided with random infeed or filler connection, in either mechanical or
+                                        servo
+                                        synchro <br>
+                                        • New and improved driven lower lifters <br>
+                                        • Motorized turret height adjustment with digital readout <br>
+                                        • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                        • Easy-adjust chuck plate springs keep downtime to a minimum <br>
+                                        • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
+                                        <br>
+                                        • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
+                                        operator
+                                        safety <br>
+                                        • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                        • Under cover gassing control with variable valve for use in seaming beverages
+                                        <br>
+                                        • Ancillary systems are integrated into the guarding enclosure <br>
+                                        • Vibration isolation pads on seamer legs <br>
+                                        • Comes with basic tool kit <br>
+                                    </p>
+                                </div>
 
 
-                            <div class="mt-6  gap-2">
 
-                                <button type="button" class="product-checkout bg-[#171717] text-white text-sm rounded">
-                                    Proceed to Quote
-                                </button>
-                                <button type="button" id="closeModalBtn"
-                                    class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
-                                    Close
-                                </button>
+                                <div class="mt-6  gap-2">
 
-                            </div>
+                                    <button type="button"
+                                        class="product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Proceed to Quote
+                                    </button>
+                                    <button type="button" id="closeModalBtn"
+                                        class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Close
+                                    </button>
+
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -860,62 +899,66 @@ include('header.php');
                         </div>
 
                         <div class="w-full p-12">
-                            <div class="container h-65vh">
-                                <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
-                                    Can Seamer V-Series - Model 18V
-                                </h2>
-                                <p class="text-sm text-gray-700 mb-4">
-                                    <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
-                                    The Angelus V-Series Model 18V seamer is ideal for running cans with diameters
-                                    from
-                                    200 to 300. With speeds from 500 to 2500 Cans Per Minute (CPM) and 18 seaming
-                                    spindles, this machine is optimized for high-speed beverage applications,
-                                    ensuring a
-                                    perfect transfer of the can from the filler turrent onto the can feed extension,
-                                    without spilling product. Constructed from 304 stainless steel in all product
-                                    contact areas, this machine offers a clean, sanitary design, well suited for
-                                    these
-                                    projects. This rotary machine can be configured for random infeed or filler
-                                    connection.
+                            <form action="services-form.php" method="post">
+                                <div class="container h-65vh">
+                                    <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
+                                        Can Seamer V-Series - Model 18V
+                                    </h2>
+                                    <p class="text-sm text-gray-700 mb-4">
+                                        <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
+                                        The Angelus V-Series Model 18V seamer is ideal for running cans with diameters
+                                        from
+                                        200 to 300. With speeds from 500 to 2500 Cans Per Minute (CPM) and 18 seaming
+                                        spindles, this machine is optimized for high-speed beverage applications,
+                                        ensuring a
+                                        perfect transfer of the can from the filler turrent onto the can feed extension,
+                                        without spilling product. Constructed from 304 stainless steel in all product
+                                        contact areas, this machine offers a clean, sanitary design, well suited for
+                                        these
+                                        projects. This rotary machine can be configured for random infeed or filler
+                                        connection.
 
-                                    <br><br>
+                                        <br><br>
 
-                                    <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
+                                        <span class="font-semibold">PRODUCT DETAILS</span> <br><br>
 
-                                    • Runs at speeds up to 500 -2500 Containers Per Minute (CPM) <br>
-                                    • Provided with random infeed or filler connection, in either mechanical or
-                                    servo
-                                    synchro <br>
-                                    • New and improved driven lower lifters <br>
-                                    • Motorized turret height adjustment with digital readout <br>
-                                    • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
-                                    • Easy-adjust chuck plate springs keep downtime to a minimum <br>
-                                    • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
-                                    <br>
-                                    • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
-                                    operator
-                                    safety <br>
-                                    • NEMA 4X junction box is machine mounted and integrated into guarding <br>
-                                    • Under cover gassing control with variable valve for use in seaming beverages
-                                    <br>
-                                    • Ancillary systems are integrated into the guarding enclosure <br>
-                                    • Vibration isolation pads on seamer legs <br>
-                                    • Comes with basic tool kit <br>
-                            </div>
-                            </p>
+                                        • Runs at speeds up to 500 -2500 Containers Per Minute (CPM) <br>
+                                        • Provided with random infeed or filler connection, in either mechanical or
+                                        servo
+                                        synchro <br>
+                                        • New and improved driven lower lifters <br>
+                                        • Motorized turret height adjustment with digital readout <br>
+                                        • TN-coated Angelloy® seaming rolls with ceramic bearings <br>
+                                        • Easy-adjust chuck plate springs keep downtime to a minimum <br>
+                                        • Industry-standard PLC and HMI controls, pilot devices, and E-Stop (Non-OEM)
+                                        <br>
+                                        • NEMA 12 electrical enclosure (standalone), with lockable disconnect ensures
+                                        operator
+                                        safety <br>
+                                        • NEMA 4X junction box is machine mounted and integrated into guarding <br>
+                                        • Under cover gassing control with variable valve for use in seaming beverages
+                                        <br>
+                                        • Ancillary systems are integrated into the guarding enclosure <br>
+                                        • Vibration isolation pads on seamer legs <br>
+                                        • Comes with basic tool kit <br>
+                                    </p>
+                                </div>
 
 
-                            <div class="mt-6  gap-2">
 
-                                <button type="button" class="product-checkout bg-[#171717] text-white text-sm rounded">
-                                    Proceed to Quote
-                                </button>
-                                <button type="button" id="closeModalBtn"
-                                    class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
-                                    Close
-                                </button>
+                                <div class="mt-6  gap-2">
 
-                            </div>
+                                    <button type="button"
+                                        class="product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Proceed to Quote
+                                    </button>
+                                    <button type="button" id="closeModalBtn"
+                                        class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
+                                        Close
+                                    </button>
+
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>

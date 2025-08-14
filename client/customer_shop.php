@@ -97,6 +97,19 @@
 
                         <div class="w-full p-12 ">
                             <div class="container h-65vh">
+
+                                <input type="hidden" name="product_name" value="ANGELUS
+                                    Can Seamer V-Series - Model 3V">
+                                <input type="hidden" name="product_img"
+                                    value="../src/img/psangelus/ANGELUS V-Series - Model 3V.jpg">
+                                <input type="hidden" name="product_desc" value="The Angelus V-Series Model 3V seamer is ideal for running large 2- and 3-piece
+                                    cans with diameters from 211 to 603. With speeds from 75 to 350 Cans Per Minute (CPM)
+                                    and 3 seaming spindles, this machine is well suited for seaming powdered food
+                                    ingredients, powdered drinks, nutraceuticals, and powdered infant formula.
+                                    Constructed of 304 stainless steel in all product contact areas, this machine
+                                    offers a clean, sanitary design for food and beverage applications. This rotary machine
+                                    can be configured for random infeed or filler connection.">
+
                                 <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
                                     Can Seamer V-Series - Model 3V
                                 </h2>
@@ -210,6 +223,18 @@
 
                         <div class="w-full p-12">
                             <div class="container h-65vh">
+
+                                <input type="hidden" name="product_name" value="ANGELUS
+                                    Can Seamer V-Series - Model 4V">
+                                <input type="hidden" name="product_img"
+                                    value="../src/img/psangelus/ANGELUS V-Series - Model 4V.jpg">
+                                <input type="hidden" name="product_desc" value="  The Angelus V-Series Model 4V seamer is ideal for running metal and composite
+                                    cans with diameters from 200 to 401. With speeds from 100 to 450 Cans Per Minute
+                                    (CPM) and 4 seaming spindles, and constructed of 304 stainless steel in all product
+                                    contact areas, this machine offers a clean, sanitary design, well suited for
+                                    food and beverage applications. This rotary machine can be configured for random
+                                    infeed or filler connection.">
+
                                 <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
                                     Can Seamer V-Series - Model 4V
                                 </h2>
@@ -322,12 +347,24 @@
 
                         <div class="w-full p-12">
                             <div class="container h-65vh">
+
+                                <input type="hidden" name="product_name" value="ANGELUS
+                                    Can Seamer V-Series - Model 6V">
+                                <input type="hidden" name="product_img"
+                                    value="../src/img/psangelus/ANGELUS V-Series - Model 6V.1.jpg">
+                                <input type="hidden" name="product_desc" value="The Angelus V-Series Model 6V seamer is ideal for running metal and composite
+                                    cans with diameters from 200 to 401. With speeds from 175 to 700 Cans Per Minute
+                                    (CPM) and 6 seaming spindles, and constructed of 304 stainless steel in all product
+                                    contact areas, this machine offers a clean, sanitary design, well suited for
+                                    food and beverage applications. This rotary machine can be configured for random
+                                    infeed or filler connection.">
+
                                 <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
                                     Can Seamer V-Series - Model 6V
                                 </h2>
                                 <p class="text-sm text-gray-700 mb-4">
                                     <span class="font-semibold">ABOUT THIS MACHINE</span> <br><br>
-                                    TThe Angelus V-Series Model 6V seamer is ideal for running metal and composite
+                                    The Angelus V-Series Model 6V seamer is ideal for running metal and composite
                                     cans
                                     with diameters from 200 to 401. With speeds from 175 to 700 Cans Per Minute
                                     (CPM)
@@ -431,6 +468,18 @@
 
                         <div class="w-full p-12">
                             <div class="container h-65vh">
+
+                                <input type="hidden" name="product_name" value="ANGELUS
+                                    Can Seamer V-Series - Model 8V">
+                                <input type="hidden" name="product_img"
+                                    value="../src/img/psangelus/ANGELUS V-Series - Model 8V.1.jpg">
+                                <input type="hidden" name="product_desc" value="  The Angelus V-Series Model 8V seamer is ideal for running metal and composite
+                                    cans with diameters from 200 to 300. With speeds from 250 to 1000 Cans Per Minute
+                                    (CPM) and 8 seaming spindles, and constructed from 304 stainless steel in all product
+                                    contact areas, this machine offers a clean, sanitary design, well suited for
+                                    food and beverage applications. This rotary machine can be configured for random
+                                    infeed or filler connection.">
+
                                 <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
                                     Can Seamer V-Series - Model 8V
                                 </h2>
@@ -544,6 +593,18 @@
 
                         <div class="w-full p-12 ">
                             <div class="container h-65vh">
+
+                                <input type="hidden" name="product_name" value="ANGELUS
+                                    Can Seamer V-Series - Model 9V">
+                                <input type="hidden" name="product_img"
+                                    value="../src/img/psangelus/ANGELUS V-Series - Model 9V.jpg">
+                                <input type="hidden" name="product_desc" value=" The Angelus V-Series Model 9V seamer is ideal for running cans with diameters
+                                    from 200 to 401. With speeds from 300 to 1200 Cans Per Minute (CPM) and 9 seaming
+                                    spindles, this machine delivers high speed performance when needed. Constructed
+                                    from 304 stainless steel in all product contact areas, this machine offers a clean,
+                                    sanitary design, well suited for food applications. This rotary machine can be
+                                    configured for random infeed or filler connection.">
+
                                 <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
                                     Can Seamer V-Series - Model 9V
                                 </h2>
@@ -655,6 +716,18 @@
 
                         <div class="w-full p-12">
                             <div class="container h-65vh">
+
+                                <input type="hidden" name="product_name" value="ANGELUS
+                                    Can Seamer V-Series - Model 12V">
+                                <input type="hidden" name="product_img"
+                                    value="../src/img/psangelus/ANGELUS V-Series - Model 12V.jpg">
+                                <input type="hidden" name="product_desc" value="The Angelus V-Series Model 12V seamer is ideal for running cans with diameters
+                                    from 200 to 300. With speeds from 400 to 1800 Cans Per Minute (CPM) and 12 seaming
+                                    spindles, this machine is optimized for high-speed beverage applications.
+                                    Constructed from 304 stainless steel in all product contact areas, this machine
+                                    offers a clean, sanitary design, well suited for these projects. This rotary
+                                    machine can be configured for random infeed or filler connection.">
+
                                 <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
                                     Can Seamer V-Series - Model 12V
                                 </h2>
@@ -761,6 +834,20 @@
 
                         <div class="w-full p-12">
                             <div class="container h-65vh">
+
+                                <input type="hidden" name="product_name" value="ANGELUS
+                                    Can Seamer V-Series - Model 18V">
+                                <input type="hidden" name="product_img"
+                                    value="../src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg">
+                                <input type="hidden" name="product_desc" value=" The Angelus V-Series Model 18V seamer is ideal for running cans with diameters
+                                    from 200 to 300. With speeds from 500 to 2500 Cans Per Minute (CPM) and 18 seaming
+                                    spindles, this machine is optimized for high-speed beverage applications,
+                                    ensuring a perfect transfer of the can from the filler turrent onto the can feed extension,
+                                    without spilling product. Constructed from 304 stainless steel in all product
+                                    contact areas, this machine offers a clean, sanitary design, well suited for
+                                    these projects. This rotary machine can be configured for random infeed or filler
+                                    connection.">
+
                                 <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
                                     Can Seamer V-Series - Model 18V
                                 </h2>
@@ -870,6 +957,20 @@
 
                         <div class="w-full p-12">
                             <div class="container h-65vh">
+
+                                <input type="hidden" name="product_name" value="ANGELUS
+                                    Can Seamer V-Series - Model 18V">
+                                <input type="hidden" name="product_img"
+                                    value="../src/img/psangelus/ANGELUS Legacy Series - Model 60L.1.jpg">
+                                <input type="hidden" name="product_desc" value=" The Angelus V-Series Model 18V seamer is ideal for running cans with diameters
+                                    from 200 to 300. With speeds from 500 to 2500 Cans Per Minute (CPM) and 18 seaming
+                                    spindles, this machine is optimized for high-speed beverage applications,
+                                    ensuring a perfect transfer of the can from the filler turrent onto the can feed extension,
+                                    without spilling product. Constructed from 304 stainless steel in all product
+                                    contact areas, this machine offers a clean, sanitary design, well suited for
+                                    these projects. This rotary machine can be configured for random infeed or filler
+                                    connection.">
+
                                 <h2 id="dialog-title" class="text-lg font-medium text-[#171717] mb-4">ANGELUS
                                     Can Seamer V-Series - Model 18V
                                 </h2>

@@ -1,10 +1,10 @@
 <?php
-session_start();
+// session_start();
 
-if (!isset($_SESSION['first_name'])) {
-    header("Location: ../signin.php");
-    exit();
-}
+// if (!isset($_SESSION['first_name'])) {
+//     header("Location: ../signin.php");
+//     exit();
+// }
 
 ?>
 
