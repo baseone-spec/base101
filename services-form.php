@@ -62,7 +62,7 @@ if (isset($_POST['submit'])) {
 
     <div class="grid grid-cols-2 justify-center align-middle px-40 gap-4 ">
         <div class="w-full h-auto py-20">
-            <form method="POST" action="product-form.php" class="w-full">
+            <form method="POST" action="services-form.php" class="w-full">
 
                 <input type="hidden" name="product_name" value="<?php echo $productName; ?>">
                 <input type="hidden" name="product_img" value="<?php echo $productImg; ?>">
