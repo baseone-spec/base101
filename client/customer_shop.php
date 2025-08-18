@@ -82,8 +82,9 @@
                 <!-- Modal -->
 
                 <div id="modal-2"
-                    class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
-                    role="dialog" aria-modal="true">
+                    class="modal fixed inset-0 z-50 bg-gray-500/75 hidden place-items-center align-content"
+                    role=" dialog" aria-modal="true">
+
                     <!-- Modal Content -->
                     <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
                         <!-- Header -->
@@ -96,7 +97,7 @@
                         </div>
 
                         <div class="w-full p-12 ">
-                            <form action="/services-form.php" method="post">
+                            <form action="/product-form.php" method="post">
                                 <div class="container h-65vh">
 
                                     <input type="hidden" name="product_name" value="ANGELUS
@@ -213,7 +214,7 @@
                 <!-- Modal -->
 
                 <div id="modal-3"
-                    class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
+                    class="modal fixed inset-0 z-50 bg-gray-500/75 hidden place-items-center align-content"
                     role="dialog" aria-modal="true">
                     <!-- Modal Content -->
                     <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
@@ -227,7 +228,7 @@
                         </div>
 
                         <div class="w-full p-12">
-                            <form action="services-form.php" method="post">
+                            <form action="/product-form.php" method="post">
                                 <div class="container h-65vh">
 
                                     <input type="hidden" name="product_name" value="ANGELUS
@@ -346,7 +347,7 @@
                 <!-- Modal -->
 
                 <div id="modal-4"
-                    class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
+                    class="modal fixed inset-0 z-50 bg-gray-500/75 hidden place-items-center align-content"
                     role="dialog" aria-modal="true">
                     <!-- Modal Content -->
                     <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
@@ -361,7 +362,7 @@
                         </div>
 
                         <div class="w-full p-12">
-                            <form action="services-form.php" method="post">
+                            <form action="/product-form.php" method="post">
                                 <div class="container h-65vh">
 
                                     <input type="hidden" name="product_name" value="ANGELUS
@@ -476,7 +477,7 @@
                 <!-- Modal -->
 
                 <div id="modal-1"
-                    class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
+                    class="modal fixed inset-0 z-50 bg-gray-500/75 hidden place-items-center align-content"
                     role="dialog" aria-modal="true">
                     <!-- Modal Content -->
                     <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
@@ -490,7 +491,7 @@
                         </div>
 
                         <div class="w-full p-12">
-                            <form action="services-form.php" method="post">
+                            <form action="/product-form.php" method="post">
                                 <div class="container h-65vh">
 
                                     <input type="hidden" name="product_name" value="ANGELUS
@@ -611,7 +612,7 @@
 
 
                 <div id="modal-5"
-                    class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
+                    class="modal fixed inset-0 z-50 bg-gray-500/75 hidden place-items-center align-content"
                     role="dialog" aria-modal="true">
 
                     <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
@@ -625,7 +626,7 @@
                         </div>
 
                         <div class="w-full p-12 ">
-                            <form action="services-form.php" method="post">
+                            <form action="/product-form.php" method="post">
                                 <div class="container h-65vh">
 
                                     <input type="hidden" name="product_name" value="ANGELUS
@@ -735,7 +736,7 @@
 
 
                 <div id="modal-6"
-                    class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
+                    class="modal fixed inset-0 z-50 bg-gray-500/75 hidden place-items-center align-content"
                     role="dialog" aria-modal="true">
 
                     <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
@@ -750,7 +751,7 @@
                         </div>
 
                         <div class="w-full p-12">
-                            <form action="services-form.php" method="post">
+                            <form action="/product-form.php" method="post">
                                 <div class="container h-65vh">
 
                                     <input type="hidden" name="product_name" value="ANGELUS
@@ -856,7 +857,7 @@
 
 
                 <div id="modal-7"
-                    class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
+                    class="modal fixed inset-0 z-50 bg-gray-500/75 hidden place-items-center align-content"
                     role="dialog" aria-modal="true">
 
                     <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
@@ -871,7 +872,7 @@
                         </div>
 
                         <div class="w-full p-12">
-                            <form action="services-form.php" method="post">
+                            <form action="/product-form.php" method="post">
                                 <div class="container h-65vh">
 
                                     <input type="hidden" name="product_name" value="ANGELUS
@@ -981,7 +982,7 @@
 
 
                 <div id="modal-7"
-                    class="modal hidden fixed inset-0 z-50 bg-gray-500/75 flex items-center justify-center"
+                    class="modal fixed inset-0 z-50 bg-gray-500/75 hidden place-items-center align-content"
                     role="dialog" aria-modal="true">
 
                     <div class="grid grid-cols-2 modal-size bg-white rounded-lg shadow-xl relative z-50 ">
@@ -996,7 +997,7 @@
                         </div>
 
                         <div class="w-full p-12">
-                            <form action="services-form.php" method="post">
+                            <form action="/product-form.php" method="post">
                                 <div class="container h-65vh">
 
                                     <input type="hidden" name="product_name" value="ANGELUS

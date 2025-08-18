@@ -16,6 +16,7 @@ if (isset($_POST['submit'])) {
     $zipPostalCode = $_POST['zip-postal-code'];
     $emailAddress = $_POST['email-address'];
     $phoneNumber = $_POST['contact'];
+    $inquiry = $_POST['inquiry'];
     $date = date("Y-m-d");
 
     date_default_timezone_set("Asia/Manila");
@@ -29,8 +30,8 @@ if (isset($_POST['submit'])) {
         echo "Please fill in all required fields.";
     } else {
         // Prepare and execute the SQL statement
-        $stmt = $con->prepare("INSERT INTO rfq (product_name, company_name, product_quantity, country, street_address, city, state_province, zip_postal_code, email_address, contact, date) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
-        $stmt->bind_param("sssssssssss", $productName, $companyName, $productQuantity, $country, $streetAddress, $city, $stateProvince, $zipPostalCode, $emailAddress, $phoneNumber, $date);
+        $stmt = $con->prepare("INSERT INTO rfq (product_name, company_name, product_quantity, inquiry, country, street_address, city, state_province, zip_postal_code, email_address, contact, date) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
+        $stmt->bind_param("ssssssssssss", $productName, $companyName, $productQuantity, $inquiry, $country, $streetAddress, $city, $stateProvince, $zipPostalCode, $emailAddress, $phoneNumber, $date);
 
         if ($stmt->execute()) {
             echo "Quotation submitted successfully.";
@@ -155,7 +156,7 @@ if (isset($_POST['submit'])) {
                 <label for="inquiry" class="block text-sm/6 font-normal text-gray-900 mt-4">Leave an inquiry:
                 </label>
                 <div class="mt-2">
-                    <in put id="inquiry" type="text" name="inquiry" autocomplete="none"
+                    <input id="inquiry" type="text" name="inquiry" autocomplete="none"
                         class="rounded-lg block w-full bg-white px-3 py-8 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
                 </div>
 
@@ -187,8 +188,8 @@ if (isset($_POST['submit'])) {
                     <p><strong>Product Name:</strong> <?php echo htmlspecialchars($productName); ?></p>
 
                     <?php if ($productImg): ?>
-                        <img src="<?php echo $productImg; ?>" class="mt-4 mb-5" alt="Product Image"
-                            style="max-width:200px;">
+                    <img src="<?php echo $productImg; ?>" class="mt-4 mb-5" alt="Product Image"
+                        style="max-width:200px;">
                     <?php endif; ?>
 
                     <h3>Description:</h3>

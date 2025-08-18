@@ -152,11 +152,13 @@ if (isset($_POST['submit'])) {
                     </div>
                 </group>
 
-                <label for="inquiry" class="block text-sm/6 font-normal text-gray-900 mt-4">Leave an inquiry:
-                </label>
-                <div class="mt-2">
-                    <in put id="inquiry" type="text" name="inquiry" autocomplete="none"
-                        class="rounded-lg block w-full bg-white px-3 py-8 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+                <div>
+                    <label for="inquiry" class="block text-sm/6 font-normal text-gray-900 mt-4">Leave an inquiry:
+                    </label>
+                    <div class="mt-2">
+                        <input id="inquiry" type="text" name="inquiry" autocomplete="none"
+                            class="rounded-lg block w-full bg-white px-3 py-8 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+                    </div>
                 </div>
 
 
@@ -186,7 +188,7 @@ if (isset($_POST['submit'])) {
                 <p><strong>Product Name:</strong> <?php echo htmlspecialchars($productName); ?></p>
 
                 <?php if ($productImg): ?>
-                    <img src="<?php echo $productImg; ?>" class="mt-4 mb-5" alt="Product Image" style="max-width:200px;">
+                <img src="<?php echo $productImg; ?>" class="mt-4 mb-5" alt="Product Image" style="max-width:200px;">
                 <?php endif; ?>
 
                 <h3>Description:</h3>
