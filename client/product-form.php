@@ -1,11 +1,6 @@
 <?php
 include('../conn/dbcon.php');
 
-if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['back'])) {
-    header("Location: ../client/customer_shop.php");
-    exit();
-}
-
 
 $productName = $_POST['product_name'] ?? '';
 $productImg  = $_POST['product_img'] ?? '';
@@ -33,18 +28,54 @@ if (isset($_POST['sendQuote'])) {
         empty($country) || empty($streetAddress) || empty($city) ||
         empty($stateProvince) || empty($zipPostalCode) || empty($emailAddress) || empty($phoneNumber)
     ) {
-        echo "Please fill in all required fields.";
+        echo "
+             <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Error',
+                    text: 'Please fill in all required fields.'
+                });
+                });
+            </script>";
     } else {
         // Prepare and execute the SQL statement
         $stmt = $con->prepare("INSERT INTO rfq (product_name, company_name, product_quantity, inquiry, country, street_address, city, state_province, zip_postal_code, email_address, contact, date) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
         $stmt->bind_param("ssssssssssss", $productName, $companyName, $productQuantity, $inquiry, $country, $streetAddress, $city, $stateProvince, $zipPostalCode, $emailAddress, $phoneNumber, $date);
 
-        if ($stmt->execute()) {
-            echo "Quotation submitted successfully.";
-        } else {
-            echo "Error submitting quotation.";
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            if ($stmt->execute()) {
+                echo "
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    Swal.fire({
+                        position: 'center',
+                        icon: 'success',
+                        title: 'Quotation successfully submitted!',
+                        showConfirmButton: false,
+                        timer: 1500
+                    }).then(() => {
+                        window.location.href = '../client/customer_shop.php';
+                    });
+                });
+            </script>";
+            } else {
+                echo "
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Error',
+                        text: 'Failed to submit quotation. Please try again later.'
+                    });
+                });
+            </script>";
+            }
         }
     }
+} else if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['back'])) {
+    header('Location: ../client/customer_shop.php');
+    exit();
 }
 ?>
 
@@ -58,6 +89,7 @@ if (isset($_POST['sendQuote'])) {
     <link href="../src/styles/output.css" rel="stylesheet">
     <!-- Include SweetAlert2 CDN -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </head>
 
 <body class="bg-[#FAFAFA]">
@@ -77,21 +109,25 @@ if (isset($_POST['sendQuote'])) {
                 <input type="hidden" name="product_desc" value="<?php echo htmlspecialchars($productDesc); ?>">
 
                 <p class="font-open-sans text-xl font-bold mb-2">Shipping Info</p>
+                <group class="grid grid-cols-2 gap-4">
+                    <div>
+                        <label for="company-name" class="block text-sm/6 font-normal text-gray-900">Company
+                            Name:</label>
+                        <div class="mt-2">
+                            <input id="company-name" type="text" name="company-name" autocomplete="none"
+                                class=" rounded-lg block w-full bg-white px-3 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+                        </div>
+                    </div>
 
-                <label for="company-name" class="block text-sm/6 font-normal text-gray-900">Company Name:</label>
-                <div class="mt-2">
-                    <input id="company-name" type="text" name="company-name" autocomplete="none"
-                        class=" rounded-lg block w-full bg-white px-3 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
-                </div>
-
-
-                <label for="product-quantity" class="mt-4 block text-sm/6 font-normal text-gray-900">Product
-                    Quantity:</label>
-                <div class="mt-2">
-                    <input id="product-quantity" type="text" name="product-quantity" autocomplete="none"
-                        class=" rounded-lg block w-full bg-white px-3 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
-                </div>
-
+                    <div>
+                        <label for="product-quantity" class=" block text-sm/6 font-normal text-gray-900">Product
+                            Quantity:</label>
+                        <div class="mt-2">
+                            <input id="product-quantity" type="text" name="product-quantity" autocomplete="none"
+                                class=" rounded-lg block w-full bg-white px-3 py-2 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6" />
+                        </div>
+                    </div>
+                </group>
                 <p class="font-open-sans text-xl font-bold mt-6">Add Shipping Delivery address</p>
                 <group class="grid grid-cols-2 gap-4">
                     <div>
@@ -169,11 +205,13 @@ if (isset($_POST['sendQuote'])) {
 
 
                 <group class="grid grid-flow-col grid-rows-1 gap-4 justify-end">
+
+                    <input type="hidden" name="back" id="backInput" value="0">
                     <button type="button" id="backBtn"
                         class="mt-8 w-50 bg-[#2D2D2D] text-white font-normal py-2 px-4 rounded-lg hover:bg-[#1A1A1A] transition duration-300">
                         Back
                     </button>
-                    <input type="hidden" name="back" value="1">
+
 
                     <button type="submit" name="sendQuote"
                         class="mt-8 w-50 bg-[#2D2D2D] text-white font-normal py-2 px-4 rounded-lg hover:bg-[#1A1A1A] transition duration-300">
@@ -212,15 +250,16 @@ if (isset($_POST['sendQuote'])) {
     document.getElementById("backBtn").addEventListener("click", function() {
         Swal.fire({
             title: "Are you sure?",
-            // text: "You will be redirected to Customer Shop.",
+            text: "You will be redirected to Customer Shop.",
             icon: "warning",
             showCancelButton: true,
             confirmButtonColor: "#222222",
-            cancelButtonColor: "#222222",
+            cancelButtonColor: "#CC1515",
             confirmButtonText: "Yes, go back"
         }).then((result) => {
             if (result.isConfirmed) {
-                document.getElementById("backForm").requestSubmit();
+                document.getElementById("backInput").value = "1"; // mark back
+                document.getElementById("backForm").submit(); // submit form
             }
         });
     });
