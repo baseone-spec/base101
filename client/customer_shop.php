@@ -3,6 +3,7 @@
 //     header("Location: ../signin.php");
 //     exit();
 // }
+
 ?>
 
 <!DOCTYPE html>
@@ -164,7 +165,7 @@
                                         class="product-checkout bg-[#171717] text-white text-sm rounded">
                                         Proceed to Quote
                                     </button>
-                                    <button type="button" id="closeModalBtn"
+                                    <button type="button" id="closeModalBtn" name="back"
                                         class="closeModalBtn product-checkout bg-[#171717] text-white text-sm rounded">
                                         Close
                                     </button>
@@ -228,7 +229,7 @@
                         </div>
 
                         <div class="w-full p-12">
-                            <form action="/product-form.php" method="post">
+                            <form action="../client/product-form.php" method="post">
                                 <div class="container h-65vh">
 
                                     <input type="hidden" name="product_name" value="ANGELUS
@@ -362,7 +363,7 @@
                         </div>
 
                         <div class="w-full p-12">
-                            <form action="/product-form.php" method="post">
+                            <form action="../client/product-form.php" method="post">
                                 <div class="container h-65vh">
 
                                     <input type="hidden" name="product_name" value="ANGELUS
@@ -491,7 +492,7 @@
                         </div>
 
                         <div class="w-full p-12">
-                            <form action="/product-form.php" method="post">
+                            <form action="../client/product-form.php" method="post">
                                 <div class="container h-65vh">
 
                                     <input type="hidden" name="product_name" value="ANGELUS
@@ -626,7 +627,7 @@
                         </div>
 
                         <div class="w-full p-12 ">
-                            <form action="/product-form.php" method="post">
+                            <form action="../client/product-form.php" method="post">
                                 <div class="container h-65vh">
 
                                     <input type="hidden" name="product_name" value="ANGELUS
@@ -751,7 +752,7 @@
                         </div>
 
                         <div class="w-full p-12">
-                            <form action="/product-form.php" method="post">
+                            <form action="../client/product-form.php" method="post">
                                 <div class="container h-65vh">
 
                                     <input type="hidden" name="product_name" value="ANGELUS
@@ -872,7 +873,7 @@
                         </div>
 
                         <div class="w-full p-12">
-                            <form action="/product-form.php" method="post">
+                            <form action="../client/product-form.php" method="post">
                                 <div class="container h-65vh">
 
                                     <input type="hidden" name="product_name" value="ANGELUS
@@ -997,7 +998,7 @@
                         </div>
 
                         <div class="w-full p-12">
-                            <form action="/product-form.php" method="post">
+                            <form action="../client/product-form.php" method="post">
                                 <div class="container h-65vh">
 
                                     <input type="hidden" name="product_name" value="ANGELUS

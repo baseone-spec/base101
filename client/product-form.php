@@ -1,6 +1,12 @@
 <?php
 include('../conn/dbcon.php');
 
+if (isset($_POST['back'])) {
+    header("Location: ../client/customer_shop.php");
+    exit();
+}
+
+
 $productName = $_POST['product_name'] ?? '';
 $productImg  = $_POST['product_img'] ?? '';
 $productDesc = $_POST['product_desc'] ?? '';
@@ -163,7 +169,7 @@ if (isset($_POST['submit'])) {
 
                 <group class="grid grid-flow-col grid-rows-1 gap-4 justify-end">
 
-                    <button type="back"
+                    <button type="back" name="back"
                         class="mt-8 w-50 bg-[#2D2D2D] text-white font-normal py-2 px-4 rounded-lg hover:bg-[#1A1A1A] transition duration-300">
                         Back
                     </button>
