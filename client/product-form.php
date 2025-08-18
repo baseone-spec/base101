@@ -1,5 +1,5 @@
 <?php
-include('conn/dbcon.php');
+include('../conn/dbcon.php');
 
 $productName = $_POST['product_name'] ?? '';
 $productImg  = $_POST['product_img'] ?? '';
@@ -49,7 +49,7 @@ if (isset($_POST['submit'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./src/styles/output.css" rel="stylesheet">
+    <link href="../src/styles/output.css" rel="stylesheet">
 
 </head>
 
@@ -57,7 +57,7 @@ if (isset($_POST['submit'])) {
 
     <nav class="shadow-md h-24 flex items-center justify-between px-20 bg-white">
         <div class="logo" style="width: 120px;">
-            <img src="./src//img//base1 logo.png" alt="Baseone Industrial Sales Logo">
+            <img src="../src//img//base1 logo.png" alt="Baseone Industrial Sales Logo">
         </div>
     </nav>
 

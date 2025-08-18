@@ -97,7 +97,7 @@
                         </div>
 
                         <div class="w-full p-12 ">
-                            <form action="/product-form.php" method="post">
+                            <form action="../client/product-form.php" method="post">
                                 <div class="container h-65vh">
 
                                     <input type="hidden" name="product_name" value="ANGELUS
