@@ -1,7 +1,7 @@
 <?php
 include('../conn/dbcon.php');
 
-if (isset($_POST['back'])) {
+if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST['back'])) {
     header("Location: ../client/customer_shop.php");
     exit();
 }
@@ -11,7 +11,7 @@ $productName = $_POST['product_name'] ?? '';
 $productImg  = $_POST['product_img'] ?? '';
 $productDesc = $_POST['product_desc'] ?? '';
 
-if (isset($_POST['submit'])) {
+if (isset($_POST['sendQuote'])) {
     $productName = $_POST['product_name'];
     $companyName = $_POST['company-name'];
     $productQuantity = $_POST['product-quantity'];
@@ -56,7 +56,8 @@ if (isset($_POST['submit'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../src/styles/output.css" rel="stylesheet">
-
+    <!-- Include SweetAlert2 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body class="bg-[#FAFAFA]">
@@ -69,7 +70,7 @@ if (isset($_POST['submit'])) {
 
     <div class="grid grid-cols-2 px-40 gap-20">
         <div class="col-span-1  py-16 ">
-            <form method="POST" action="product-form.php" class=" w-full">
+            <form method="POST" action="product-form.php" id="backForm" class=" w-full">
 
                 <input type="hidden" name="product_name" value="<?php echo $productName; ?>">
                 <input type="hidden" name="product_img" value="<?php echo $productImg; ?>">
@@ -168,13 +169,13 @@ if (isset($_POST['submit'])) {
 
 
                 <group class="grid grid-flow-col grid-rows-1 gap-4 justify-end">
-
-                    <button type="back" name="back"
+                    <button type="button" id="backBtn"
                         class="mt-8 w-50 bg-[#2D2D2D] text-white font-normal py-2 px-4 rounded-lg hover:bg-[#1A1A1A] transition duration-300">
                         Back
                     </button>
+                    <input type="hidden" name="back" value="1">
 
-                    <button type="submit" name="submit"
+                    <button type="submit" name="sendQuote"
                         class="mt-8 w-50 bg-[#2D2D2D] text-white font-normal py-2 px-4 rounded-lg hover:bg-[#1A1A1A] transition duration-300">
                         Submit Quotation
                     </button>
@@ -201,13 +202,29 @@ if (isset($_POST['submit'])) {
                     <h3>Description:</h3>
                     <div style=""><?php echo $productDesc; ?></div>
 
-
-
                 </form>
             </div>
 
         </div>
     </div>
+
+    <script>
+    document.getElementById("backBtn").addEventListener("click", function() {
+        Swal.fire({
+            title: "Are you sure?",
+            // text: "You will be redirected to Customer Shop.",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#222222",
+            cancelButtonColor: "#222222",
+            confirmButtonText: "Yes, go back"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                document.getElementById("backForm").requestSubmit();
+            }
+        });
+    });
+    </script>
 
 
 </body>
