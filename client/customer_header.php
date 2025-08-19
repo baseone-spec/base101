@@ -108,6 +108,7 @@
               <img src="../src//img//base1 logo.png" alt="Baseone Industrial Sales Logo">
           </div>
 
+
           <ul id="menuList">
               <li><a href="../client/customer_page.php">Home</a></li>
               <li><a href="../client/customer_about.php">About</a></li>
@@ -130,8 +131,26 @@
 
                   </div>
               </li>
+              <li>
+                  <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+              </li>
+
+              <!--              
+              <div id="cart-sidebar"
+                  class="fixed top-0 right-0 w-80 h-screen bg-white shadow-lg z-50 p-6 transition-transform duration-300 translate-x-full">
+
+                
+                  <button id="close-cart" class="absolute top-4 right-4 text-gray-600 hover:text-black text-2xl">
+                      <i class="fa-solid fa-xmark"></i>
+                  </button>
+
+                  <h2 class="text-xl font-bold mb-4 mt-10">Your Cart</h2>
+                  <p>No items in cart.</p>
+              </div> -->
+
+
           </ul>
-          <div class="menu-icon">
+          <div class=" menu-icon">
               <i class="fa-solid fa-bars-staggered" onclick="toggleMenu()"></i>
           </div>
       </nav>

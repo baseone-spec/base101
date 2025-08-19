@@ -1032,12 +1032,25 @@
     top: 50%;
   }
 
+  .top-4 {
+    top: 4px;
+  }
+
+  .right-4 {
+    right: 4px;
+  }
+
   .right-2 {
     right: 2px;
   }
 
   .-translate-y-1\/2 {
     transform: translateY(-50%);
+  }
+
+  .translate-x-full {
+    transform: translateX(100%);
+
   }
 
   .object-cover {
@@ -1073,10 +1086,13 @@
     transition-property: all;
   }
 
+  .transition-transform {
+    transition-property: transform;
+  }
+
   .fixed {
     position: fixed;
   }
-
 
   .hidden {
     display: none;
@@ -2227,7 +2243,7 @@
 
   }
 
-  .border:hoer {
+  .border:hover {
     background-color: #171717;
     color: var(--color-white);
     border: 0;
@@ -2240,5 +2256,4 @@
     height: 40px;
     color: #9CA3AF;
   }
-
 }

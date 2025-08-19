@@ -233,8 +233,8 @@ if (isset($_POST['sendQuote'])) {
                     <p><strong>Product Name:</strong> <?php echo htmlspecialchars($productName); ?></p>
 
                     <?php if ($productImg): ?>
-                    <img src="<?php echo $productImg; ?>" class="mt-4 mb-5" alt="Product Image"
-                        style="max-width:200px;">
+                        <img src="<?php echo $productImg; ?>" class="mt-4 mb-5" alt="Product Image"
+                            style="max-width:200px;">
                     <?php endif; ?>
 
                     <h3>Description:</h3>
@@ -247,22 +247,22 @@ if (isset($_POST['sendQuote'])) {
     </div>
 
     <script>
-    document.getElementById("backBtn").addEventListener("click", function() {
-        Swal.fire({
-            title: "Are you sure?",
-            text: "You will be redirected to Customer Shop.",
-            icon: "warning",
-            showCancelButton: true,
-            confirmButtonColor: "#222222",
-            cancelButtonColor: "#CC1515",
-            confirmButtonText: "Yes, go back"
-        }).then((result) => {
-            if (result.isConfirmed) {
-                document.getElementById("backInput").value = "1"; // mark back
-                document.getElementById("backForm").submit(); // submit form
-            }
+        document.getElementById("backBtn").addEventListener("click", function() {
+            Swal.fire({
+                title: "Are you sure?",
+                text: "You will be redirected to Customer Shop.",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#222222",
+                cancelButtonColor: "#CC1515",
+                confirmButtonText: "Yes, go back"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    document.getElementById("backInput").value = "1"; // mark back
+                    document.getElementById("backForm").submit(); // submit form
+                }
+            });
         });
-    });
     </script>
 
 
