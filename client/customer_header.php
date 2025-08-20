@@ -137,7 +137,7 @@
                   </div>
               </li>
               <li>
-                  <i id="cart-icon" class="fa-solid fa-cart-shopping cursor-pointer text-3xl"></i>
+                  <i id="cart-icon" class="fa-solid fa-cart-shopping cursor-pointer text-2xl"></i>
               </li>
 
           </ul>
