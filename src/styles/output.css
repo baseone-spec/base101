@@ -620,6 +620,10 @@
     z-index: 50;
   }
 
+  .z-60 {
+    z-index: 60;
+  }
+
   .overflow-y-auto {
     overflow-y: auto;
   }
@@ -1036,6 +1040,10 @@
     top: 4px;
   }
 
+  .right-0 {
+    right: 0;
+  }
+
   .right-4 {
     right: 4px;
   }
@@ -1050,7 +1058,10 @@
 
   .translate-x-full {
     transform: translateX(100%);
+  }
 
+  .translate-x-0 {
+    transform: translateX(0);
   }
 
   .object-cover {

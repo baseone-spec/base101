@@ -31,7 +31,7 @@
                 <i class="fa-solid fa-xmark"></i>
             </button>
 
-            <h2 class="text-xl font-bold mb-4 mt-10">Your Cart</h2>
+            <h2 class="text-xl font-bold mb-4 mt-10">Your Cart</h2>D
             <p>No items in cart.</p>
         </div>
     </div>

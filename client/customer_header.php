@@ -23,64 +23,69 @@
           crossorigin="anonymous" referrerpolicy="no-referrer" />
 
       <style>
-          .user-menu {
-              position: relative;
-              display: inline-block;
-          }
+      .user-menu {
+          position: relative;
+          display: inline-block;
+      }
 
-          .user-menu i {
-              font-size: 24px;
-              cursor: pointer;
-              color: #333;
-          }
+      .user-menu i {
+          font-size: 24px;
+          cursor: pointer;
+          color: #333;
+      }
 
-          /* Dropdown menu */
-          .dropdown {
-              display: none;
-              position: absolute;
-              left: 0px;
-              right: 10px;
-              top: 25px;
-              background-color: white;
-              border: 1px solid #ccc;
-              border-radius: 5px;
-              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-              z-index: 1000;
-              min-width: 160px;
-          }
+      /* Dropdown menu */
+      .dropdown {
+          display: none;
+          position: absolute;
+          left: 0px;
+          right: 10px;
+          top: 25px;
+          background-color: white;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          z-index: 1000;
+          min-width: 160px;
+      }
 
-          .dropdown a {
-              display: block;
-              padding: 10px 15px;
-              color: #333;
-              text-decoration: none;
-          }
+      .dropdown a {
+          display: block;
+          padding: 10px 15px;
+          color: #333;
+          text-decoration: none;
+      }
 
-          .dropdown a:hover {
-              background-color: #f0f0f0;
-          }
+      .dropdown a:hover {
+          background-color: #f0f0f0;
+      }
 
-          /* Show dropdown on hover */
-          .user-menu:hover .dropdown {
-              display: block;
-          }
+      /* Show dropdown on hover */
+      .user-menu:hover .dropdown {
+          display: block;
+      }
 
-          .account-title {
-              position: relative;
-              display: inline-block;
-              padding-bottom: 5px;
-          }
+      .account-title {
+          position: relative;
+          display: inline-block;
+          padding-bottom: 5px;
+      }
 
-          .account-title::after {
-              content: "";
-              position: absolute;
-              left: 0;
-              bottom: 0;
-              height: 2px;
-              width: 100%;
-              background-color: #333;
-              /* Change this to match your theme */
-          }
+      .account-title::after {
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          height: 2px;
+          width: 100%;
+          background-color: #333;
+          /* Change this to match your theme */
+      }
+
+      #cart-sidebar {
+          height: 100vh;
+          /* full screen height */
+      }
       </style>
 
   </head>
@@ -103,7 +108,7 @@
           </div>
       </sub-nav>
 
-      <nav class="shadow-md">
+      <nav class="shadow-md z-60">
           <div class="logo">
               <img src="../src//img//base1 logo.png" alt="Baseone Industrial Sales Logo">
           </div>
@@ -132,22 +137,8 @@
                   </div>
               </li>
               <li>
-                  <i class="fa-solid fa-cart-shopping" id="cart-icon"></i>
+                  <i id="cart-icon" class="fa-solid fa-cart-shopping cursor-pointer text-3xl"></i>
               </li>
-
-              <!--              
-              <div id="cart-sidebar"
-                  class="fixed top-0 right-0 w-80 h-screen bg-white shadow-lg z-50 p-6 transition-transform duration-300 translate-x-full">
-
-                
-                  <button id="close-cart" class="absolute top-4 right-4 text-gray-600 hover:text-black text-2xl">
-                      <i class="fa-solid fa-xmark"></i>
-                  </button>
-
-                  <h2 class="text-xl font-bold mb-4 mt-10">Your Cart</h2>
-                  <p>No items in cart.</p>
-              </div> -->
-
 
           </ul>
           <div class=" menu-icon">
@@ -155,24 +146,55 @@
           </div>
       </nav>
 
+      <div id="cart-sidebar" class="fixed top-0 right-0 w-80 h-screen bg-white shadow-lg z-50 p-6 
+               transform transition-transform duration-300 translate-x-full">
+
+          <!-- Close button -->
+          <button id="close-cart" class="absolute top-4 right-4 p-4 text-gray-600 hover:text-black text-2xl">
+              <i class="fa-solid fa-xmark"></i>
+          </button>
+
+          <h2 class="text-xl font-bold mb-4 mt-10">Your Cart</h2>
+          <p>No items in cart.</p>
+      </div>
+
 
       <script>
-          let menuList = document.getElementById("menuList")
-          menuList.style.maxHeight = "0px";
+      let menuList = document.getElementById("menuList")
+      menuList.style.maxHeight = "0px";
 
-          function toggleMenu() {
-              if (menuList.style.maxHeight == "0px") {
-                  menuList.style.maxHeight = "300px";
-                  menuList.style.transition = "max-height 0.5s ease-in-out";
-                  menuList.style.overflow = "hidden";
-                  menuList.style.padding = "50px 0";
+      function toggleMenu() {
+          if (menuList.style.maxHeight == "0px") {
+              menuList.style.maxHeight = "300px";
+              menuList.style.transition = "max-height 0.5s ease-in-out";
+              menuList.style.overflow = "hidden";
+              menuList.style.padding = "50px 0";
 
-              } else {
-                  menuList.style.maxHeight = "0px";
-              }
+          } else {
+              menuList.style.maxHeight = "0px";
           }
+      }
       </script>
 
+
+      <!-- sidebar  -->
+      <script>
+      const cartIcon = document.getElementById('cart-icon');
+      const cartSidebar = document.getElementById('cart-sidebar');
+      const closeCart = document.getElementById('close-cart');
+
+      // open sidebar
+      cartIcon.addEventListener('click', () => {
+          cartSidebar.classList.remove('translate-x-full');
+          cartSidebar.classList.add('translate-x-0');
+      });
+
+      // close sidebar
+      closeCart.addEventListener('click', () => {
+          cartSidebar.classList.remove('translate-x-0');
+          cartSidebar.classList.add('translate-x-full');
+      });
+      </script>
   </body>
 
   </html>
