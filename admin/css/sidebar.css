@@ -100,6 +100,12 @@ body {
     position: relative;
 }
 
+.sidebar .close {
+    width: 0;
+    overflow: hidden;
+    transition: var(--tran-05);
+}
+
 .sidebar .image-text img {
     width: 50px;
     border-radius: 6px;

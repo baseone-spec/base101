@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="sidebar close">
+    <nav class="sidebar">
         <header>
             <div class="image-text">
                 <span class="image">
@@ -33,14 +33,14 @@
         <div class="menu-bar">
             <div class="menu">
                 <li class="nav-links">
-                    <a href="">
+                    <a href="./admin-dashboard.php">
                         <i class="bx bx-home-alt icon"></i>
                         <span class="text nav-text"> Dashboard </span>
                     </a>
                 </li>
                 <ul class="menu-links">
                     <li class="nav-links">
-                        <a href="">
+                        <a href="./admin-qps.php">
                             <i class="bx bxs-report icon"></i>
                             <span class="text nav-text"> QPS </span>
                         </a>
