@@ -1,5 +1,7 @@
 <?php
 
+
+
 ?>
 
 <!DOCTYPE html>
@@ -22,7 +24,7 @@
         <header>
             <div class="image-text">
                 <span class="image">
-                    <img src="../src/img/b1 logo only.png" alt="logo" />
+                    <img src="./img/b1 logo only.png" alt="logo" />
                 </span>
 
                 <div class="text header-text">
