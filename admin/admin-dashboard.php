@@ -94,7 +94,7 @@
     </nav>
 
     <!-- <section class="home">
-        <div class="text">Welcome Admin!</div>
+
     </section> -->
 
 

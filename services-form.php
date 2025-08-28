@@ -188,7 +188,7 @@ if (isset($_POST['submit'])) {
                 <p><strong>Product Name:</strong> <?php echo htmlspecialchars($productName); ?></p>
 
                 <?php if ($productImg): ?>
-                <img src="<?php echo $productImg; ?>" class="mt-4 mb-5" alt="Product Image" style="max-width:200px;">
+                    <img src="<?php echo $productImg; ?>" class="mt-4 mb-5" alt="Product Image" style="max-width:200px;">
                 <?php endif; ?>
 
                 <h3>Description:</h3>

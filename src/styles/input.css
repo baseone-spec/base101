@@ -6,3 +6,9 @@
 @import "tailwindcss/container-queries";
 @import "tailwindcss/typography/extend";
 @import "tailwindcss/typography/extend-typography";
+@import "flowbite/src/themes/default";
+@import "flowbite/src/components/accordion";
+@import "flowbite/src/components/alert";
+@import "flowbite/src/components/badge";
+@import "flowbite/src/components/button";
+@import "flowbite/src/components/card";

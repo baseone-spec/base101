@@ -1,8 +1,11 @@
 /*! tailwindcss v4.1.8 | MIT License | https://tailwindcss.com */
+
+
 @layer properties;
 @layer theme, base, components, utilities;
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 
 @layer theme {
 
@@ -517,7 +520,6 @@
     border-collapse: collapse;
   }
 
-
   .resize {
     resize: both;
   }
@@ -1005,6 +1007,21 @@
     text-align: left;
   }
 
+  .rtl:text-right {
+    direction: rtl;
+    text-align: right;
+  }
+
+  .uppercase {
+    text-transform: uppercase;
+  }
+
+  .whitespace-nowrap {
+    white-space: nowrap;
+  }
+
+
+
   .block {
     display: block;
   }
@@ -1074,6 +1091,11 @@
 
   .opacity-100 {
     opacity: 1;
+  }
+
+  .border-b {
+    border-bottom-width: 1px;
+    border-bottom-style: var(--tw-border-style);
   }
 
   .rounded-lg {
@@ -2244,6 +2266,7 @@
     width: 80%;
   }
 
+
   .border {
     border: none;
     padding: 10px 20px;
@@ -2251,7 +2274,6 @@
     cursor: pointer;
     border-color: #ca1313;
     background-color: #ca1313;
-
   }
 
   .border:hover {
@@ -2267,4 +2289,6 @@
     height: 40px;
     color: #9CA3AF;
   }
+
+  .qps-table {}
 }

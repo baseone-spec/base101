@@ -197,3 +197,24 @@ header .image-text .header-text {
     left: 88px;
     width: calc(100% - 88px);
 }
+
+.qps {
+    position: relative;
+    left: 250px;
+    height: 100vh;
+    width: calc(100% - 250px);
+    background: var(--body-colors);
+    transition: var(--tran-05);
+}
+
+.qps .text {
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--text-colors);
+    padding: 8px 40px;
+}
+
+.sidebar.close~.qps {
+    left: 88px;
+    width: calc(100% - 88px);
+}
