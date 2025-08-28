@@ -93,9 +93,9 @@
         </div>
     </nav>
 
-    <section class="home">
+    <!-- <section class="home">
         <div class="text">Welcome Admin!</div>
-    </section>
+    </section> -->
 
 
     <!-- javascript -->
