@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin QPS</title>
 
@@ -18,14 +17,10 @@
     <!-- table -->
 
     <section class="qps">
-        <!-- <div class="text">Welcome Admin</div> -->
-        <div class="qps-table shadow-md bg-white w-full">
-
+        <div class="qps-table shadow-md bg-white mx-auto h-78">
         </div>
     </section>
 
-
-
-</body>s
+</body>
 
 </html>

@@ -33,7 +33,7 @@
                 </div>
             </div>
 
-            <i class="bx bx-chevron-right toggle"></i>
+            <!-- <i class="bx bx-chevron-right toggle"></i> -->
         </header>
 
         <div class="menu-bar">
@@ -99,7 +99,7 @@
 
 
     <!-- javascript -->
-    <script src="./js/script.js"></script>
+    <!-- <script src="./js/script.js"></script> -->
 </body>
 
 </html>
