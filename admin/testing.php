@@ -2,8 +2,9 @@
 <html lang="en">
 
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin QPS</title>
+    <title>testing page</title>
 
     <!-- css -->
     <link rel="stylesheet" href="../src/styles/output.css" />
@@ -12,11 +13,8 @@
 
 <body>
 
-    <?php include 'admin-dashboard.php'; ?>
 
-    <!-- table -->
-
-    <section class="qps w-full bg-white p-10">
+    <div class="w-full section justify-center align-content h-screen p-10">
         <div class="relative overflow-x-auto shadow-lg p-10 rounded-lg">
             <h1 class="text-1xl font-bold mb-4">This is a testing table </h1>
 
@@ -84,8 +82,7 @@
             </table>
 
         </div>
-    </section>
-
+    </div>
 </body>
 
 </html>
